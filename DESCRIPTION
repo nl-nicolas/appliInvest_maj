@@ -1,0 +1,22 @@
+Package: appliInvest
+Title: Application investissement
+Version: 1.3.0
+Authors@R: person("Cervan", "Girard", email = "cervan.girard@ofgl.fr", role = c("aut", "cre"))
+Description: Ce package permet de construire l'application sur un module investissement.
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: GPL-3
+Imports:
+    shiny,
+    stats,
+    forcats,
+    scales,
+    dplyr,
+    tidyr,
+    magrittr,
+    ggplot2,
+    httr,
+    jsonlite,
+    plotly
+LazyData: true
+RoxygenNote: 6.0.1
