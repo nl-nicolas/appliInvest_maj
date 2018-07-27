@@ -11,6 +11,7 @@ shinyUI(fluidPage(
     tags$header(
       h1(
         img(src = 'logo.png', align = "left", width = "125px"),
+        img(src = 'logo2.png', align = "right", width = "152px"),
         "Cap sur la « data » de l’investissement public local",
         style = "text-align:center;background-color:#2FA4E7;color:#fff;border-collapse:collapse;height:50px;border: 2px #2FA4E7 ridge"
       )
@@ -687,7 +688,7 @@ shinyUI(fluidPage(
               "Le périmètre des groupements à fiscalité propre pouvant évoluer très fortement d'une année sur l'autre, les graphiques suivants portent sur les données 2017 des groupements tels qu'ils existaient cette année-là."
             ),
             p(
-              "Toutefois, les données individuelles détaillés, accessibles à la suite des graphiques, permettent également d'accéder aux données 2014, 2015 et 2016 pour les groupements à fiscalités propre existant à ces dates."
+              "Toutefois, les données individuelles détaillées, accessibles à la suite des graphiques, permettent également d'accéder aux données 2014, 2015 et 2016 pour les groupements à fiscalités propre existant à ces dates."
             ),
             h3("Informations 2017 sur l'échantillon sélectionné", style = "text-align:center"),
             box(htmlOutput("info_echan_box1_gfp"),
@@ -725,6 +726,7 @@ shinyUI(fluidPage(
                 options = list(style =
                                  "btn-primary", `title` = "Vide")
               ),
+              htmlOutput("gfpssbc"),
               withSpinner(plotOutput("grap_dep_equip_gfp"))
             ),
             column(
@@ -763,6 +765,7 @@ shinyUI(fluidPage(
                 "Poids des groupements dans les dépenses d'équipement : vision territoriale",
                 style = "text-align:center;"
               ),
+              htmlOutput("gfpssbc2"),
               withSpinner(plotOutput("graph_bc_gfp"))
             )
           ),
@@ -1162,6 +1165,7 @@ shinyUI(fluidPage(
                     "reg_echan_regs",
                     label = "Choisissez une (des) région(s) :",
                     choices = unique(sort(list_dep$nom_reg_accent)),
+                    selected = unique(sort(list_dep$nom_reg_accent)),
                     multiple = TRUE,
                     options = list(
                       `actions-box` = TRUE,

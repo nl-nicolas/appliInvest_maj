@@ -6,7 +6,6 @@ base_invest$code_insee16 <- as.character(base_invest$code_insee16)
 base_invest$rec_invest <- as.numeric(base_invest$rec_invest)
 base_invest$LBUDG <- as.character(base_invest$LBUDG)
 
-base_invest_gfp <- appliInvest::base_invest_gfp
 base_invest_gfp$nom_dep <- as.character(base_invest_gfp$nom_dep)
 base_invest_gfp$strate16 <- as.character(base_invest_gfp$strate16)
 
@@ -65,7 +64,7 @@ base_invest_dep2 <- base_invest_dep %>%
 ##### Partie des GFP ======
 base_invest_gfp <- base_invest_gfp %>%
   rename(LBUDG = "LBUDG.x",dep_equip_brut = dep_equip_brute,dep_equip_brut_ba = dep_equip_brute_ba,nj_epci2016 = nature_juridique, fisc_epci2016 = fiscalite,siren_epci = SIREN,dep_equip_com_ba = dep_equip_ba_comm) %>% 
-  filter(!is.na(population) & !is.na(dep_equip)  & !is.na(dep_equip_ba) & !is.na(dep_equip_com)  & !is.na(dep_equip_com_ba)) %>%
+  filter(!is.na(population)) %>%
   select(siren_epci,annee,nom_dep,strate16,"LBUDG",
          population,"nj_epci2016","fisc_epci2016",
          dep_invest,dep_invest_ba,
