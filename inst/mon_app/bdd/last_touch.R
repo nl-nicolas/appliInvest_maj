@@ -110,7 +110,7 @@ base_invest_gfp <- base_invest_gfp %>%
 
 base_invest <- base_invest_com %>%
   filter(population != 0) %>%
-  rename(code_insee16 = code_insee17,annee = "annee.x",strate16 = strate,nom_complet = "LBUDG.x") %>% 
+  rename(montagne = Montagne, SIREN = "SIREN.x",code_insee16 = code_insee17,strate16 = strate) %>% 
   select(code_insee16,annee,nom_dep,strate16,LBUDG,nom_com,
          population,montagne,touristique, 
          dep_invest,dep_invest_ba,

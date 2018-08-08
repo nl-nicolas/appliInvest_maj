@@ -251,7 +251,7 @@ data_gr_ref_com_2 <- eventReactive(input$go,{
   data_infobox <- reactive({
     echan <- data_echan_com() %>%
       filter(annee == annee_encours) %>%
-      summarise(pop_pour = sum(population)/67025723*100, pop_nb = round(sum(population)/1000000,2), dep_equip_t = sum(dep_equip + dep_equip_ba)/1000, dep_equip_pour = (sum(dep_equip + dep_equip_ba))/18781395*100,dep_equip_ba_bp = (sum(dep_equip_ba)/(sum(dep_equip + dep_equip_ba)))*100)
+      summarise(pop_pour = sum(population)/67188616*100, pop_nb = round(sum(population)/1000000,2), dep_equip_t = sum(dep_equip + dep_equip_ba)/1000, dep_equip_pour = (sum(dep_equip + dep_equip_ba))/20281353*100,dep_equip_ba_bp = (sum(dep_equip_ba)/(sum(dep_equip + dep_equip_ba)))*100)
   })
   # pour les info box sur l'échantillon
 
@@ -1459,16 +1459,25 @@ observe({
   
   data_echan_reg <- eventReactive(input$go_reg,{
     
+    list_reg <- list_dep_com %>% 
+      filter(nom_reg_accent %in% values$reg_regs) %>% 
+      select(nom_reg) %>% 
+      distinct()
+    
       base_invest_reg %>%
-        filter(nom_reg_accent %in% values$reg_regs)
+        filter(nom_reg %in% list_reg$nom_reg)
   })
   
   
   ##Etape data pour la selection du dep
   data_reg <- eventReactive(input$go_reg,{
+    list_reg <- list_dep_com %>% 
+      filter(nom_reg_accent %in% values$coms_regs) %>% 
+      select(nom_reg) %>% 
+      distinct()
     
     base_invest_reg %>%
-      filter(nom_reg_accent %in% values$coms_regs) %>%
+      filter(nom_reg %in% list_reg$nom_reg) %>%
       mutate(nom_dep = NULL)
     
   })
@@ -1679,14 +1688,14 @@ observe({
         rename(dep_invest_hr = dep_invest,autre_dep_equip_brut = autres_dep_equip,
                rec_invest_he = rec_invest,sub_dot_hfctva = compte13_10,rem_dette=remboursement,
                stock_dette = dette,sub_204_autre_public = sub_204_autres,vdfr = var_fon_roul) %>%
-        select(-X,-"nom_reg_accent",-"remb_avance",-"dep_equip_brut",-"terrains",-"constructions",-"reseaux",-"bien_meuble",-"autre_dep_equip_brut") %>%
+        select(-X,-nom_reg_accent,-remb_avance,-dep_equip_brut,-terrains,-constructions,-reseaux,-bien_meuble,-autre_dep_equip_brut) %>%
         mutate_if(is.numeric,.funs = function(x){round(x,3)})
       
     }else{data <- data_echan_reg() %>%
       rename(dep_invest_hr = dep_invest,autre_dep_equip_brut = autres_dep_equip,
              rec_invest_he = rec_invest,sub_dot_hfctva = compte13_10,rem_dette=remboursement,
              stock_dette = dette,sub_204_autre_public = sub_204_autres,vdfr = var_fon_roul) %>%
-      select(-X,-"nom_reg_accent",-"remb_avance",-"dep_equip_brut",-"terrains",-"constructions",-"reseaux",-"bien_meuble",-"autre_dep_equip_brut") %>%
+      select(-X,-nom_reg_accent,-remb_avance,-dep_equip_brut,-terrains,-constructions,-reseaux,-bien_meuble,-autre_dep_equip_brut) %>%
       mutate_if(is.numeric,.funs = function(x){round(x,3)})
     
     }
