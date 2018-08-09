@@ -1024,7 +1024,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
    #    mes_dep <- list_dep %>% filter(nom_reg %in% c(values$reg_deps) & !nom_dep %in% c("Rhone","Guyane","Martinique") & DPU == 0 & DFM == 0)
    #  )
     list_dep <- base_invest_dep %>% select(nom_dep,urb_rur_2017) %>% distinct() %>% right_join(list_dep,by="nom_dep")
-    mes_dep <- list_dep %>% filter(nom_reg_accent %in% c(values$reg_deps) & !nom_dep %in% c("Rhone","Guyane","Martinique","Metropole de Lyon") & strate16 %in% c(values$strate_dep) & urb_rur_2017 %in% c(input$dpu_dfm))
+    mes_dep <- list_dep %>% filter(nom_reg_accent %in% c(values$reg_deps) & !nom_dep %in% c("Rhone","Guyane","Martinique","METRO LYON") & strate16 %in% c(values$strate_dep) & urb_rur_2017 %in% c(input$dpu_dfm))
 
 
     updatePickerInput(session,
@@ -1112,12 +1112,12 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
 
     if(length(input$cas_spe_deps) == 0){
    base <-  base_invest_dep %>%
-      filter(nom_dep %in% c(nom_dep_dep()$nom_dep) & urb_rur_2017 %in% c(input$dpu_dfm) & !nom_dep %in% c("Rhone","Metropole de Lyon","Martinique","Guyane") & strate16 %in% c(input$pop_dep))
+      filter(nom_dep %in% c(nom_dep_dep()$nom_dep) & urb_rur_2017 %in% c(input$dpu_dfm) & !nom_dep %in% c("Rhone","METRO LYON","Martinique","Guyane") & strate16 %in% c(input$pop_dep))
   }else if(length(input$cas_spe_deps) != 0){
       base2 <- base_invest_dep %>%
         filter(nom_dep %in% c(input$cas_spe_deps))
       base <-  base_invest_dep %>%
-        filter(nom_dep %in% c(nom_dep_dep()$nom_dep) & urb_rur_2017 %in% c(input$dpu_dfm) & !nom_dep %in% c("Rhone","Metropole de Lyon","Martinique","Guyane") & strate16 %in% c(input$pop_dep))
+        filter(nom_dep %in% c(nom_dep_dep()$nom_dep) & urb_rur_2017 %in% c(input$dpu_dfm) & !nom_dep %in% c("Rhone","METRO LYON","Martinique","Guyane") & strate16 %in% c(input$pop_dep))
       data <- rbind(base,base2)
     }
    })
@@ -1135,7 +1135,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   data_gr_ref_dep <- eventReactive(input$go_dep,{
 
       data <- base_invest_dep %>%
-          filter(!nom_dep %in% c("Paris","Guadeloupe","La Reunion","Rhone","Metropole de Lyon","Martinique","Guyane"))
+          filter(!nom_dep %in% c("Paris","Guadeloupe","La Reunion","Rhone","METRO LYON","Martinique","Guyane"))
 
 
   })
@@ -1151,7 +1151,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
 
     data <- data_echan_dep() %>%
       filter(annee == annee_encours)
-    if("Martinique" %in% data_echan_dep()$nom_dep | "Guyane" %in% data_echan_dep()$nom_dep | "Metropole de Lyon" %in% data_echan_dep()$nom_dep){
+    if("Martinique" %in% data_echan_dep()$nom_dep | "Guyane" %in% data_echan_dep()$nom_dep | "METRO LYON" %in% data_echan_dep()$nom_dep){
       p(nrow(data), " collectivité(s) sélectionnée(s)")
     }else{
     p(nrow(data), " département(s) sélectionné(s)")
@@ -1168,7 +1168,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
     if(length(input$cas_spe_deps) == 0){
       p("Dans ",sum(length(unique(input$reg_echan_deps)),a,b,c), " région(s)")
        }else{
-     if(("Rhone" %in% input$cas_spe_deps | "Metropole de Lyon" %in% input$cas_spe_deps) & !"Auvergne-Rhône-Alpes" %in% input$reg_echan_deps){
+     if(("Rhone" %in% input$cas_spe_deps | "METRO LYON" %in% input$cas_spe_deps) & !"Auvergne-Rhône-Alpes" %in% input$reg_echan_deps){
     a <- 1}
       if("Martinique" %in%  c(input$cas_spe_deps)){
         b <- 1
