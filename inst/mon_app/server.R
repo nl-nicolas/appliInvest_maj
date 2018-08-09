@@ -771,10 +771,13 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   data_echan_graph_dequip_gfp <- reactive({
     if(input$bc_ou_gfp == 1){
       data_echan_gfp <- data_echan_gfp() %>%
+        filter(!is.na(dep_equip_com) | !is.na(dep_equip_com_ba)) %>% 
         mutate(dep_equip = dep_equip + dep_equip_com,dep_equip_ba = dep_equip_ba + dep_equip_com_ba)
       data_gfp <- data_gfp() %>%
+        filter(!is.na(dep_equip_com) | !is.na(dep_equip_com_ba)) %>% 
         mutate(dep_equip = dep_equip + dep_equip_com,dep_equip_ba = dep_equip_ba + dep_equip_com_ba)
       data_gr_ref_gfp <- data_gr_ref_gfp() %>%
+        filter(!is.na(dep_equip_com) | !is.na(dep_equip_com_ba)) %>% 
         mutate(dep_equip = dep_equip + dep_equip_com,dep_equip_ba = dep_equip_ba + dep_equip_com_ba)
 
     appliInvest::data_graph_equip(echantillon = data_echan_gfp,entite = data_gfp,gr_ref = data_gr_ref_gfp,gfp_ou_com = 2)
@@ -922,12 +925,12 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
     data <- rbind(data_gfp(),data2,data_echan_gfp())
     data <- data %>%
       distinct() %>%
+      mutate(vdfr = rec_invest + rec_fonc + emprunt - dep_fonc - dep_invest - remboursement,
+             vdfr_ba = rec_invest_ba + rec_fonc_ba + emprunt_ba - dep_fonc_ba - dep_invest_ba - remboursement_ba) %>% 
       rename(dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
              rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
              stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,strate = strate16,nj_epci = nj_epci2016,fisc_epci = fisc_epci2016) %>%
-      mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba,
-             vdfr = rec_invest + rec_fonc + emprunt - dep_fonc - dep_invest - remboursement,
-             vdfr_ba = rec_invest_ba + rec_fonc_ba + emprunt_ba - dep_fonc_ba - dep_invest_ba - remboursement_ba)  %>%
+      mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba)  %>%
       select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
       mutate_if(is.numeric,.funs = function(x){round(x,3)})
     }else{
@@ -935,11 +938,11 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
         filter(annee %in% c(input$annee_gfp_tel) & nom_dep %in% c(nom_dep_gfp()$nom_dep))
       data <- rbind(data2,data_echan_gfp())
       data <- data %>%
+        mutate(vdfr = rec_invest + rec_fonc + emprunt - dep_fonc - dep_invest - remboursement,
+               vdfr_ba = rec_invest_ba + rec_fonc_ba + emprunt_ba - dep_fonc_ba - dep_invest_ba - remboursement_ba) %>% 
       rename(dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
              rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
-             stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,strate = strate16,nj_epci = nj_epci2016,fisc_epci = fisc_epci2016,
-             vdfr = rec_invest + rec_fonc + emprunt - dep_fonc - dep_invest - remboursement,
-             vdfr_ba = rec_invest_ba + rec_fonc_ba + emprunt_ba - dep_fonc_ba - dep_invest_ba - remboursement_ba) %>%
+             stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,strate = strate16,nj_epci = nj_epci2016,fisc_epci = fisc_epci2016) %>% 
       mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
       select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
       mutate_if(is.numeric,.funs = function(x){round(x,3)})}
@@ -1143,7 +1146,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   data_infobox_dep <- reactive({
     echan <- data_echan_dep() %>%
       filter(annee == annee_encours) %>%
-      summarise(pop_pour = sum(population)/(68732961-1374964)*100, pop_nb = round(sum(population)/1000000,2), dep_equip_t = sum(dep_invest + dep_invest_ba-fc_i)/1000, dep_equip_pour = (sum(dep_invest + dep_invest_ba-fc_i))/9634012*100,dep_equip_ba_bp = (sum(dep_invest_ba-fc_i)/(sum(dep_invest + dep_invest_ba-fc_i)))*100)
+      summarise(pop_pour = sum(population)/(68732961)*100, pop_nb = round(sum(population)/1000000,2), dep_equip_t = sum(dep_invest + dep_invest_ba-fc_i)/1000, dep_equip_pour = (sum(dep_invest + dep_invest_ba-fc_i))/9902288*100,dep_equip_ba_bp = (sum(dep_invest_ba-fc_i)/(sum(dep_invest + dep_invest_ba-fc_i)))*100)
   })
   # pour les info box sur l'échantillon
 
