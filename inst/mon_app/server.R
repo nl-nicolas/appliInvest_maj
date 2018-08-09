@@ -320,6 +320,7 @@ data_gr_ref_com_2 <- eventReactive(input$go,{
     
   if(nrow(data_com()) == 0 & (nrow(data_echan_com())/3) >= 30){  
       data_stat_echan_com() %>% 
+      rename("€/hab." = Annee,"  " = variable) %>% 
       as_tibble()
 
     }else if(nrow(data_com()) != 0 & (nrow(data_echan_com())/3) >= 30){
@@ -489,7 +490,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
           rename(nom_gfp_17 = nom_complet,siren_gfp_17 = siren_epci,code_insee17=code_insee16,strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
                  rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
                  stock_dette = dette,stock_dette_ba = dette_ba,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba,flux_croise_i = fc_i) %>%
-          mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+          mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
           select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
           mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
           dplyr::arrange(code_insee17)
@@ -500,7 +501,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
           rename(nom_gfp_17 = nom_complet,siren_gfp_17 = siren_epci,code_insee17=code_insee16,strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
                  rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
                  stock_dette = dette,stock_dette_ba = dette_ba,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba,flux_croise_i = fc_i) %>%
-          mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+          mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
           select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
           mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
           dplyr::arrange(code_insee17)
@@ -821,15 +822,15 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   
   # Premier grah
   output$grap_dep_equip_gfp <- renderPlot({
-    test <- data_echan_gfp() %>% 
-      filter(is.na(dep_equip_com) | is.na(dep_equip_com_ba)) %>% 
-      summarise(n = n()) %>% 
-      pull(n)
-    if(input$bc_ou_gfp == 1 & test != 0){
-    
-      }else{
+    # test <- data_echan_gfp() %>% 
+    #   filter(is.na(dep_equip_com) | is.na(dep_equip_com_ba)) %>% 
+    #   summarise(n = n()) %>% 
+    #   pull(n)
+    # if(input$bc_ou_gfp == 1 & test != 0){
+    # 
+    #   }else{
     appliInvest::graph_dep_equip(etiquette = data_etiquette_total_gfp(),data = data_echan_graph_dequip_gfp(),entite = data_gfp(),nom_gfp_com = "Groupement",gfp_ou_com = 2,gfp_ou_bc = input$bc_ou_gfp)
-      }
+      # }
       })
 
   data_stat_echan_gfp <- eventReactive(input$go_gfp,{
@@ -885,15 +886,15 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   })
 
   output$graph_bc_gfp <- renderPlot({
-    test <- data_echan_gfp() %>% 
-      filter(is.na(dep_equip_com) | is.na(dep_equip_com_ba)) %>% 
-      summarise(n = n()) %>% 
-      pull(n)
-    
-    if(test != 0){}else{
-    
+    # test <- data_echan_gfp() %>% 
+    #   filter(is.na(dep_equip_com) | is.na(dep_equip_com_ba)) %>% 
+    #   summarise(n = n()) %>% 
+    #   pull(n)
+    # 
+    # if(test != 0){}else{
+    # 
     appliInvest::graph_bc_dep_equip(data = data_graph_equip_bc_gfp(),entite = data_gfp(),nom_gfp_com = "Groupement")
-    }
+    # }
       })
 
   data_graph_zoom_rec_invest_gfp <- reactive({
@@ -924,7 +925,9 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
       rename(dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
              rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
              stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,strate = strate16,nj_epci = nj_epci2016,fisc_epci = fisc_epci2016) %>%
-      mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+      mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba,
+             vdfr = rec_invest + rec_fonc + emprunt - dep_fonc - dep_invest - remboursement,
+             vdfr_ba = rec_invest_ba + rec_fonc_ba + emprunt_ba - dep_fonc_ba - dep_invest_ba - remboursement_ba)  %>%
       select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
       mutate_if(is.numeric,.funs = function(x){round(x,3)})
     }else{
@@ -934,7 +937,9 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
       data <- data %>%
       rename(dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
              rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
-             stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,strate = strate16,nj_epci = nj_epci2016,fisc_epci = fisc_epci2016) %>%
+             stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,strate = strate16,nj_epci = nj_epci2016,fisc_epci = fisc_epci2016,
+             vdfr = rec_invest + rec_fonc + emprunt - dep_fonc - dep_invest - remboursement,
+             vdfr_ba = rec_invest_ba + rec_fonc_ba + emprunt_ba - dep_fonc_ba - dep_invest_ba - remboursement_ba) %>%
       mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
       select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
       mutate_if(is.numeric,.funs = function(x){round(x,3)})}
@@ -1208,8 +1213,15 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
 
   # Premier grah
   output$graph_dep_invest_dep <- renderPlot({
-    appliInvest::graph_dep_invest(etiquette = data_etiquette_total_dep(),data = data_echan_graph_dequip_dep(),entite = data_dep(),nom_gfp_com = "Département")
-  })
+   graph <-  appliInvest::graph_dep_invest(etiquette = data_etiquette_total_dep(),data = data_echan_graph_dequip_dep(),entite = data_dep(),nom_gfp_com = "Département")
+   if(input$bp_ba_dep == 1){
+     graph + labs(subtitle = "Budgets principaux")
+   }else if(input$bp_ba_dep == 2){
+     graph + labs(subtitle = "Budgets annexes")
+   }else{
+     graph + labs(subtitle = "BP + BA")
+   }
+    })
 
   # graph nuage de point
 

@@ -313,6 +313,7 @@ shinyUI(fluidPage(
         ## info sur echantillon com ====
         fluidRow(
           fluidRow(
+            p("Les données des comptes 2017 de quelques communes et de certains budgets annexes sont encore manquantes. Ce qui explique l’absence de certaines entités dans les phases de sélections et dans les traitements réalisés."),
             h3("Informations 2017 sur l'échantillon sélectionné", style = "text-align:center"),
             box(htmlOutput("info_echan_box1"),
                 style = "background-color:#2FA4E7;color:#fff;border: 2px #2FA4E7 ridge;font-size:1.1em;margin: 0px 1px 1px 0px;height:40px;text-align:center;line-height:39px;vertical-align:middle;"),
@@ -690,6 +691,7 @@ shinyUI(fluidPage(
             p(
               "Toutefois, les données individuelles détaillées, accessibles à la suite des graphiques, permettent également d'accéder aux données 2014, 2015 et 2016 pour les groupements à fiscalités propre existant à ces dates."
             ),
+            p("Les données des comptes 2017 de quelques groupements et de certains budgets annexes sont encore manquantes. Ce qui explique l’absence de certaines entités dans les phases de sélections et dans les traitements réalisés."),
             h3("Informations 2017 sur l'échantillon sélectionné", style = "text-align:center"),
             box(htmlOutput("info_echan_box1_gfp"),
                 style = "background-color:#2FA4E7;color:#fff;border: 2px #2FA4E7 ridge;font-size:1em;margin: 0px 1px 1px 0px;height:39px;text-align:center;line-height:37px;vertical-align:middle;font-size:1.3em"),
