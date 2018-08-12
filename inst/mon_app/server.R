@@ -123,7 +123,8 @@ data_gr_ref_com_2 <- eventReactive(input$go,{
    #  enable("ma_com")}else { alert("Votre échantillon est vide")}
    observe({
      df <- data.frame(nom_com=c("- Aucune"),stringsAsFactors = FALSE)
-     df2 <- base_invest %>% select(nom_com) %>% rbind(df) 
+     df2 <- base_invest %>% select(nom_com) %>% 
+        rbind(df) 
 
      
       updateSelectizeInput(session,
@@ -281,7 +282,7 @@ data_gr_ref_com_2 <- eventReactive(input$go,{
   })
   output$info_echan_box5 <- renderUI({
     #
-    p("Soit ",paste(round(data_infobox()[1,4],1),"% des dépenses d'équipement"))
+    p("Soit ",paste(round(data_infobox()[1,4],1),"% des dépenses d'équipement des communes"))
   })
   # output$info_echan_box6 <- renderText({
   #   #
@@ -337,7 +338,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
     }else if(nrow(data_echan_com())/3 >= 30){
       p("1er quartile : 25% des communes de l'échantillon ont une valeur inférieure.",br(),
             "3e quartile : 25% des communes de l'échantillon ont une valeur supérieure.",br(),
-            "Médiane : la moitié des communes ont une valeur inférieure.",br(),
+            "Médiane : la moitié des communes a une valeur inférieure.",br(),
             "Traitement OFGL - Source : balances comptables DGFIP")}
   })
 
@@ -519,7 +520,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
          rename(nom_gfp_17 = nom_complet,siren_gfp_17 = siren_epci,code_insee17=code_insee16,strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
                 rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
                 stock_dette = dette,stock_dette_ba = dette_ba,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba,flux_croise_i = fc_i) %>%
-         mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+         mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
          select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
          mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
          dplyr::arrange(code_insee17)
@@ -530,7 +531,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
          rename(nom_gfp_17 = nom_complet,siren_gfp_17 = siren_epci,code_insee17=code_insee16,strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
                 rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
                 stock_dette = dette,stock_dette_ba = dette_ba,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba,flux_croise_i = fc_i) %>%
-         mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+         mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
          select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
          mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
          dplyr::arrange(code_insee17)
@@ -731,7 +732,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   data_infobox_gfp <- reactive({
     echan <- data_echan_gfp() %>%
       filter(annee == annee_encours) %>%
-      summarise(pop_pour = sum(population)/66618286*100, pop_nb = round(sum(population)/1000000,2), dep_equip_t = sum(dep_equip + dep_equip_ba)/1000, dep_equip_pour = (sum(dep_equip + dep_equip_ba))/9994395*100,dep_equip_ba_bp = (sum(dep_equip_ba)/(sum(dep_equip + dep_equip_ba)))*100)
+      summarise(pop_pour = sum(population)/63646872*100, pop_nb = round(sum(population)/1000000,2), dep_equip_t = sum(dep_equip + dep_equip_ba)/1000, dep_equip_pour = (sum(dep_equip + dep_equip_ba))/9588661*100,dep_equip_ba_bp = (sum(dep_equip_ba)/(sum(dep_equip + dep_equip_ba)))*100)
   })
   # pour les info box sur l'échantillon
 
@@ -760,7 +761,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   })
   output$info_echan_box5_gfp <- renderUI({
     #
-    p("Soit ",paste(round(data_infobox_gfp()[1,4],1),"% des dépenses d'équipement"))
+    p("Soit ",paste(round(data_infobox_gfp()[1,4],1),"% des dépenses d'équipement des groupements"))
   })
   # output$info_echan_box6_gfp <- renderText({
   #   #
@@ -801,7 +802,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
       pull(n)
     
     if(input$bc_ou_gfp == 1 & test != 0){
-  p("Des données sur les dépenses d'équipement ne sont pas encore accesibles pour certains groupements sélectionnés"
+  p("Résultat provisoire : certaines données des dépenses d’équipement des communes membres des GFP sélectionnés ne sont pas encore disponibles"
   )
     }else{
       ""
@@ -815,7 +816,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
       pull(n)
     
     if( test != 0){
-      p("Des données sur les dépenses d'équipement ne sont pas encore accesibles pour certains groupements sélectionnés"
+      p("Résultat provisoire : certaines données des dépenses d’équipement des communes membres des GFP sélectionnés ne sont pas encore disponibles"
       )
          }else{
       ""
@@ -860,7 +861,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
      }else if (nrow(data_echan_gfp()) >= 30){
        p("1er quartile : 25% des GFP de l'échantillon ont une valeur inférieure.",br(),
              "3e quartile : 25% des GFP de l'échantillon ont une valeur supérieure.",br(),
-             "Médiane : la moitié des GFP ont une valeur inférieure.",br(),
+             "Médiane : la moitié des GFP a une valeur inférieure.",br(),
              "Traitement OFGL - Source : balances comptables DGFIP")}
    })
 
@@ -1126,6 +1127,13 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
    })
 
 
+  observeEvent(input$go_dep,{
+    list_dep2 <- list_dep %>% select(nom_dep,nom_reg)
+    values$nb_reg <- data_echan_dep() %>% 
+      left_join(list_dep,by="nom_dep") %>% 
+      pull(nom_reg) %>% n_distinct()
+  })
+  
   ##Etape data pour la selection du dep
   data_dep <- eventReactive(input$go_dep,{
 
@@ -1163,13 +1171,14 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
 
   })
   output$info_echan_box7_dep <- renderUI({
+
     
     a <- 0
     b <- 0
     c <- 0
     
     if(length(input$cas_spe_deps) == 0){
-      p("Dans ",sum(length(unique(input$reg_echan_deps)),a,b,c), " région(s)")
+      p("Dans ",sum(values$nb_reg,a,b,c), " région(s)")
        }else{
      if(("Rhone" %in% input$cas_spe_deps | "METRO LYON" %in% input$cas_spe_deps) & !"Auvergne-Rhône-Alpes" %in% input$reg_echan_deps){
     a <- 1}
@@ -1179,7 +1188,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
          if("Guyane" %in% input$cas_spe_deps){
            c <- 1
          }
-     p("Dans ",sum(length(input$reg_echan_deps),a,b,c), " région(s)")
+     p("Dans ",sum(values$nb_reg,a,b,c), " région(s)")
      }
     
    
@@ -1222,7 +1231,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
    }else if(input$bp_ba_dep == 2){
      graph + labs(subtitle = "Budgets annexes")
    }else{
-     graph + labs(subtitle = "BP + BA")
+     graph + labs(subtitle = "Budgets principaux + Budgets annexes")
    }
     })
 
@@ -1538,7 +1547,7 @@ observe({
   })
   output$info_echan_box5_reg <- renderUI({
     #
-    p("Soit ",paste(round(data_infobox_reg()[1,4],1),"% des dépenses d'investissement"))
+    p("Soit ",paste(round(data_infobox_reg()[1,4],1),"% des dépenses d'investissement des régions"))
   })
   
   #Premier graph sur la structure des depenses d'invest

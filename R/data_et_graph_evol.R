@@ -162,7 +162,7 @@ graph_evol <- function(data_evol,annee_dispo,bp_ba,var_select,entite){
     }else if(var_select == "epn"){
       graph  <-   graph + ggtitle(label = "Epargne nette en €/hab., budgets principaux et budgets annexes",subtitle = "Epargne nette = Recettes de fonctionnement - dépenses de fonctionnement - remboursement de la dette")
     }else if(var_select == "dep_invest"){
-      graph  <-   graph + ggtitle( label =  "Dépenses d'investissement hors rem. en €/hab., budgets principaux et budgets annexes")
+      graph  <-   graph + ggtitle( label =  "Dépenses d'investissement hors remb. en €/hab., budgets principaux et budgets annexes")
     }else if(var_select == "emprunt"){
       graph  <-   graph + ggtitle(label = "Emprunts en €/hab., budgets principaux et budgets annexes",subtitle = "Emprunts hors gestion active de la dette")
     }else if(var_select == "var_fon_roul"){

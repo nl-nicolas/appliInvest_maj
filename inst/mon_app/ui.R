@@ -309,11 +309,13 @@ shinyUI(fluidPage(
                   style = "background-color:#deebf7;"),
         # fin de la premiere ligne
         
-        
+        hr(style = "height:5px"),
         ## info sur echantillon com ====
         fluidRow(
-          fluidRow(
-            p("Les données des comptes 2017 de quelques communes et de certains budgets annexes sont encore manquantes. Ce qui explique l’absence de certaines entités dans les phases de sélections et dans les traitements réalisés."),
+          # fluidRow(
+            p(style = "margin-left:20px",
+              "Les données des comptes 2017 de quelques communes et de certains budgets annexes sont encore manquantes. Ce qui explique l’absence de certaines entités dans les phases de sélection et dans les traitements réalisés."
+              ),
             h3("Informations 2017 sur l'échantillon sélectionné", style = "text-align:center"),
             box(htmlOutput("info_echan_box1"),
                 style = "background-color:#2FA4E7;color:#fff;border: 2px #2FA4E7 ridge;font-size:1.1em;margin: 0px 1px 1px 0px;height:40px;text-align:center;line-height:39px;vertical-align:middle;"),
@@ -326,11 +328,11 @@ shinyUI(fluidPage(
             box(htmlOutput("info_echan_box4"),
                 style = "background-color:#2FA4E7;color:#fff;border: 2px #2FA4E7 ridge;font-size:1.1em;margin: 0px 1px 1px 0px;height:40px;text-align:center;line-height:39px;vertical-align:middle;"),
             box(htmlOutput("info_echan_box5"),
-                style = "background-color:#2FA4E7;color:#fff;border: 2px #2FA4E7 ridge;font-size:1.1em;margin: 0px 1px 1px 0px;height:40px;text-align:center;line-height:39px;vertical-align:middle;")
+                style = "background-color:#2FA4E7;color:#fff;border: 2px #2FA4E7 ridge;font-size:1.1em;margin: 0px 1px 1px 0px;height:40px;text-align:center;line-height:39px;vertical-align:middle;"),
             # box(
             #   textOutput("info_echan_box6"),
             #   style = "background-color:#2FA4E7;color:#fff;border: 2px #2FA4E7 ridge;font-size:1em;margin: 0px 1px 1px 0px;height:39px;text-align:center;line-height:37px;vertical-align:middle;;font-size:1.3em;position:relative")
-          ),
+          # ),
           # fin de la deuxieme ligne pour info echantillon
           
           # fin de la premiere partie, selection entité
@@ -642,7 +644,7 @@ shinyUI(fluidPage(
                           "CC" = "CC",
                           "CA" = "CA",
                           "CU" = "CU",
-                          "Metropoles" = "METRO",
+                          "Métropoles" = "METRO",
                           "Mét. LYON" = "MET69",
                           "EPT" = "EPT"
                         ),
@@ -689,9 +691,9 @@ shinyUI(fluidPage(
               "Le périmètre des groupements à fiscalité propre pouvant évoluer très fortement d'une année sur l'autre, les graphiques suivants portent sur les données 2017 des groupements tels qu'ils existaient cette année-là."
             ),
             p(
-              "Toutefois, les données individuelles détaillées, accessibles à la suite des graphiques, permettent également d'accéder aux données 2014, 2015 et 2016 pour les groupements à fiscalités propre existant à ces dates."
+              "Toutefois, les données individuelles détaillées, accessibles à la suite des graphiques, permettent également d'accéder aux données 2014, 2015 et 2016 pour les groupements à fiscalités propre existants à ces dates."
             ),
-            p("Les données des comptes 2017 de quelques groupements et de certains budgets annexes sont encore manquantes. Ce qui explique l’absence de certaines entités dans les phases de sélections et dans les traitements réalisés."),
+            p("Les données des comptes 2017 de quelques groupements et de certains budgets annexes sont encore manquantes. Ce qui explique l’absence de certaines entités dans les phases de sélection et dans les traitements réalisés."),
             h3("Informations 2017 sur l'échantillon sélectionné", style = "text-align:center"),
             box(htmlOutput("info_echan_box1_gfp"),
                 style = "background-color:#2FA4E7;color:#fff;border: 2px #2FA4E7 ridge;font-size:1em;margin: 0px 1px 1px 0px;height:39px;text-align:center;line-height:37px;vertical-align:middle;font-size:1.3em"),
@@ -826,7 +828,7 @@ shinyUI(fluidPage(
               awesomeCheckboxGroup(
                 inputId = "annee_gfp_tel",
                 label = p(
-                  strong("Ajouter des années "),
+                  strong("Ajoutez des années "),
                   "pour l'export des données individuelles",
                   br(),
                   "(tous les groupements des départements de l'échantillon) :"
@@ -936,10 +938,10 @@ shinyUI(fluidPage(
                   ),
                   pickerInput(
                     "cas_spe_deps",
-                    label = "Ajouter des collectivités spécifiques :",
+                    label = "Ajoutez des collectivités spécifiques :",
                     choices = list(
-                      "Metropole de Lyon" = "METRO LYON",
-                      "Departement Rhone" = "Rhone",
+                      "Métropole de Lyon" = "METRO LYON",
+                      "Département Rhône" = "Rhone",
                       "CTU Martinique" = "Martinique",
                       "CTU Guyane" = "Guyane"
                     ),
