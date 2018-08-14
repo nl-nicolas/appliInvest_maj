@@ -507,7 +507,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
           mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
           dplyr::arrange(code_insee17)
       }
-      write_delim(data, file, delim = ";")
+      write.csv2(data, file, row.names = FALSE)
     })
 
 
@@ -1154,7 +1154,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   data_infobox_dep <- reactive({
     echan <- data_echan_dep() %>%
       filter(annee == annee_encours) %>%
-      summarise(pop_pour = sum(population)/(68732961)*100, pop_nb = round(sum(population)/1000000,2), dep_equip_t = sum(dep_invest + dep_invest_ba-fc_i)/1000, dep_equip_pour = (sum(dep_invest + dep_invest_ba-fc_i))/9902288*100,dep_equip_ba_bp = (sum(dep_invest_ba-fc_i)/(sum(dep_invest + dep_invest_ba-fc_i)))*100)
+      summarise(pop_pour = sum(population)/(68732961 - 1374964)*100, pop_nb = round(sum(population)/1000000,2), dep_equip_t = sum(dep_invest + dep_invest_ba-fc_i)/1000, dep_equip_pour = (sum(dep_invest + dep_invest_ba-fc_i))/9902288*100,dep_equip_ba_bp = (sum(dep_invest_ba-fc_i)/(sum(dep_invest + dep_invest_ba-fc_i)))*100)
   })
   # pour les info box sur l'échantillon
 
@@ -1231,7 +1231,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
    }else if(input$bp_ba_dep == 2){
      graph + labs(subtitle = "Budgets annexes")
    }else{
-     graph + labs(subtitle = "Budgets principaux + Budgets annexes")
+     graph + labs(subtitle = "Budgets principaux et annexes")
    }
     })
 
@@ -1248,6 +1248,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
 
   output$graph_nuage_dep <- renderPlotly({
 
+    if(length(unique(data_echan_dep()$nom_dep)) != 1){
     if(input$annee_dep == 1){
       data <- data_nuage() %>%
         filter(nom != "Gr de réf") %>%
@@ -1265,9 +1266,14 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
       data$nom <- fct_relevel(as.factor(data$nom),c("Echantillon","Département"))
       
       appliInvest::graph_sub_dep_equip(annee = "2012-2017",data_graph = data,entite = data_dep())}
+      }
   })
 
-
+output$textgraphnuage <- renderUI({
+  if(length(unique(data_echan_dep()$nom_dep)) == 1){
+    p("L’échantillon ne comportant qu’une collectivité, l’illustration des disparités n’est pas significative.")
+  }
+})
 
   # financement
 
@@ -1331,7 +1337,14 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   appliInvest::graph_zoom_dep_equip(data_graph = data_graph_zoom_dep_equip_dep(),entite = data_dep(),nom_gfp_com = 'Département',bp_ba = input$bp_ba_dep2)
       }else if(input$annee_dep2 == 2){
       graph <-   appliInvest::graph_zoom_dep_equip(data_graph = data_graph_zoom_dep_equip_dep(),entite = data_dep(),nom_gfp_com = 'Département',bp_ba = input$bp_ba_dep2)
-      graph <- graph + labs(title ="Structure des dépenses d'équipement brutes de 2012 à 2017, en %",subtitle = "Budgets principaux, moyenne annuelle")
+      if(input$bp_ba_dep2 == 1){
+        graph + labs(subtitle = "Budgets principaux, moyenne annuelle")
+      }else if(input$bp_ba_dep2 == 2){
+        graph + labs(subtitle = "Budgets annexes, moyenne annuelle")
+      }else{
+        graph + labs(subtitle = "Budgets principaux et annexes, moyenne annuelle")
+      }
+      graph <- graph + labs(title ="Structure des dépenses d'équipement brutes de 2012 à 2017, en %")
       print(graph)
       }
     })
@@ -1584,7 +1597,7 @@ observe({
   })
   
   output$graph_nuage_reg <- renderPlotly({
-    
+    if(length(unique(data_echan_reg()$nom_reg)) != 1){
     if(input$annee_reg == 1){
       data <- data_nuage_reg() %>%
         filter(nom != "Gr de réf") %>%
@@ -1606,8 +1619,13 @@ observe({
       data$nom <- fct_relevel(as.factor(data$nom),c("Echantillon","Région"))
       
       appliInvest::graph_sub_dep_equip(annee = "2012-2017",data_graph = data,entite = data_reg())}
-  
+    }
 
+  })
+  output$textgraphnuage_reg <- renderUI({
+    if(length(unique(data_echan_reg()$nom_reg)) == 1){
+      p("L’échantillon ne comportant qu’une collectivité, l’illustration des disparités n’est pas significative.")
+    }
   })
   
   # financement

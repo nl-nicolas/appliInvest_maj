@@ -1038,7 +1038,8 @@ shinyUI(fluidPage(
                                  "btn-primary", `title` = "Vide"),
                 selected = 1
               ),
-              withSpinner(plotlyOutput("graph_nuage_dep"))
+              withSpinner(plotlyOutput("graph_nuage_dep")),
+              htmlOutput("textgraphnuage")
             )
           ),
           fluidRow(
@@ -1280,7 +1281,8 @@ shinyUI(fluidPage(
                 selected =
                   1
               ),
-              withSpinner(plotlyOutput("graph_nuage_reg"))
+              withSpinner(plotlyOutput("graph_nuage_reg")),
+              htmlOutput("textgraphnuage_reg")
             )
           ),
           fluidRow(
