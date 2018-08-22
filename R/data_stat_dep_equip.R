@@ -71,7 +71,8 @@ if(gfp_ou_com == 2){
     filter(annee == annee_encours) %>%
     mutate(dep_equip1 = dep_equip/population*1000,dep_equip_ba1 = dep_equip_ba/population*1000,dep_equip_bp_ba = (dep_equip + dep_equip_ba)/population*1000)
   data_14_16 <- echantillon %>%
-    mutate(dep_equip1 = dep_equip/population*1000,dep_equip_ba1 = dep_equip_ba/population*1000,dep_equip_bp_ba = (dep_equip + dep_equip_ba)/population*1000)
+    group_by(nom_com) %>% 
+    summarise(dep_equip1 = sum(dep_equip)/sum(population)*1000,dep_equip_ba1 = sum(dep_equip_ba)/sum(population)*1000,dep_equip_bp_ba = (sum(dep_equip + dep_equip_ba))/sum(population)*1000)
 
   data_2016_med <- data_2016 %>%
     summarise("Budgets principaux (BP)" = round(median(dep_equip1),0),"Budgets annexes (BA)" = round(median(dep_equip_ba1),0),"BP et BA" = round(median(dep_equip_bp_ba),0))%>%
