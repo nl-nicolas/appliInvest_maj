@@ -1464,16 +1464,24 @@ observe({
 })
   
   observe({
+    list_reg <- list_dep_com %>% 
+      filter(nom_reg_accent %in% values$reg_regs) %>% 
+      select(nom_reg) %>% 
+      distinct()
 
       nb_ligne1 <- base_invest_reg %>%
-        filter(nom_reg_accent %in% c(values$reg_regs)) #& cas_spe %in% c(0,input$cas_spe_deps))
+        filter(nom_reg %in% c(list_reg$nom_reg)) #& cas_spe %in% c(0,input$cas_spe_deps))
       nb_ligne <- nrow(nb_ligne1)
-      text_reg <- paste(base_invest_reg[base_invest_reg$nom_reg_accent %in% values$reg_regs & base_invest_reg$annee == 2017,],sep="",collapse = "")
-    
-    
+      text_reg <- paste(base_invest_reg[base_invest_reg$nom_reg %in% list_reg$nom_reg & base_invest_reg$annee == 2017,"nom_reg"],sep="",collapse = "")
+      
+      list_reg_s <- list_dep_com %>%
+        filter(nom_reg_accent %in% values$coms_regs) %>%
+        select(nom_reg) %>%
+        distinct()
+
     nb_ligne_reg <- base_invest_reg %>%
-      filter(nom_reg_accent %in% c(values$coms_regs))
-    text_reg_2 <- paste(data_echan_reg()[data_echan_reg()$nom_reg_accent %in% values$reg_regs & data_echan_reg()$annee == 2017,],sep="",collapse = "")
+      filter(nom_reg %in% c(list_reg_s$nom_reg))
+    text_reg_2 <- paste(data_echan_reg()[data_echan_reg()$nom_reg %in% list_reg$nom_reg & data_echan_reg()$annee == 2017,"nom_reg"],sep="",collapse = "")
     
     nb_ligne_reg_echan <- nrow(data_echan_reg()) + nrow(nb_ligne_reg)
     
@@ -1486,11 +1494,17 @@ observe({
       if(nrow(nb_ligne_reg) == 0){
         showElement(id = "go_reg",time = 0.1)
       }else{
-        if(nb_ligne != nrow(data_echan_reg()) | text_reg != text_reg_2 | nb_ligne_reg$nom_reg_accent != data_reg()$nom_reg_accent){
+        if(nb_ligne != nrow(data_echan_reg()) | text_reg != text_reg_2 | nb_ligne_reg$nom_reg != data_reg()$nom_reg){
           showElement(id = "go_reg",time = 0.1)
         }else{
           hide(id = "go_reg",time= 0.1)}}
     }
+    
+    print(nb_ligne)
+    print(nb_ligne_reg_echan)
+    print(all.equal(text_reg,text_reg_2))
+    print(text_reg)
+    print(text_reg_2)
   })
   
   
@@ -1521,7 +1535,7 @@ observe({
   
   #Etape data pour creer le groupe de reference
   data_gr_ref_reg <- eventReactive(input$go_reg,{
-    base_invest_reg %>% filter(!nom_reg_accent %in% c("Corse","Guyane","Martinique","Guadeloupe","La Réunion"))
+    base_invest_reg %>% filter(!nom_reg %in% c("Corse","Guyane","Martinique","Guadeloupe","La Reunion"))
   })
   
   data_infobox_reg <- reactive({
