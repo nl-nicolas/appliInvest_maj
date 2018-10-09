@@ -4,8 +4,8 @@
 \alias{data_graph_finan}
 \title{Etape data grph financement}
 \usage{
-data_graph_finan(echantillon, entite, gr_de_ref, nom_gfp_com, annee_encours,
-  bp_ba)
+data_graph_finan(echantillon, entite, gr_de_ref, nom_gfp_com,
+  annee_encours, bp_ba)
 }
 \arguments{
 \item{echantillon}{bdd de l'echantillon}

@@ -4,7 +4,8 @@
 \alias{data_sub_dep_equip}
 \title{Data nuage de point}
 \usage{
-data_sub_dep_equip(annee_choisi, nom_dep_reg, echantillon, entite, gr_de_ref)
+data_sub_dep_equip(annee_choisi, nom_dep_reg, echantillon, entite,
+  gr_de_ref)
 }
 \arguments{
 \item{annee_choisi}{permet de savoir quelle année}

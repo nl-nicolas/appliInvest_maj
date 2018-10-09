@@ -4,7 +4,8 @@
 \alias{graph_dep_equip}
 \title{Grahpique des depenses d'equipements}
 \usage{
-graph_dep_equip(data, entite, nom_gfp_com, gfp_ou_com, etiquette, gfp_ou_bc)
+graph_dep_equip(data, entite, nom_gfp_com, gfp_ou_com, etiquette,
+  gfp_ou_bc)
 }
 \arguments{
 \item{data}{Base de donnee, souvent resultat de la fonction data_graph_equip}
