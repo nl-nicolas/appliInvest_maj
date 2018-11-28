@@ -491,7 +491,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
           rename(nom_gfp_17 = nom_complet,siren_gfp_17 = siren_epci,code_insee17=code_insee16,strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
                  rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
                  stock_dette = dette,stock_dette_ba = dette_ba,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba,flux_croise_i = fc_i) %>%
-          mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+          mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest_ba=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
           select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
           mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
           dplyr::arrange(code_insee17)
@@ -502,7 +502,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
           rename(nom_gfp_17 = nom_complet,siren_gfp_17 = siren_epci,code_insee17=code_insee16,strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
                  rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
                  stock_dette = dette,stock_dette_ba = dette_ba,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba,flux_croise_i = fc_i) %>%
-          mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+          mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest_ba=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
           select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
           mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
           dplyr::arrange(code_insee17)
@@ -520,7 +520,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
          rename(nom_gfp_17 = nom_complet,siren_gfp_17 = siren_epci,code_insee17=code_insee16,strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
                 rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
                 stock_dette = dette,stock_dette_ba = dette_ba,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba,flux_croise_i = fc_i) %>%
-         mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+         mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest_ba=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
          select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
          mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
          dplyr::arrange(code_insee17)
@@ -531,7 +531,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
          rename(nom_gfp_17 = nom_complet,siren_gfp_17 = siren_epci,code_insee17=code_insee16,strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
                 rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
                 stock_dette = dette,stock_dette_ba = dette_ba,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba,flux_croise_i = fc_i) %>%
-         mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+         mutate(nom_gfp_17 = str_to_upper(nom_gfp_17),autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest_ba=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
          select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
          mutate_if(is.numeric,.funs = function(x){round(x,3)}) %>%
          dplyr::arrange(code_insee17)
@@ -931,7 +931,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
       rename(dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
              rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
              stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,strate = strate16,nj_epci = nj_epci2016,fisc_epci = fisc_epci2016) %>%
-      mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba)  %>%
+      mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest_ba=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba)  %>%
       select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
       mutate_if(is.numeric,.funs = function(x){round(x,3)})
     }else{
@@ -944,7 +944,7 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
       rename(dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
              rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
              stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,strate = strate16,nj_epci = nj_epci2016,fisc_epci = fisc_epci2016) %>% 
-      mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
+      mutate(autre_dep_invest=dep_invest_hr - dep_equip - subvention_204,autre_dep_invest_ba=dep_invest_hr_ba - dep_equip_ba - subvention_204_ba) %>%
       select(-planFCTVA_r,-planFCTVA_d,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba) %>%
       mutate_if(is.numeric,.funs = function(x){round(x,3)})}
   })
