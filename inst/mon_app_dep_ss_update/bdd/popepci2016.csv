@@ -1,0 +1,2075 @@
+code_dep;siren_epci;nom_complet;nj_epci2016;fisc_epci2016;nb_com_epci_2016;population
+01;200029999;CC Rives de l'Ain - Pays du Cerdon;CC;FPU;14;14255
+01;200035210;CC Chalaronne Centre;CC;FA;15;14858
+01;200040350;CC Bugey Sud;CC;FPU;39;29970
+01;200042497;CC Dombes Saône Vallée;CC;FPU;19;37111
+01;200042935;CC Haut - Bugey;CC;FPU;36;59078
+01;240100156;CC de Montrevel - en - Bresse;CC;FPU;14;17813
+01;240100339;CC du Canton de Saint Trivier de Courtes;CC;FPU;12;6500
+01;240100370;CC du Valromey;CC;FA;12;4208
+01;240100396;CC de la Vallée de l'Albarine;CC;FA;12;5558
+01;240100412;CC Rhône - Chartreuse de Portes;CC;FA;10;4731
+01;240100578;CC du Plateau d'hauteville;CC;FPU;7;6435
+01;240100594;CC Val de Saône - Chalaronne;CC;FPU;7;8787
+01;240100610;CC de la Côtière À Montluel;CC;FPU;9;24586
+01;240100628;CA Bourg en Bresse Agglomération;CA;FPU;15;75422
+01;240100636;CC de Treffort en Revermont;CC;FPU;11;9637
+01;240100651;CC du Canton de Coligny;CC;FA;9;6971
+01;240100669;CC des Bords de Veyle;CC;FA;6;8525
+01;240100677;CC du Canton de Chalamont;CC;FA;8;7256
+01;240100685;CC de Pont de Vaux;CC;FA;12;10346
+01;240100693;CC de la Vallière;CC;FPU;9;10371
+01;240100727;CC Montmerle 3 Rivières;CC;FPU;8;11613
+01;240100750;CC du Pays de Gex;CC;FA;27;87883
+01;240100800;CC de Miribel et du Plateau;CC;FPU;6;23302
+01;240100818;CC du Pays de Bâgé;CC;FPU;9;14954
+01;240100826;CC du Canton de Pont de Veyle;CC;FPU;12;13588
+01;240100842;CC Bresse Dombes Sud Revermont;CC;FPU;6;6470
+01;240100875;CC Centre Dombes;CC;FPU;13;16110
+01;240100883;CC de la Plaine de l'Ain;CC;FPU;33;67433
+01;240100891;CC du Pays Bellegardien (Ccpb);CC;FA;15;21615
+02;200040426;CC du Val de L'oise;CC;FA;32;16676
+02;200043495;CA du Pays de Laon;CA;FPU;38;44282
+02;240200261;CA de Saint Quentin;CA;FPU;20;74463
+02;240200428;CC des Villes d'Oyse;CC;FA;21;15541
+02;240200436;CC du Pays de la Vallée de l'Aisne;CC;FA;24;10637
+02;240200444;CC de la Thiérache du Centre;CC;FPU;68;28221
+02;240200451;CC de la Thiérache d'Aumale;CC;FA;12;6034
+02;240200469;CC du Pays de la Serre;CC;FPU;42;15145
+02;240200477;CA du Soissonnais;CA;FPU;28;53695
+02;240200485;CC de la Région de Guise;CC;FA;24;11801
+02;240200493;CC du Pays du Vermandois;CC;FPU;54;32351
+02;240200501;CC du Val de l'Aisne;CC;FA;58;20792
+02;240200519;CC du Canton d'Oulchy le Château;CC;FA;26;5869
+02;240200527;CC du Canton de Saint Simon (C32s);CC;FPU;19;10487
+02;240200550;CC du Canton de Condé en Brie;CC;FA;21;8623
+02;240200568;CC de l'Ourcq et du Clignon;CC;FA;33;10367
+02;240200576;CC de la Champagne Picarde;CC;FPU;48;21488
+02;240200584;CC du Canton de Charly Sur Marne;CC;FA;21;15854
+02;240200592;CC du Chemin des Dames;CC;FA;30;5540
+02;240200600;CC du Pays des Trois Rivières;CC;FPU;26;22666
+02;240200618;CC de la Région de Château Thierry;CC;FPU;25;32212
+02;240200626;CC du Tardenois;CC;FA;20;7797
+02;240200634;CC des Portes de la Thiérache;CC;FPU;30;7444
+02;240200642;CC du Val de l'Ailette;CC;FPU;26;11526
+02;240200659;CC des Vallons d'Anizy;CC;FA;16;8464
+02;240200683;CC Chauny Tergnier;CC;FPU;24;40271
+02;240200691;CC Villers-Cotterêts - Forêt de Retz;CC;FPU;18;16194
+03;240300418;CC de la Montagne Bourbonnaise;CC;FA;15;6689
+03;240300426;CA Vichy Val d'Allier;CA;FPU;23;79111
+03;240300491;CC du Pays de Lapalisse;CC;FPU;14;8823
+03;240300533;CC du Bassin de Gannat;CC;FA;16;13387
+03;240300558;CC du Pays de Tronçais;CC;FPU;16;7746
+03;240300566;CC du Val de Cher;CC;FPU;7;5801
+03;240300582;CC Commentry-Néris les Bains;CC;FA;12;15980
+03;240300590;CC de la Région de Montmarault;CC;FA;21;11418
+03;240300608;CA Montluçonnaise;CA;FPU;10;61665
+03;240300616;CA de Moulins;CA;FPU;26;56277
+03;240300624;CC du Pays de Marcillat en Combraille;CC;FA;12;4742
+03;240300640;CC Val de Besbre - Sologne Bourbonnaise;CC;FPU;16;11617
+03;240300657;CC du Pays d'huriel;CC;FA;14;7885
+03;240300673;CC le Donjon - Val Libre;CC;FPU;14;4620
+03;240300681;CC Sioule, Colettes et Bouble;CC;FA;17;5449
+03;240300699;CC en Pays Saint-Pourcinois;CC;FPU;28;16482
+03;240300707;CC Varennes-Forterre;CC;FPU;14;9845
+03;240300715;CC Bocage Sud;CC;FA;14;6401
+03;240300723;CC du Pays de Lévis en Bocage Bourbonnais;CC;FA;8;4250
+03;240300731;CC en Bocage Bourbonnais;CC;FA;11;7936
+03;240300756;CC du Pays de Chevagnes en Sologne Bourbonnaise;CC;FA;8;5397
+04;200017762;CC de la Motte-Du-Caire -Turriers;CC;FA;16;2977
+04;200018190;CC du Pays d'Entrevaux;CC;FA;6;1421
+04;200034700;CA Durance-Lubéron-Verdon Agglomération;CA;FPU;26;63913
+04;200034916;CC Asse-Bléone-Verdon;CC;FPU;17;23682
+04;240400010;CC du Teillon;CC;FA;3;479
+04;240400135;CC du Pays de Seyne;CC;FA;8;2796
+04;240400275;CC Ubaye/Serre-Ponçon;CC;FA;2;711
+04;240400283;CC du Sisteronais;CC;FA;7;9801
+04;240400291;CC de la Moyenne-Durance;CC;FPU;8;17359
+04;240400366;CC de Haute-Provence;CC;FA;8;5519
+04;240400374;CC Vallée de l'Ubaye;CC;FPU;13;7615
+04;240400382;CC du Moyen-Verdon;CC;FA;19;5408
+04;240400408;CC des Duyes et Bléone;CC;FA;7;3401
+04;240400440;CC Pays Forcalquier et Montagne de Lure;CC;FPU;13;9662
+04;240400481;CC de la Vallée du Jabron;CC;FA;8;1623
+04;240400499;CC du Pays de Banon;CC;FPU;12;3408
+04;240400507;CC de Haute-Bléone;CC;FA;6;1874
+04;240400515;CC du Haut-Verdon Val d'Allos;CC;FA;6;2132
+04;240400523;CC Terres de Lumière;CC;FA;7;1884
+04;240400531;CC Lure Vançon Durance;CC;FPU;6;3795
+05;200040004;CA du Gapençais;CA;FPU;3;43559
+05;240500181;CC du Haut-Buëch;CC;FPU;8;2010
+05;240500199;CC Buëch Dévoluy;CC;FA;12;7550
+05;240500215;CC du Champsaur;CC;FA;15;7462
+05;240500223;CC du Queyras;CC;FA;8;2482
+05;240500314;CC de Tallard-Barcillonnette;CC;FA;12;7051
+05;240500322;CC du Canton de Ribiers Val de Méouge;CC;FA;6;2071
+05;240500330;CC du Haut-Champsaur;CC;FA;4;2332
+05;240500348;CC du Valgaudemar;CC;FA;8;1647
+05;240500363;CC de l'Embrunais;CC;FPU;8;10982
+05;240500389;CC du Laragnais;CC;FPU;7;6624
+05;240500397;CC du Serrois;CC;FA;10;2478
+05;240500413;CC Interdépartementale des Baronnies;CC;FA;15;2057
+05;240500421;CC du Pays de Serre-Ponçon;CC;FA;8;2312
+05;240500439;CC du Briançonnais;CC;FPU;13;21407
+05;240500447;CC de la Vallée de l'Oule;CC;FA;3;220
+05;240500454;CC du Savinois Serre-Ponçon;CC;FA;7;2337
+05;240500462;CC du Pays des Ecrins;CC;FA;9;6857
+05;240500470;CC de la Vallée de l'Avance;CC;FA;9;8019
+05;240500488;CC du Guillestrois;CC;FA;8;5951
+06;200030195;Métropole Nice Côte d'Azur;METRO;FPU;49;542891
+06;200039857;CA du Pays de Grasse;CA;FPU;23;103907
+06;200039915;CA des Pays de Lérins;CA;FPU;5;161314
+06;200039931;CC Alpes d'Azur;CC;FA;34;9959
+06;240600551;CA de la Riviera Française;CA;FPU;15;72151
+06;240600585;CA de Sophia Antipolis;CA;FPU;24;180060
+06;240600593;CC du Pays des Paillons;CC;FPU;13;26459
+07;200000594;CC Entre Loire et Allier;CC;FPU;9;2324
+07;200000636;CC Cévenne et Montagne Ardéchoises;CC;FA;7;904
+07;200000974;CC Sources de la Loire;CC;FA;8;1400
+07;200016905;CC du Pays de Lamastre;CC;FPU;11;6871
+07;200023877;CC du Pays de Vernoux;CC;FPU;7;3377
+07;200038933;CA Privas Centre Ardèche;CA;FPU;35;41260
+07;200039808;CC des Gorges de l'Ardeche;CC;FPU;19;14593
+07;200039824;CC Ardeche des Sources et Volcans;CC;FPU;17;9937
+07;200039832;CC Pays des Vans en Cevennes;CC;FPU;15;9097
+07;200041044;CC Hermitage-Tournonais;CC;FPU;25;44266
+07;200041366;CC Rhône Crussol;CC;FPU;13;33698
+07;200041465;CC Val Eyrieux;CC;FPU;34;14108
+07;200043917;CA du Bassin d'Annonay;CA;FPU;16;36531
+07;240700302;CC du Pays Beaume-Drobie;CC;FPU;19;8798
+07;240700310;CC Pays d'Aubenas-Vals;CC;FPU;21;28380
+07;240700617;CC Val de Ligne;CC;FPU;11;6430
+07;240700674;CC du Vinobre;CC;FPU;9;10028
+07;240700708;CC Rhône Helvie;CC;FPU;5;11461
+07;240700716;CC du Val d'Ay;CC;FPU;10;8648
+07;240700757;CC Vivarhône;CC;FPU;11;8935
+07;240700815;CC Berg et Coiron;CC;FPU;14;9641
+07;240700831;CC Barres Coiron;CC;FPU;10;11203
+07;240700849;CC du Pays de St-Félicien;CC;FPU;7;3895
+07;240700864;CC du Rhône Aux Gorges de l'Ardèche;CC;FPU;9;19585
+08;200041606;CC Portes de France;CC;FPU;22;13146
+08;200041622;CC Ardennes Thiérache;CC;FPU;37;10225
+08;200041630;CA Charleville-Mézières/Sedan;CA;FPU;64;131947
+08;200043156;CC du Pays Rethelois;CC;FPU;65;30321
+08;240800821;CC Ardenne, Rives de Meuse;CC;FA;19;28601
+08;240800847;CC des Portes du Luxembourg;CC;FPU;50;20923
+08;240800862;CC des Crêtes Préardennaises;CC;FPU;94;22408
+08;240800920;CC de l'Argonne Ardennaise;CC;FPU;97;18319
+08;240800946;CC Meuse et Semoy;CC;FPU;9;13185
+09;200044469;CC du Pays de Mirepoix;CC;FPU;33;10717
+09;240900266;CC des Vallées d'Ax;CC;FPU;39;5682
+09;240900316;CC d'Auzat et du Vicdessos;CC;FA;10;1491
+09;240900324;CC de l'Agglomération de St-Girons;CC;FA;7;12434
+09;240900332;CC du Canton de Varilhes;CC;FPU;18;11112
+09;240900357;CC du Canton d'Oust;CC;FA;8;2963
+09;240900373;CC du Canton de Massat;CC;FA;6;1879
+09;240900381;CC du Pays de Foix;CC;FPU;25;21947
+09;240900407;CC du Pays de Pamiers;CC;FA;24;29503
+09;240900415;CC de Saverdun;CC;FA;11;10980
+09;240900423;CC du Seronnais 117;CC;FA;16;3442
+09;240900431;CC du Pays de Tarascon;CC;FPU;20;8930
+09;240900464;CC du Pays d'Olmes;CC;FPU;23;15847
+09;240900472;CC du Castillonais;CC;FA;26;3029
+09;240900480;CC du Bas Couserans;CC;FA;11;3091
+09;240900498;CC du Val' Couserans;CC;FA;9;1700
+09;240900506;CC du Volvestre Ariégeois;CC;FA;12;2182
+09;240900522;CC de Lèze;CC;FA;13;6691
+09;240900530;CC de l'Arize;CC;FA;14;4226
+09;240900555;CC du Donezan;CC;FA;7;533
+10;200000545;CC des Portes de Romilly Sur Seine;CC;FA;6;18967
+10;200006716;CC du Nogentais;CC;FA;23;17032
+10;200022846;CC du Barséquanais;CC;FA;30;14039
+10;200023273;CC du Nord de l'Aube;CC;FA;7;2949
+10;200027035;CC Bouilly Mogne Aumont;CC;FA;24;7962
+10;200040137;CC des Lacs de Champagne;CC;FA;43;10054
+10;241000223;CC Forêts, Lacs, Terres en Champagne;CC;FA;15;7063
+10;241000256;CC de la Région de Ramerupt;CC;FA;15;2320
+10;241000264;CC de la Région des Riceys;CC;FA;7;2392
+10;241000280;CC Seine Fontaine Beauregard;CC;FA;17;8189
+10;241000363;CC de la Région d'Arcis-Sur-Aube;CC;FA;17;6871
+10;241000371;CC de Plancy-l'abbaye;CC;FA;8;2223
+10;241000389;CC de Soulaines;CC;FPU;21;2725
+10;241000397;CA Grand Troyes;CA;FPU;19;134120
+10;241000405;CC de la Région de Bar Sur Aube;CC;FA;27;12133
+10;241000413;CC Seine Melda Coteaux;CC;FA;19;16262
+10;241000439;CC des Portes du Pays d'Othe;CC;FA;9;5782
+10;241000447;CC du Pays d'Othe Aixois;CC;FA;11;6759
+10;241000454;CC du Val d'Armance;CC;FA;16;5898
+10;241000462;CC du Chaourcois;CC;FA;26;5042
+10;241000470;CC de l'Arce et de l'Ource;CC;FA;16;3558
+10;241000488;CC de l'Orvin et de l'Ardusson;CC;FA;25;8670
+10;241000496;CC des Rivières;CC;FA;17;5325
+10;251000832;CC Seine Barse;CC;FA;13;8490
+11;200035707;CC Piège Lauragais Malepère;CC;FPU;38;16485
+11;200035715;CA Carcassonne Agglo;CA;FPU;73;108147
+11;200035855;CC Castelnaudary Lauragais Audois;CC;FPU;43;27060
+11;200035863;CC Région Lézignanaise, Corbières et Minervois;CC;FPU;52;32692
+11;200035871;CC des Corbières;CC;FA;15;3948
+11;200042463;CC de la Montagne Noire;CC;FA;24;6356
+11;200043487;CC du Limouxin;CC;FPU;54;25153
+11;200043776;CC Pyrénées Audoises;CC;FPU;62;15131
+11;241100353;CC Piémont d'Alaric;CC;FPU;11;6309
+11;241100429;CC du Pays de Couiza;CC;FA;24;4382
+11;241100593;CA le Grand Narbonne;CA;FPU;39;128188
+12;200000735;CC de la Viadène;CC;FPU;6;2217
+12;200006070;CC Villeneuvois, Diège et Lot;CC;FPU;13;5756
+12;200023216;CC Aubrac-Laguiole;CC;FPU;7;3355
+12;241200054;CC d'Entraygues Sur Truyère;CC;FA;5;2333
+12;241200187;CA Rodez Agglomération;CA;FPU;8;56725
+12;241200542;CC du Réquistanais;CC;FA;7;5023
+12;241200567;CC de Millau Grands Causses;CC;FPU;14;30643
+12;241200591;CC de la Vallée du Lot;CC;FPU;7;4775
+12;241200609;CC du Canton de Laissac;CC;FA;5;4889
+12;241200617;CC du Carladez;CC;FA;6;2951
+12;241200625;CC du Pays Rignacois;CC;FA;8;5682
+12;241200633;CC du Villefranchois;CC;FPU;10;18928
+12;241200641;CC Conques-Marcillac;CC;FPU;13;12848
+12;241200658;CC du Pays de Salars;CC;FA;7;6616
+12;241200674;CC du Plateau de Montbazens;CC;FA;13;6364
+12;241200690;CC du Pays Baraquevillois;CC;FPU;10;9338
+12;241200716;CC des Pays d'Olt et d'Aubrac;CC;FA;6;3967
+12;241200724;CC du Bassin de Decazeville Aubin;CC;FPU;5;15734
+12;241200732;CC du Canton de Najac;CC;FA;7;4238
+12;241200765;CC de Lévézou Pareloup;CC;FPU;10;5596
+12;241200773;CC Espalion-Estaing;CC;FA;11;9702
+12;241200781;CC de Viaur Céor Lagast;CC;FPU;6;5146
+12;241200799;CC du Naucellois;CC;FPU;10;5574
+12;241200807;CC Aveyron Ségala Viaur;CC;FPU;6;4200
+12;241200815;CC de Bozouls Comtal;CC;FPU;5;7517
+12;241200823;CC du Saint Affricain;CC;FPU;10;13526
+12;241200831;CC du Pays Saint Serninois;CC;FPU;7;1897
+12;241200849;CC Lot et Serre;CC;FA;5;1931
+12;241200856;CC du Rougier de Camarès;CC;FA;11;2842
+12;241200864;CC de l'Argence;CC;FA;2;2085
+12;241200872;CC des Sept Vallons;CC;FPU;7;1618
+12;241200880;CC du Pays Belmontais;CC;FPU;5;1937
+12;241200906;"CC ""larzac et Vallees""";CC;FPU;16;5382
+12;241200914;CC de la Muse et des Raspes du Tarn;CC;FA;13;5520
+13;200035087;"CA ""terre de Provence""";CA;FPU;13;58573
+13;200054807;Métropole d'Aix-Marseille-Provence;METRO;FPU;92;1876019
+13;241300375;CC Vallée des Baux-Alpilles (Cc Vba);CC;FPU;10;28083
+13;241300417;CA d'Arles-Crau-Camargue-Montagnette;CA;FPU;6;85007
+14;200026185;CC de la Vallée de l'Orne;CC;FPU;5;8034
+14;200033124;CC Lintercom Lisieux-Pays d'Auge-Normandie;CC;FPU;33;41575
+14;200033157;CA Caen la Mer;CA;FPU;35;241959
+14;241400415;CC Coeur Côte Fleurie;CC;FPU;11;20834
+14;241400514;CC du Pays de Falaise;CC;FPU;57;27992
+14;241400548;CC d'Orival;CC;FA;15;7886
+14;241400555;CC de Bayeux Intercom;CC;FPU;36;30880
+14;241400613;CC Intercom Balleroy- le Molay Littry;CC;FA;21;11138
+14;241400621;CC de la Suisse Normande;CC;FPU;30;13255
+14;241400639;CC Campagne et Baie de l'Orne (Cabalor);CC;FPU;9;10117
+14;241400647;CC du Cingal;CC;FA;17;10532
+14;241400662;CC du Val de Seulles;CC;FA;12;5814
+14;241400670;CC de Trévières;CC;FA;25;7370
+14;241400688;CC Plaine Sud de Caen;CC;FPU;8;7460
+14;241400696;CC Entre Thue et Mue;CC;FPU;11;13117
+14;241400712;CC Pays de Condé et de la Druance;CC;FPU;9;10007
+14;241400720;CC Isigny-Grandcamp-Intercom;CC;FPU;21;9243
+14;241400738;CC du Pays de Livarot;CC;FPU;3;7589
+14;241400746;CC Evrecy Orne-Odon;CC;FA;19;16293
+14;241400753;CC Intercom Séverine;CC;FA;18;7355
+14;241400761;CC de Cambremer;CC;FA;22;5827
+14;241400779;CC de la Vallée d'Auge;CC;FPU;20;12348
+14;241400787;CC Bessin Seulles Mer (B.S.M.);CC;FPU;9;8618
+14;241400795;CC des Trois Rivières;CC;FPU;14;8878
+14;241400811;CC de l'Estuaire de la Dives;CC;FPU;6;14007
+14;241400829;CC Entre Bois et Marais;CC;FA;9;6694
+14;241400837;CC du Val Ès Dunes;CC;FA;17;15431
+14;241400845;CC Copadoz;CC;FA;15;4743
+14;241400860;CC Coeur de Nacre;CC;FPU;10;19586
+14;241400878;CC Blangy-Pont l'Evêque Intercom;CC;FPU;35;17415
+14;241400886;CC du Pays de Honfleur;CC;FA;13;17605
+14;241400894;CC Aunay Caumont Intercom;CC;FPU;21;12141
+14;241400902;CC Villers Bocage Intercom;CC;FPU;25;13695
+14;241400910;CC du Pays de l'Orbiquet;CC;FPU;7;7310
+15;200006781;CC Entre 2 Lacs;CC;FPU;12;3171
+15;200043909;CC du Pays de Saint-Flour Margeride;CC;FPU;26;15867
+15;241500230;CA du Bassin d'Aurillac;CA;FPU;25;56112
+15;241500248;CC du Pays de Massiac;CC;FA;15;4113
+15;241500255;CC du Pays Gentiane;CC;FPU;12;5671
+15;241500271;CC du Pays de Mauriac;CC;FPU;11;7225
+15;241500289;CC du Pays de Montsalvy;CC;FPU;15;5913
+15;241500917;CC du Pays de Maurs;CC;FPU;13;6353
+15;241501014;CC du Pays de Pierrefort-Neuveglise;CC;FPU;13;3863
+15;241501022;CC du Cézallier;CC;FA;18;4281
+15;241501048;CC Cère et Rance en Châtaigneraie;CC;FPU;11;6535
+15;241501055;CC Sumène - Artense;CC;FA;16;8781
+15;241501063;CC du Pays de Murat;CC;FPU;13;5578
+15;241501071;CC de la Planèze;CC;FA;6;2706
+15;241501089;CC Cère et Goul en Carladès;CC;FPU;11;5191
+15;241501097;CC Caldaguès Aubrac;CC;FA;11;2347
+15;241501139;CC du Pays de Salers;CC;FPU;27;9090
+16;200012136;CC Seuil Charente Périgord;CC;FA;15;7602
+16;200029734;CC des 4b Sud Charente;CC;FPU;42;20696
+16;200042927;CC Tude et Dronne;CC;FPU;41;13309
+16;200043016;CC Val de Charente;CC;FPU;34;14825
+16;241600253;CA du Grand Angoulême (Grandangoulême);CA;FPU;16;111809
+16;241600303;CC du Rouillacais;CC;FPU;17;10246
+16;241600329;CC Braconne et Charente;CC;FPU;7;15187
+16;241600345;CC Grand Cognac Communauté de Communes;CC;FPU;14;35579
+16;241600352;CC de la Boixe;CC;FA;14;8474
+16;241600360;CC d'horte et Lavalette;CC;FPU;13;5388
+16;241600378;CC du Pays d'Aigre;CC;FA;15;4698
+16;241600394;CC de la Vallée de l'Echelle;CC;FA;7;8296
+16;241600410;CC du Confolentais;CC;FA;25;13218
+16;241600436;CC du Pays Manslois;CC;FA;27;9480
+16;241600469;CC Charente Boëme Charraud;CC;FPU;8;12264
+16;241600493;CC de Grande Champagne;CC;FPU;12;9357
+16;241600519;CC de la Région de Châteauneuf;CC;FPU;18;10539
+16;241600527;CC Bandiat-Tardoire;CC;FPU;14;14856
+16;241600543;CC de Jarnac;CC;FPU;18;16623
+16;241600568;CC de Haute Charente;CC;FA;37;24141
+17;200036473;CA de Saintes;CA;FPU;36;62174
+17;200041499;CC Aunis Atlantique;CC;FPU;20;28794
+17;200041523;CC de la Haute Saintonge;CC;FA;129;69913
+17;200041614;CC Aunis Sud;CC;FPU;27;31440
+17;200041689;CC des Vals de Saintonge;CC;FPU;111;54734
+17;200041762;CA Rochefort Océan;CA;FPU;25;65375
+17;241700434;CA de la Rochelle;CA;FPU;28;169573
+17;241700459;CC de l'Ile de Ré;CC;FPU;10;18093
+17;241700517;CC Charente-Arnoult-Coeur de Saintonge;CC;FPU;18;17298
+17;241700624;CC de l'Ile d'Oléron;CC;FPU;8;22386
+17;241700632;CC Cdc de Gémozac et de la Saintonge Viticole;CC;FPU;16;14114
+17;241700640;CA Royan Atlantique;CA;FPU;34;83093
+17;241700699;CC du Bassin de Marennes;CC;FPU;7;15623
+18;200000933;CC Sauldre et Sologne;CC;FA;13;14617
+18;200007177;CC Pays de Nérondes;CC;FPU;12;5297
+18;200011781;CC Portes du Berry Entre Loire et Val d'Aubois;CC;FPU;12;10172
+18;200022515;CC Haut Berry Val de Loire;CC;FA;8;7018
+18;200027001;CC du Sancerrois;CC;FA;17;8954
+18;200027076;CC Arnon Boischaut Cher;CC;FA;19;8489
+18;200032514;CC Berry-Loire-Vauvise;CC;FA;14;5918
+18;200033207;CC Vierzon-Sologne-Berry;CC;FPU;10;33498
+18;200036135;CC Coeur de France;CC;FA;19;19969
+18;200049484;CC Berry Grand Sud;CC;FPU;32;12657
+18;241800234;CC en Terres Vives;CC;FPU;11;13490
+18;241800325;CC les Villages de la Forêt;CC;FA;5;5454
+18;241800341;CC les Vals de Cher et d'Arnon;CC;FA;12;8595
+18;241800374;CC la Septaine;CC;FPU;17;11075
+18;241800424;CC le Dunois;CC;FA;17;8128
+18;241800432;CC les Trois Provinces;CC;FA;11;5496
+18;241800440;CC les Hautes Terres en Haut Berry;CC;FA;10;4315
+18;241800457;CC Fercher Pays Florentais;CC;FA;9;11990
+18;241800465;CC les Terroirs d'Angillon;CC;FA;8;7305
+18;241800507;CA Bourges Plus;CA;FPU;16;100886
+18;241800523;CC les Terres d'Yèvre;CC;FA;3;10041
+18;241800531;CC Coeur du Pays Fort;CC;FA;11;3432
+19;200018356;CC du Canton de Mercoeur;CC;FA;10;2682
+19;200018364;CC du Canton de Saint Privat;CC;FA;10;3805
+19;200043164;CC Val et Plateaux Bortois;CC;FPU;10;4861
+19;200043172;CA du Bassin de Brive;CA;FPU;48;109707
+19;241900133;CC de Ventadour;CC;FPU;17;10828
+19;241927201;CA Tulle Agglo;CA;FPU;37;43501
+19;241927235;CC du Pays de Pompadour;CC;FPU;6;4120
+19;241927243;CC du Pays d'Uzerche;CC;FA;12;9955
+19;241927268;CC du Doustre et du Plateau des Etangs;CC;FA;7;1306
+19;241927284;CC de Bugeat-Sornac-Millevaches Au Coeur;CC;FPU;18;4439
+19;241927292;CC du Pays d'Eygurande;CC;FPU;9;2653
+19;241927318;CC de Lubersac-Auvézère;CC;FA;6;3738
+19;241927334;CC des Gorges de la Haute-Dordogne;CC;FPU;13;4939
+19;241927359;CC du Pays de Beynat;CC;FA;8;3829
+19;241927367;CC du Pays d'Argentat;CC;FPU;11;6497
+19;241927375;CC de Vézère-Monédières;CC;FPU;12;5068
+19;241927383;CC du Sud Corrézien (Sud Co);CC;FPU;13;4228
+19;241927391;CC des Villages du Midi Corrézien;CC;FPU;13;4549
+19;241927417;CC Ussel-Meymac, Haute-Corrèze;CC;FPU;19;17454
+19;241927425;CC des Monédières;CC;FPU;4;945
+21;200000925;CC de la Plaine Dijonnaise;CC;FA;25;22388
+21;200006047;CC du Sud Dijonnais;CC;FPU;9;5399
+21;200006682;CA Beaune, Côte et Sud - Communauté Beaune-Chagny-Nolay;CA;FPU;53;53988
+21;200018158;CC des Sources de la Tille;CC;FA;10;1121
+21;200039055;CC du Sombernonnais et de la Vallée de l'Ouche;CC;FPU;32;10931
+21;200039063;CC Forêts, Seine et Suzon;CC;FA;25;6858
+21;242100030;CC du Pays d'Arnay;CC;FA;20;5212
+21;242100154;CC des Vallées de la Tille et de l'Ignon;CC;FPU;23;13633
+21;242100345;CC du Sinemurien;CC;FA;29;9930
+21;242100410;CU Grand Dijon;CU;FPU;24;254387
+21;242100501;CC de l'Auxois Sud;CC;FA;25;5972
+21;242100519;CC Val de Norge;CC;FPU;10;8477
+21;242101285;CC du Canton de Bligny Sur Ouche;CC;FA;22;3079
+21;242101301;CC du Canton de Vitteaux;CC;FA;28;3426
+21;242101335;CC du Mirebellois;CC;FA;21;9409
+21;242101343;CC de Liernais;CC;FA;14;2438
+21;242101350;CC du Canton de Pontailler-Sur-Saône;CC;FA;19;8292
+21;242101376;CC Plaine des Tilles;CC;FPU;4;7362
+21;242101384;CC du Canton de Selongey;CC;FA;8;3993
+21;242101392;CC de la Butte de Thil;CC;FA;20;3313
+21;242101426;CC du Val de Vingeanne;CC;FA;11;3149
+21;242101434;CC du Pays Châtillonnais;CC;FA;107;21595
+21;242101442;CC de Saulieu;CC;FA;12;5796
+21;242101459;CC du Pays d'Alésia et de la Seine;CC;FA;24;7896
+21;242101467;CC de Gevrey-Chambertin;CC;FPU;22;9396
+21;242101475;CC du Pays de Nuits Saint Georges;CC;FPU;25;15733
+21;242101483;CC Auxonne Val de Saône;CC;FA;16;15332
+21;242101491;CC du Montbardois;CC;FA;33;11426
+21;242101509;CC Rives de Saône, Cc Saint Jean de Losne Seurre;CC;FPU;38;21148
+22;200035699;CC du Haut Trégor;CC;FPU;15;16832
+22;200035780;CC Plancoët-Plélan;CC;FPU;18;19385
+22;200042471;CC Cideral;CC;FPU;32;36716
+22;200043255;CC Dinan Communauté;CC;FPU;26;48928
+22;200048775;CA Lannion-Trégor Communauté;CA;FPU;38;78945
+22;242200517;CA Saint-Brieuc Agglomération Baie d'Armor (Sbaba);CA;FPU;13;120182
+22;242200533;CC Lamballe Communauté;CC;FPU;16;28750
+22;242200566;CC Guingamp Communauté;CC;FPU;6;23247
+22;242200574;CC Centre Armor Puissance 4;CC;FPU;3;8648
+22;242200582;CC Hardouinais Mené;CC;FPU;9;8208
+22;242200590;CC Pontrieux Communauté;CC;FPU;7;6108
+22;242200608;CC du Pays de Caulnes;CC;FPU;8;6837
+22;242200616;CC Quintin Communauté;CC;FPU;10;11533
+22;242200632;CC Arguenon Hunaudaye;CC;FPU;5;8690
+22;242200640;CC Lanvollon Plouha;CC;FPU;15;16721
+22;242200673;CC du Pays de Duguesclin;CC;FPU;9;9318
+22;242200699;CC du Pays de Moncontour de Bretagne;CC;FPU;6;11413
+22;242200715;CC du Kreiz-Breizh (Cckb);CC;FPU;25;19789
+22;242200723;CC de Bourbriac;CC;FPU;10;6267
+22;242200764;CC le Leff Communauté;CC;FPU;13;14834
+22;242200780;CC Rance-Frémur;CC;FA;4;8607
+22;242200848;CC Sud-Goëlo;CC;FPU;6;14784
+22;242200855;CC du Pays de Belle-Isle-En-Terre;CC;FPU;7;6214
+22;242214294;CC Paimpol Goëlo;CC;FPU;9;19686
+22;242214344;CC du Pays de Matignon;CC;FPU;9;11586
+22;242214393;CC du Pays de Bégard;CC;FPU;7;9359
+22;242214427;CC Côte de Penthièvre;CC;FPU;6;14823
+22;242214443;CC de la Presqu'île de Lézardrieux;CC;FPU;7;8299
+22;242214450;CC Callac Argoat;CC;FPU;11;6258
+23;200034825;CA du Grand Guéret;CA;FPU;22;29759
+23;200041556;CC Portes de la Creuse en Marche;CC;FA;17;6846
+23;200044014;CC Creuse Grand Sud;CC;FPU;26;13108
+23;242300101;CC du Pays Creuse - Thaurion - Gartempe;CC;FPU;27;7471
+23;242300127;CC Auzances Bellegarde;CC;FPU;26;7438
+23;242300135;CC du Pays Sostranien;CC;FPU;10;11617
+23;242303139;CC du Pays de Boussac;CC;FPU;15;6479
+23;242320000;CC de Bénévent Grand Bourg;CC;FPU;17;7326
+23;242320018;CC du Carrefour des Quatre Provinces;CC;FPU;15;5873
+23;242320034;CC Bourganeuf Royère de Vassivière;CC;FPU;20;7960
+23;242320067;CC du Haut Pays Marchois;CC;FA;13;2755
+23;242320075;CC des Sources de la Creuse;CC;FA;11;1925
+23;242320083;CC d'Evaux les Bains - Chambon Sur Voueize;CC;FPU;13;5531
+23;242320091;CC de Chénérailles;CC;FPU;10;4082
+23;242320109;CC du Pays Dunois;CC;FPU;17;7544
+24;200027217;CC Sarlat-Périgord Noir;CC;FPU;13;17216
+24;200034197;CC de Montaigne Montravel et Gurson;CC;FA;18;12133
+24;200034817;CA Bergeracoise;CA;FPU;27;58100
+24;200034833;CC des Bastides Dordogne-Périgord;CC;FPU;46;19042
+24;200040095;CC Isle Vern Salembre en Perigord;CC;FPU;17;19943
+24;200040384;CC Isle Double Landais;CC;FPU;9;12109
+24;200040392;CA le Grand Perigueux;CA;FPU;31;95749
+24;200040400;CC Communauté de Communes du Pays Ribéracois;CC;FPU;46;20501
+24;200040616;CC du Pays Vernois et du Terroir de la Truffe;CC;FPU;20;8994
+24;200040830;CC du Pays de Fénelon;CC;FPU;19;9909
+24;200040889;CC Communauté de Communes de Portes Sud Périgord;CC;FA;28;8767
+24;200041051;CC Vallée de la Dordogne et Forêt Bessède;CC;FA;22;9588
+24;200041150;CC du Terrassonnais en Périgord Noir Thenon Hautefort;CC;FA;39;23618
+24;200041168;CC de la Vallée de l'homme;CC;FA;26;15483
+24;200041176;CC du Périgord Vert Nontronnais;CC;FPU;17;10804
+24;200041440;CC de Domme- Villefranche du Périgord;CC;FPU;23;9080
+24;200041564;CC du Haut Périgord;CC;FPU;11;5379
+24;200041572;CC Dronne et Belle;CC;FPU;30;11726
+24;242400752;CC du Pays de Jumilhac le Grand;CC;FPU;9;5924
+24;242400935;CC du Pays de Saint Aulaye;CC;FA;8;6854
+24;242401024;CC du Pays de Lanouaille;CC;FPU;11;5959
+24;242401065;CC du Pays Thibérien;CC;FPU;14;10561
+24;242401107;CC du Pays de Villamblard;CC;FA;17;5735
+24;242401222;CC du Mussidanais en Périgord;CC;FA;11;8929
+24;242401255;CC des Coteaux de Sigoules;CC;FA;11;5167
+24;242401289;CC Causses et Rivières en Périgord;CC;FA;20;9371
+25;200019008;CC du Pays de Clerval;CC;FA;10;3098
+25;200023075;CC du Pays de Maîche;CC;FA;19;13712
+25;200035228;CC du Pays de Pont de Roide;CC;FA;11;8146
+25;200038982;CC Dame Blanche et Bussière;CC;FA;24;8637
+25;242500320;CC de Montbenoit;CC;FA;16;7371
+25;242500338;CC du Grand Pontarlier;CC;FPU;10;27452
+25;242500361;CA du Grand Besançon;CA;FPU;57;184207
+25;242500379;CC Amancey-Loue-Lison;CC;FA;20;4181
+25;242500619;CC des Isles du Doubs;CC;FPU;21;8785
+25;242503886;CA du Pays de Montbéliard;CA;FPU;29;118635
+25;242504116;CC du Val de Morteau;CC;FPU;8;20556
+25;242504181;CC du Pays de Pierrefontaine - Vercel;CC;FA;44;21116
+25;242504207;CC du Pays d'Ornans;CC;FA;22;11426
+25;242504215;CC du Mont d'Or et des Deux Lacs;CC;FA;19;12181
+25;242504280;CC du Pays de Rougemont;CC;FA;25;4297
+25;242504330;CC du Canton de Quingey;CC;FA;34;9544
+25;242504348;CC des Hauts du Doubs;CC;FA;13;2867
+25;242504355;CC du Plateau de Russey;CC;FA;17;6634
+25;242504363;CC de la Vallée du Rupt;CC;FA;13;5159
+25;242504371;CC du Vallon de Sancey;CC;FA;17;3546
+25;242504389;CC des Trois Cantons;CC;FPU;11;7837
+25;242504397;CC de Saint Hippolyte;CC;FA;20;4679
+25;242504421;CC du Val Saint-Vitois;CC;FA;15;9898
+25;242504439;CC de Vaite Aigremont;CC;FPU;21;7476
+25;242504447;CC du Pays Baumois;CC;FPU;25;9027
+25;242504462;CC des Balcons du Lomont;CC;FA;12;6218
+25;242504470;CC Entre Dessoubre et Barbeche;CC;FA;14;2412
+25;242504488;CC Altitude 800;CC;FA;11;6358
+25;242504496;CC du Plateau de Frasne et du Val de Drugeon (Cfd);CC;FPU;10;5918
+26;200025161;CC de la Raye;CC;FPU;5;3122
+26;200040459;CA Montelimar-Agglomeration;CA;FPU;26;63951
+26;200040483;CA Valence-Romans Sud Rhône-Alpes;CA;FPU;51;218098
+26;200040491;CC Porte de Dromardeche;CC;FPU;35;47328
+26;200040509;CC du Crestois et du Pays de Saillans Coeur de Drôme;CC;FPU;15;15256
+26;200042901;CC Drome Sud Provence;CC;FA;14;42202
+26;242600252;CC du Val de Drôme;CC;FPU;30;30560
+26;242600492;CC Dieulefit-Bourdeaux;CC;FPU;21;9522
+26;242600534;CC du Diois;CC;FA;51;11531
+26;242600542;CC du Vercors;CC;FA;5;2234
+26;242600567;CC du Pays de l'herbasse;CC;FPU;9;9430
+26;242600575;CC du Pays du Buis les Baronnies;CC;FA;21;4914
+26;242600583;CC le Pays du Royans;CC;FPU;13;7867
+26;242600591;CC du Val d'Eygues;CC;FA;20;14192
+26;242600641;CC des Hautes Baronnies;CC;FA;12;1526
+26;242600658;CC du Pays de Rémuzat;CC;FA;14;978
+27;200035665;CA Seine Eure;CA;FPU;37;69527
+27;200041671;CC Intercom Risle et Charentonne;CC;FA;24;16579
+27;242700276;CC du Pays de Conches;CC;FA;27;19225
+27;242700284;CC de l'Andelle;CC;FPU;19;16977
+27;242700292;CC du Roumois Nord;CC;FPU;19;16577
+27;242700318;CC du Canton de Beaumesnil;CC;FA;2;5111
+27;242700326;CC du Canton de Bourgtheroulde-Infreville;CC;FPU;14;14041
+27;242700334;CC du Pays de Damville;CC;FA;7;9119
+27;242700359;CC de Quillebeuf Sur Seine;CC;FA;13;6383
+27;242700367;CC de Pont-Audemer;CC;FA;14;20644
+27;242700375;CC du Canton de Rugles;CC;FA;16;8012
+27;242700383;CC d'Amfreville la Campagne;CC;FPU;20;16087
+27;242700417;CC du Canton de Lyons la Forêt;CC;FA;13;4635
+27;242700425;CC du Canton de Thiberville;CC;FA;21;7599
+27;242700433;CC du Canton de Cormeilles;CC;FA;11;5516
+27;242700441;CC du Canton d'Etrépagny;CC;FA;20;11726
+27;242700466;CC du Canton de Broglie;CC;FA;20;6523
+27;242700474;CC Val de Risle;CC;FA;14;7883
+27;242700490;CC du Pays de Verneuil Sur Avre;CC;FA;17;13596
+27;242700508;CC Intercom du Pays Brionnais;CC;FPU;23;12036
+27;242700516;CC Epte - Vexin - Seine;CC;FA;7;10091
+27;242700524;CC du Vièvre-Lieuvin;CC;FA;14;5218
+27;242700557;CC Rurales du Sud de l'Eure;CC;FA;12;9380
+27;242700565;CC la Porte Normande;CC;FA;25;20682
+27;242700573;CA Grand Evreux Agglomération;CA;FPU;37;85263
+27;242700581;CC de Bernay et des Environs;CC;FA;14;17683
+27;242700599;CC du Canton de Beuzeville;CC;FA;16;13004
+27;242700607;CC du Pays du Neubourg;CC;FA;34;18396
+27;242700615;CC du Canton de Breteuil-Sur-Iton;CC;FA;7;9746
+27;242700623;CC Eure-Madrie-Seine;CC;FPU;19;29423
+27;242700631;CC des Andelys et de Ses Environs;CC;FPU;21;18255
+27;242700649;CA des Portes de l'Eure;CA;FPU;41;59445
+27;242700656;CC Gisors Epte Lévrière;CC;FPU;16;19448
+28;200006971;CC du Perche;CC;FPU;19;19073
+28;200033181;CA Chartres Métropole;CA;FPU;46;125811
+28;200040277;CA Agglo du Pays de Dreux;CA;FPU;78;114371
+28;200058360;CC Entre Beauce et Perche;CC;FPU;33;21769
+28;242800290;CC de la Beauce d'Orgères;CC;FPU;17;5694
+28;242852309;CC de l'Orée du Perche;CC;FA;8;2519
+28;242852416;CC du Val Drouette;CC;FPU;5;12048
+28;242852424;CC des Trois Rivières;CC;FPU;15;9842
+28;242852432;CC des Terrasses et Vallées de Maintenon;CC;FPU;10;13835
+28;242852465;CC du Bonnevalais;CC;FPU;21;13179
+28;242852499;CC de la Beauce Vovéenne;CC;FPU;15;9879
+28;242852515;CC du Perche Senonchois;CC;FPU;7;5592
+28;242852531;CC de la Beauce Alnéloise;CC;FPU;22;10369
+28;242852549;CC des Portes du Perche;CC;FPU;13;10395
+28;242852564;CC du Perche Gouët;CC;FPU;16;11600
+28;242852572;CC des Quatre Vallées;CC;FPU;12;11933
+28;242852580;CC des Plaines et Vallées Dunoises;CC;FPU;12;5699
+28;242852598;CC du Dunois;CC;FPU;5;18015
+28;242852606;CC du Val de Voise;CC;FPU;6;12580
+28;242852614;CC de la Beauce de Janville;CC;FPU;19;10001
+28;242852630;CC du Perche Thironnais;CC;FPU;10;4588
+29;242900074;CC du Pays d'Iroise;CC;FPU;20;47944
+29;242900314;Brest Métropole;METRO;FPU;8;213171
+29;242900553;CC du Pays des Abers;CC;FPU;13;41056
+29;242900561;CC de Haute Cornouaille;CC;FPU;11;15459
+29;242900629;CC Cap Sizun - Pointe du Raz;CC;FPU;10;16142
+29;242900637;CC du Yeun Elez;CC;FPU;8;4735
+29;242900645;CC Douarnenez Communauté;CC;FPU;5;19799
+29;242900652;CC du Pays Glazik;CC;FPU;5;11607
+29;242900660;CC du Pays Fouesnantais;CC;FPU;7;28047
+29;242900694;CA du Pays de Quimperlé;CA;FPU;16;56690
+29;242900702;CC du Pays Bigouden Sud;CC;FPU;12;38695
+29;242900710;CC du Haut Pays Bigouden;CC;FPU;10;18233
+29;242900728;CA Quimper Communauté;CA;FPU;8;91572
+29;242900736;CC de la Baie du Kernic;CC;FPU;6;12849
+29;242900744;CC Poher Communauté;CC;FPU;11;16438
+29;242900751;CC du Pays de Landivisiau;CC;FPU;19;33908
+29;242900769;CA Concarneau Cornouaille Agglomération;CA;FPU;9;51164
+29;242900777;CC du Pays Léonard;CC;FPU;8;19955
+29;242900785;CC des Monts d'Arrée;CC;FPU;5;3870
+29;242900793;CC Pays de Lesneven et Côte des Légendes;CC;FPU;15;28472
+29;242900801;CC du Pays de Landerneau-Daoulas;CC;FPU;22;48727
+29;242900827;CC de la Presqu'île de Crozon;CC;FPU;7;17306
+29;242900835;CA Morlaix Communauté;CA;FPU;27;67597
+29;242913309;CC de la Région de Pleyben;CC;FPU;6;7352
+29;242913317;CC de l'Aulne Maritime;CC;FA;4;7900
+29;242913325;CC du Pays de Châteaulin et du Porzay;CC;FPU;11;17041
+30;200034379;CC Pays d'Uzès;CC;FPU;31;27693
+30;200034411;CC du Piémont Cévenol;CC;FPU;34;21583
+30;200034601;CC Causses Aigoual Cévennes;CC;FA;16;5724
+30;200034692;CA du Gard Rhodanien;CA;FPU;42;70323
+30;200035129;CC de Cèze Cévennes;CC;FPU;23;19853
+30;200035152;CA Alès Agglomération;CA;FPU;50;102284
+30;243000270;CC du Pays Viganais;CC;FPU;22;10581
+30;243000296;CC du Pays de Sommières;CC;FPU;17;21775
+30;243000452;CC Vivre en Cévennes;CC;FPU;7;12803
+30;243000528;CC des Hautes Cévennes;CC;FA;9;3300
+30;243000536;CC de la Côte du Rhône Gardoise;CC;FPU;3;9810
+30;243000551;CC du Pays Grand Combien;CC;FPU;9;13994
+30;243000569;CC Rhony, Vistre, Vidourle;CC;FPU;10;26228
+30;243000585;CC Beaucaire Terre d'Argence;CC;FPU;5;30826
+30;243000593;CC de Petite Camargue;CC;FPU;5;25921
+30;243000643;CA de Nîmes Métropole;CA;FPU;27;249966
+30;243000650;CC Terre de Camargue;CC;FPU;3;20459
+30;243000684;CC du Pont du Gard;CC;FPU;17;25623
+30;243000742;CC Leins Gardonnenque;CC;FPU;14;12878
+31;200000354;CC de la Louge et du Touch;CC;FPU;14;5441
+31;200001105;CC de Salies-Du-Salat;CC;FPU;22;8759
+31;200009611;CC des Portes du Comminges;CC;FA;24;4817
+31;200017408;CC Cap Lauragais Cc du Canton de Villefranche de Lauragais;CC;FA;21;14190
+31;200023547;CC du Pays de Luchon;CC;FA;31;5906
+31;200023554;CC du Boulonnais;CC;FA;24;5260
+31;200026722;CC du Canton de Cazères;CC;FPU;16;12730
+31;200034957;CC du Frontonnais;CC;FA;10;25004
+31;243100179;CC Coteaux du Lauragais Sud (Co.Laur.Sud);CC;FPU;10;8858
+31;243100377;CC du Canton de Saint-Martory;CC;FPU;12;3960
+31;243100518;Toulouse Métropole;METRO;FPU;37;748149
+31;243100542;CC de la Vallée de l'Ariège;CC;FPU;14;20838
+31;243100567;CC Lauragais Revel Sorezois;CC;FA;27;21487
+31;243100609;CC des Trois Vallées;CC;FPU;21;5482
+31;243100633;CA du Sicoval;CA;FPU;36;74890
+31;243100641;CC Nebouzan-Rivière-Verdun;CC;FPU;17;8485
+31;243100658;CC du Volvestre;CC;FA;28;21760
+31;243100682;CC de Lèze Ariège Garonne;CC;FPU;5;9631
+31;243100690;CA du Muretain;CA;FPU;16;91632
+31;243100708;CC Axe Sud;CC;FPU;4;22665
+31;243100716;CC de Garonne - Louge;CC;FA;4;7712
+31;243100724;CC du Haut Comminges;CC;FPU;24;7089
+31;243100732;CC des Coteaux du Girou;CC;FPU;18;21070
+31;243100765;CC des Terres d'Aurignac;CC;FPU;19;4494
+31;243100773;CC Val'aïgo;CC;FPU;8;13996
+31;243100781;CC de la Save Au Touch;CC;FPU;8;38037
+31;243100799;CC du Saint Gaudinois;CC;FPU;21;22435
+31;243100815;CC des Coteaux Bellevue;CC;FPU;7;19292
+31;243100849;CC du Canton de Saint-Béat;CC;FA;22;3673
+31;243100856;CC des Coteaux de Cadours;CC;FPU;16;5566
+31;243100864;CC de Save et Garonne;CC;FPU;13;26596
+31;243100872;CC Rurales des Coteaux du Savès et de l'Aussonnelle;CC;FA;6;3321
+31;243100880;CC Coeur Lauragais;CC;FPU;27;15113
+31;243100898;CC du Savès;CC;FPU;18;16359
+32;200023620;CC de la Gascogne Toulousaine;CC;FPU;14;20224
+32;200034726;CC Bastides de Lomagne;CC;FPU;41;11417
+32;200035632;CC Armagnac Adour;CC;FPU;25;7117
+32;200035756;CC Astarac Arros en Gascogne;CC;FPU;37;7629
+32;200042372;CC des Coteaux Arrats Gimone;CC;FPU;30;10609
+32;243200300;CC Val de Gers;CC;FPU;36;9695
+32;243200391;CC de la Lomagne Gersoise;CC;FPU;43;20356
+32;243200409;CC du Bas Armagnac;CC;FA;26;8798
+32;243200417;CC de la Tenarèze;CC;FPU;26;15603
+32;243200425;CC Coeur d'Astarac en Gascogne;CC;FPU;19;8427
+32;243200458;CC du Grand Armagnac;CC;FA;25;13481
+32;243200508;CC Bastides et Vallons du Gers;CC;FPU;30;7621
+32;243200516;CC des Hautes Vallées;CC;FA;9;1063
+32;243200540;CA du Grand Auch Agglomération;CA;FPU;15;32766
+32;243200565;CC Coeur de Gascogne;CC;FPU;19;7650
+32;243200599;CC du Saves;CC;FA;32;9824
+32;243200607;CC Artagnan de Fezensac;CC;FPU;25;7329
+33;200023794;CC du Canton de Blaye;CC;FPU;13;15475
+33;200027068;CA du Libournais;CA;FPU;34;71916
+33;200033520;CC du Brannais;CC;FPU;15;9379
+33;200035533;CC du Grand Saint Emilonnais;CC;FPU;22;15725
+33;200043974;CC du Sud Gironde;CC;FPU;30;31722
+33;200043982;CC du Bazadais;CC;FPU;31;16133
+33;200044394;CC du Réolais en Sud Gironde;CC;FPU;36;20241
+33;243300316;Bordeaux Métropole;METRO;FPU;28;763485
+33;243300563;CA Bassin d'Arcachon Sud-Pôle Atlantique (Cobas);CA;FPU;4;64957
+33;243300738;CC de la Pointe du Médoc;CC;FPU;11;15080
+33;243300811;CC de l'Estuaire - Canton de Saint Ciers Sur Gironde;CC;FPU;11;12768
+33;243300837;CC du Centre Médoc;CC;FPU;8;17187
+33;243300894;CC du Canton de Bourg;CC;FPU;15;13761
+33;243301124;CC du Sauveterrois;CC;FPU;32;9532
+33;243301165;CC Jalle-Eau-Bourde;CC;FPU;3;29569
+33;243301173;CC du Vallon de l'Artolie;CC;FPU;9;9149
+33;243301181;CC Latitude Nord Gironde;CC;FPU;16;23572
+33;243301215;CC du Créonnais;CC;FPU;13;15725
+33;243301223;CC du Cubzaguais;CC;FPU;8;23794
+33;243301249;CC du Secteur de Saint Loubes;CC;FPU;6;26095
+33;243301264;CC de Montesquieu;CC;FPU;13;41449
+33;243301298;CC du Canton de Targon;CC;FA;19;7299
+33;243301322;CC du Sud-Libournais;CC;FPU;5;13642
+33;243301355;CC des Coteaux Bordelais;CC;FPU;8;18571
+33;243301371;CC du Pays Foyen;CC;FPU;20;16771
+33;243301389;CC Médullienne;CC;FPU;10;19234
+33;243301397;CC du Canton de Fronsac;CC;FPU;18;16905
+33;243301405;CC du Val de l'Eyre;CC;FPU;5;18594
+33;243301413;CC des Lacs Médocains;CC;FPU;3;10392
+33;243301421;CC Coeur du Médoc;CC;FPU;11;12678
+33;243301439;CC des Portes de l'Entre Deux Mers;CC;FPU;7;15341
+33;243301447;CC Médoc Estuaire;CC;FPU;11;26897
+33;243301454;CC Castillon/Pujols;CC;FPU;23;14918
+33;243301462;CC des Coteaux Macariens;CC;FPU;14;10496
+33;243301470;CC des Coteaux de Garonne;CC;FA;9;7394
+33;243301504;CC du Bassin d'Arcachon Nord Atlantique (Coban Atlantique);CC;FA;8;63050
+33;243301538;CC de Podensac;CC;FPU;13;20490
+34;200000610;CC le Minervois;CC;FA;15;6481
+34;200017341;CC Lodévois et Larzac;CC;FPU;28;14880
+34;200022986;CC du Grand Pic Saint-Loup;CC;FPU;36;47608
+34;200033538;CC les Avant-Monts du Centre Hérault;CC;FPU;18;15755
+34;200042646;CC Grand Orb   en Languedoc;CC;FPU;24;21308
+34;200042653;CC Sud-Hérault;CC;FPU;17;17729
+34;243400017;Montpellier Méditerranée Métropole;METRO;FPU;31;449026
+34;243400355;CC du Clermontais;CC;FPU;21;27032
+34;243400389;CC de la Montagne du Haut Languedoc;CC;FPU;8;2790
+34;243400470;CA du Pays de l'Or;CA;FPU;8;44168
+34;243400488;CC la Domitienne;CC;FPU;8;27502
+34;243400520;CC du Pays de Lunel;CC;FPU;15;48561
+34;243400553;CC du Pays Saint-Ponais;CC;FPU;9;4212
+34;243400629;CC Orb et Jaur;CC;FPU;12;4449
+34;243400694;CC Vallée de l'hérault;CC;FPU;28;36236
+34;243400710;CC Orb et Taurou;CC;FPU;5;7410
+34;243400728;CC du Pays de Thongue;CC;FPU;7;11081
+34;243400736;CC des Cévennes Gangeoises et Suménoises;CC;FPU;13;13332
+34;243400751;CC du Nord du Bassin de Thau;CC;FPU;6;27293
+34;243400769;CA de Béziers-Méditerranée;CA;FPU;13;116153
+34;243400819;CA Hérault-Méditerranée;CA;FPU;19;73483
+34;243400827;CA du Bassin de Thau;CA;FPU;8;98189
+35;200038990;CC de Saint-Méen Montauban;CC;FPU;18;26499
+35;200039022;"CA ""vitré Communauté""";CA;FPU;46;80713
+35;200043990;CC Vallons de Haute-Bretagne Communauté;CC;FPU;19;42825
+35;243500139;Rennes Métropole;METRO;FPU;43;438526
+35;243500147;CC Fougères Communauté;CC;FPU;18;43426
+35;243500501;CC Coglais Communauté Marches de Bretagne;CC;FPU;11;12495
+35;243500535;CC Louvigné Communauté;CC;FPU;8;8698
+35;243500543;CC Antrain Communauté;CC;FPU;10;9504
+35;243500550;CC Montfort Communauté;CC;FPU;8;25278
+35;243500576;CC Baie du Mont Saint Michel - Porte de la Bretagne - Canton de Pleine Fougères;CC;FPU;11;8639
+35;243500592;CC du Pays de Saint Aubin du Cormier;CC;FPU;11;13824
+35;243500618;CC de Brocéliande;CC;FPU;8;17578
+35;243500634;CC Au Pays de la Roche Aux Fées;CC;FPU;16;26248
+35;243500642;CC de Moyenne Vilaine et Semnon;CC;FPU;16;26466
+35;243500659;CC du Pays de Châteaugiron;CC;FPU;8;24469
+35;243500667;CC du Val d'Ille;CC;FPU;10;20342
+35;243500675;CC du Pays d'Aubigné;CC;FPU;10;14676
+35;243500691;CC du Pays de Dol de Bretagne et de la Baie du Mont Saint Michel;CC;FPU;8;15134
+35;243500709;CC du Pays du Grand Fougeray;CC;FPU;4;5601
+35;243500725;CC Côte d'Emeraude;CC;FPU;10;30234
+35;243500733;CC Bretagne Romantique;CC;FPU;27;34509
+35;243500741;CC du Pays de Redon;CC;FPU;30;67218
+35;243500774;CC du Pays de Liffré;CC;FPU;5;15940
+35;243500782;CA du Pays de Saint Malo - Saint Malo Agglomération;CA;FPU;18;82773
+36;200001006;CC du Pays d'Eguzon-Val de Creuse;CC;FPU;8;4572
+36;200007052;CC de la Marche Berrichonne;CC;FA;9;5881
+36;200018521;CC du Val de Bouzanne;CC;FA;12;6242
+36;200035137;CC Marche Occitane - Val d'Anglin;CC;FPU;17;7458
+36;200035848;CC du Châtillonnais en Berry;CC;FPU;10;6463
+36;200040558;CC Ecueillé-Valençay;CC;FPU;19;12188
+36;243600202;CC Chabris - Pays de Bazelle;CC;FPU;10;6519
+36;243600210;CC du Canton de Vatan;CC;FPU;14;4566
+36;243600228;CC du Pays d'Argenton Sur Creuse;CC;FPU;13;16064
+36;243600236;CC du Pays d'Issoudun;CC;FA;12;21439
+36;243600293;CC de la Région de Levroux;CC;FA;11;6625
+36;243600301;CC Val de l'Indre - Brenne;CC;FPU;12;14191
+36;243600319;CC Brenne - Val de Creuse;CC;FA;28;19131
+36;243600327;CA Châteauroux Métropole;CA;FPU;14;77752
+36;243600343;CC Coeur de Brenne;CC;FPU;11;5149
+36;243600350;CC de la Châtre et Sainte Sévère;CC;FPU;30;17440
+36;243600368;CC de Champagne Berrichonne;CC;FPU;16;5891
+37;200043065;CC du Val D Amboise;CC;FPU;14;28963
+37;200043081;CC Chinon, Vienne et Loire;CC;FPU;16;21170
+37;243700432;CC de Gatine et Choisilles;CC;FPU;10;14701
+37;243700465;CC Loches Développement;CC;FPU;20;22871
+37;243700499;CC du Castelrenaudais;CC;FPU;16;17138
+37;243700663;CC Touraine Nord Ouest;CC;FPU;23;23464
+37;243700697;CC du Pays de Richelieu;CC;FPU;16;8319
+37;243700747;CC de l'Est Tourangeau;CC;FPU;5;26474
+37;243700754;CA Tours (Plus);CA;FPU;22;297232
+37;243700770;CC de Montrésor;CC;FA;10;5819
+37;243700788;CC du Vouvrillon;CC;FPU;5;12954
+37;243700796;CC du Pays d'Azay-Le-Rideau;CC;FPU;12;15785
+37;243700804;CC du Val de l'Indre;CC;FPU;8;33255
+37;243700812;CC de la Touraine du Sud;CC;FPU;21;15652
+37;243700820;CC de Bléré Val de Cher;CC;FPU;15;21751
+37;243700861;CC du Pays de Bourgueil;CC;FPU;9;12521
+37;243700887;CC de Racan;CC;FPU;10;6629
+37;243700895;CC du Grand Ligueillois;CC;FPU;17;10264
+37;243700911;CC du Bouchardais;CC;FPU;15;7373
+37;243700929;CC de Sainte Maure de Touraine;CC;FPU;13;13222
+38;200012037;CC de l'Isle Crémieu;CC;FPU;21;29799
+38;200018166;CC du Pays du Grésivaudan (Ccpg);CC;FPU;46;103043
+38;200030658;CC du Trièves;CC;FPU;28;10105
+38;200035269;CC Chambaran Vinay Vercors;CC;FPU;20;15409
+38;200040111;CC Coeur de Chartreuse;CC;FPU;17;17209
+38;200040657;CC de la Matheysine du Pays de Corps et des Vallées du Valbonnais;CC;FPU;44;19890
+38;200040715;Métropole Grenoble-Alpes-Métropole (Métro);METRO;FPU;49;450494
+38;200041028;CC Bourbre-Tisserands;CC;FPU;9;8617
+38;200059392;CC Bièvre Isère;CC;FPU;55;54942
+38;243800091;CC de la Vallée de l'hien;CC;FPU;8;8255
+38;243800372;CC les Vallons de la Tour;CC;FPU;10;25967
+38;243800455;CA Viennagglo;CA;FPU;18;70737
+38;243800604;CA Porte de l'Isère (C.A.P.I);CA;FPU;22;104905
+38;243800612;CC du Pays des Couleurs;CC;FPU;19;33664
+38;243800745;CC de l'Oisans;CC;FA;20;11049
+38;243800778;CC du Pays Roussillonnais;CC;FPU;22;52539
+38;243800844;CC du Territoire de Beaurepaire;CC;FPU;15;15527
+38;243800935;CC Porte Dauphinoise de Lyon Saint-Exupéry;CC;FA;6;25849
+38;243800984;CA du Pays Voironnais;CA;FPU;34;100960
+38;243801024;CC du Massif du Vercors;CC;FPU;6;12300
+38;243801073;CC de Bièvre Est;CC;FPU;14;22004
+38;243801099;CC les Balmes Dauphinoises;CC;FPU;8;11133
+38;243801149;CC les Vallons du Guiers;CC;FPU;9;12800
+38;243801198;CC du Pays de Saint Marcellin;CC;FPU;15;23206
+38;243801214;CC de la Bourne À l'Isère;CC;FPU;12;6534
+38;243801255;CC des Collines du Nord Dauphiné;CC;FPU;10;24086
+39;200006872;CC Champagnole Porte du Haut Jura;CC;FPU;38;19481
+39;200010650;CA du Grand Dole;CA;FPU;42;53902
+39;200012060;CC Petite Montagne;CC;FA;39;7064
+39;200026482;CC Bresse Revermont;CC;FPU;37;12417
+39;200026573;CC Haut-Jura Saint-Claude;CC;FPU;27;22942
+39;243900305;CC du Pays de Saint-Amour;CC;FPU;12;4540
+39;243900339;CA Espace Communautaire Lons Agglomération (Ecla);CA;FPU;24;32685
+39;243900354;CC de la Station des Rousses-Haut Jura;CC;FA;4;6747
+39;243900412;CC Jura Sud;CC;FPU;17;7497
+39;243900420;CC du Val d'Amour;CC;FPU;24;9829
+39;243900479;CC du Haut-Jura (Arcade);CC;FPU;4;9976
+39;243900560;CC Jura Nord;CC;FPU;26;9975
+39;243900610;CC la Grandvallière;CC;FA;10;5356
+39;243900719;CC du Pays des Lacs;CC;FA;30;6354
+39;243900768;CC du Val de Sorne;CC;FA;8;3027
+39;243900917;CC des Coteaux de la Haute Seille;CC;FPU;20;7001
+39;243900974;CC Nord Ouest Jura;CC;FA;12;3247
+39;243901014;CC Comté de Grimont, Poligny;CC;FPU;30;10668
+39;243901048;CC du Pays de Salins-Les-Bains;CC;FPU;22;6119
+39;243901055;CC Arbois, Vignes et Villages - Pays de Louis Pasteur;CC;FPU;14;6707
+39;243901071;CC de la Région d'Orgelet;CC;FPU;24;5979
+39;243901089;CC de la Plaine Jurassienne;CC;FA;21;9544
+39;243901105;CC du Sud Revermont;CC;FPU;18;6324
+39;243901113;CC du Plateau de Nozeroy;CC;FA;25;3533
+40;200030435;CC d'Aire Sur l'Adour;CC;FPU;22;13608
+40;200035541;CC des Landes d'Armagnac;CC;FPU;27;11287
+40;244000543;CC de Mimizan;CC;FPU;6;12298
+40;244000592;CC du Tursan;CC;FPU;17;4719
+40;244000642;CC du Canton de Pissos;CC;FA;6;3873
+40;244000659;CC du Seignanx;CC;FPU;8;26377
+40;244000667;CC du Pays d'Orthe;CC;FPU;15;14747
+40;244000675;CA du Grand Dax;CA;FPU;20;57216
+40;244000691;CC du Pays Morcenais;CC;FA;9;9788
+40;244000709;CC Hagetmau Communes Unies;CC;FA;18;10190
+40;244000717;CC du Canton de Mugron;CC;FPU;13;6025
+40;244000741;CC du Canton de Montfort en Chalosse;CC;FPU;21;12472
+40;244000758;CC du Pays d'Albret;CC;FA;13;5598
+40;244000766;CC du Pays Tarusate;CC;FPU;18;17539
+40;244000774;CC du Pays de Villeneuve en Armagnac Landais;CC;FPU;12;6288
+40;244000782;CC de la Haute Lande;CC;FA;7;6204
+40;244000808;CA Mont de Marsan Agglomération;CA;FPU;18;56838
+40;244000816;CC de Pouillon;CC;FPU;9;9252
+40;244000824;CC du Pays Grenadois;CC;FPU;11;7932
+40;244000832;CC du Cap de Gascogne;CC;FPU;15;11555
+40;244000857;CC Côte Landes Nature;CC;FPU;10;11318
+40;244000865;CC Maremne Adour Côte Sud;CC;FPU;23;62668
+40;244000873;CC des Grands Lacs;CC;FPU;7;28648
+40;244000881;CC Coteaux et Vallées des Luys;CC;FPU;16;7825
+41;200000800;CC Coeur de Sologne;CC;FPU;6;10996
+41;200018406;CC du Romorantinais et du Monestois;CC;FPU;15;33358
+41;200030385;CA de Blois ''agglopolys'';CA;FPU;47;108446
+41;200040772;CC du Perche & Haut Vendômois;CC;FPU;23;9477
+41;200040780;CC Vallées Loir et Braye;CC;FPU;26;13810
+41;200040863;CC Val-De-Cher-Controis;CC;FPU;29;35538
+41;200055481;CC Beauce Val de Loire;CC;FPU;33;20359
+41;244100251;CC du Pays de Vendôme;CC;FPU;12;29186
+41;244100269;CC du Vendômois Rural;CC;FPU;10;7375
+41;244100293;CC des Collines du Perche;CC;FPU;16;6467
+41;244100707;CC de la Beauce Oratorienne;CC;FPU;6;7088
+41;244100764;CC du Cher À la Loire;CC;FPU;8;13618
+41;244100772;CC Beauce et Gâtine;CC;FPU;18;6985
+41;244100780;CC de la Sologne des Etangs;CC;FPU;11;8121
+41;244100798;CC du Grand Chambord;CC;FPU;17;21491
+41;244100806;CC de la Sologne des Rivières;CC;FPU;8;12278
+42;200035202;CC Charlieu-Belmont Communauté;CC;FPU;25;24428
+42;200035731;CA Roannais Agglomération;CA;FPU;40;103896
+42;244200598;CC des Collines du Matin;CC;FPU;8;8027
+42;244200606;CC de Feurs en Forez;CC;FPU;12;16850
+42;244200614;CC des Vals d'Aix et Isable;CC;FPU;14;6182
+42;244200622;CC des Monts du Pilat;CC;FPU;16;15761
+42;244200630;CC du Pays Entre Loire et Rhône;CC;FPU;16;13966
+42;244200671;CC de Balbigny;CC;FA;13;11106
+42;244200721;CC de Forez en Lyonnais;CC;FPU;10;11179
+42;244200762;CC du Pays d'Astrée;CC;FPU;18;14081
+42;244200770;CU Saint-Etienne Métropole;CU;FPU;45;397384
+42;244200796;CA Loire Forez;CA;FPU;45;82260
+42;244200812;CC du Pays de St Galmier;CC;FPU;10;30458
+42;244200820;CC du Pays d'Urfé;CC;FA;11;5269
+42;244200838;CC des Montagnes du Haut Forez;CC;FPU;11;3652
+42;244200846;CC du Pays de St Bonnet le Château;CC;FPU;18;12801
+42;244200895;CC du Pilat Rhodanien;CC;FPU;14;16844
+43;244300018;CA du Puy en Velay;CA;FPU;28;61086
+43;244300208;CC du Pays de Craponne;CC;FPU;8;4496
+43;244300216;CC de la Ribeyre, Chaliergue et Margeride;CC;FPU;16;2558
+43;244300224;CC du Pays de Paulhaguet;CC;FPU;19;4153
+43;244300232;CC du Mézenc et de la Loire Sauvage;CC;FA;17;5857
+43;244300240;CC des Portes d'Auvergne;CC;FA;13;6762
+43;244300265;CC de l'Emblavez;CC;FA;11;9133
+43;244300299;CC Plateau de la Chaise Dieu;CC;FPU;11;2121
+43;244300307;CC du Pays de Montfaucon;CC;FPU;8;8566
+43;244300315;CC du Pays de Blesle;CC;FPU;9;1962
+43;244301016;CC des Sucs;CC;FPU;9;18134
+43;244301032;CC du Brivadois;CC;FPU;16;15336
+43;244301057;CC du Langeadois;CC;FPU;14;8080
+43;244301065;CC de Rochebaron À Chalençon;CC;FPU;8;8119
+43;244301073;CC du Meygal;CC;FA;7;6626
+43;244301099;CC Auzon Communauté;CC;FPU;12;9460
+43;244301107;CC du Haut Lignon;CC;FPU;6;8591
+43;244301115;CC les Marches du Velay;CC;FPU;6;22804
+43;244301123;CC des Pays de Cayres et de Pradelles;CC;FPU;19;5382
+43;244301131;CC Loire et Semène;CC;FPU;7;20621
+43;244301149;CC du Pays de Saugues;CC;FA;14;4071
+44;200000438;CC du Pays de Pontchâteau St Gildas des Bois;CC;FPU;9;34496
+44;244400404;Métropole Nantes Métropole;METRO;FPU;24;625118
+44;244400420;CC de la Région de Machecoul;CC;FPU;6;20160
+44;244400438;CC de Grand Lieu;CC;FPU;9;37989
+44;244400446;CC de la Vallée de Clisson;CC;FPU;12;39183
+44;244400453;CC de la Région de Blain;CC;FPU;4;16059
+44;244400487;CC du Castelbriantais;CC;FPU;19;34293
+44;244400495;CC du Secteur de Derval;CC;FPU;7;11404
+44;244400503;CC d'Erdre et Gesvres;CC;FPU;12;59079
+44;244400511;CC Loire Divatte;CC;FPU;5;26090
+44;244400529;CC de la Loire Atlantique Méridionale;CC;FPU;3;9122
+44;244400537;CC de la Région de Nozay;CC;FPU;7;15471
+44;244400545;CC Coeur Pays de Retz;CC;FPU;6;16608
+44;244400552;CC du Pays d'Ancenis;CC;FPU;25;65427
+44;244400578;CC de Vallet;CC;FPU;6;20678
+44;244400586;CC du Sud Estuaire;CC;FPU;6;29541
+44;244400610;CA de la Presqu'île de Guérande Atlantique (Cap Atlantique);CA;FPU;15;74787
+44;244400644;CA de la Région Nazairienne et de l'Estuaire (Carene);CA;FPU;10;125067
+44;244400651;CC Sèvre Maine et Goulaine;CC;FPU;4;14395
+44;244400677;CC de Pornic;CC;FPU;8;38022
+44;244400693;CC Loire et Sillon;CC;FPU;8;25317
+44;244400701;CC Coeur d'Estuaire;CC;FPU;3;12242
+45;200005932;CC des Portes de Sologne;CC;FPU;6;14118
+45;200018323;CC du Canton de Beaugency;CC;FPU;7;17271
+45;200022994;CC de Château-Renard;CC;FPU;9;10933
+45;200023562;CC le Coeur du Pithiverais;CC;FPU;3;13685
+45;200030229;CC du Val des Mauves;CC;FPU;8;17544
+45;200030559;CC du Betz et de la Cléry;CC;FPU;15;10504
+45;200034841;CC du Sullias;CC;FPU;11;13131
+45;200035764;CC de la Beauce Loirétaine;CC;FPU;23;16655
+45;244500195;CC de Châtillon-Coligny;CC;FPU;12;11087
+45;244500203;CA Montargoise et Rives du Loing (A.M.E.);CA;FPU;15;63500
+45;244500211;CC Giennoises;CC;FPU;11;26476
+45;244500278;CC du Canton de Lorris;CC;FPU;14;10487
+45;244500393;CC de Beauce et du Gâtinais;CC;FPU;18;11708
+45;244500401;CC du Beaunois;CC;FPU;18;10824
+45;244500419;CC des Quatre Vallées;CC;FPU;19;17604
+45;244500427;CC des Loges;CC;FPU;14;31077
+45;244500443;CC du Canton de Briare;CC;FA;14;11975
+45;244500450;CC du Val d'Ardoux;CC;FPU;5;8401
+45;244500468;CA Orléans Val de Loire (Agglo);CA;FPU;22;284234
+45;244500476;CC du Canton de Châtillon Sur Loire;CC;FA;6;7452
+45;244500484;CC de la Forêt;CC;FPU;10;16342
+45;244500518;CC Val D Or et Forêt;CC;FPU;8;11381
+45;244500534;CC des Terres Puiseautines;CC;FPU;13;7228
+45;244500542;CC de la Plaine du Nord Loiret;CC;FPU;15;6990
+45;244500559;CC du Plateau Beauceron;CC;FPU;10;4400
+45;244500567;CC du Bellegardois;CC;FPU;12;7444
+45;244500583;CC Val Sol;CC;FPU;7;11523
+46;200023737;CA du Grand Cahors;CA;FPU;39;42781
+46;200035327;CC Cazals-Salviac;CC;FA;15;5411
+46;200039519;CC du Quercy Blanc;CC;FA;18;8142
+46;200042828;CC Grand-Figeac;CC;FPU;80;42721
+46;200047348;CC Causses et Vallée de la Dordogne;CC;FPU;62;37051
+46;244600359;CC Cère et Dordogne;CC;FPU;16;9065
+46;244600433;CC de la Vallée du Lot et du Vignoble;CC;FPU;27;15098
+46;244600482;CC Quercy - Bouriane;CC;FA;20;10707
+46;244600516;CC du Haut Ségala;CC;FA;11;2231
+46;244600532;CC du Pays de Lalbenque-Limogne;CC;FA;23;8305
+46;244600573;CC du Causse de Labastide Murat;CC;FA;17;3941
+47;200023307;CA du Grand Villeneuvois;CA;FPU;19;50247
+47;200027399;CC Fumel Communauté;CC;FPU;19;18762
+47;200030674;CA Val de Garonne Agglomération;CA;FPU;43;61872
+47;200035459;CA d'Agen;CA;FPU;31;99447
+47;200036523;CC des Bastides en Haut Agenais Périgord;CC;FA;43;17609
+47;200036572;CC Porte d'Aquitaine en Pays de Serres;CC;FA;13;5369
+47;244700449;CC du Pays de Duras;CC;FA;17;5706
+47;244700464;CC du Pays de Lauzun;CC;FA;20;11006
+47;244700498;CC des Coteaux de l'Albret;CC;FA;13;5757
+47;244700506;CC du Val d'Albret;CC;FA;14;18095
+47;244701355;CC des Coteaux et Landes de Gascogne;CC;FPU;27;12746
+47;244701389;CC de Penne d'Agenais;CC;FA;8;6689
+47;244701405;CC Lot et Tolzac;CC;FA;15;7458
+47;244701439;CC du Canton de Prayssas;CC;FA;10;4873
+47;244701462;CC du Confluent;CC;FA;18;13380
+47;244701496;CC du Mézinais;CC;FA;7;4112
+48;200001170;CC Aubrac-Lot-Causse;CC;FA;10;4884
+48;200006765;CC des Terres d'Apcher;CC;FPU;18;6211
+48;200006930;CC du Haut Allier;CC;FPU;8;4762
+48;200011286;CC de l'Aubrac Lozérien;CC;FA;6;1178
+48;200018315;CC Apcher-Margeride-Aubrac;CC;FA;3;5741
+48;200047710;CC Florac - Sud Lozère;CC;FPU;9;4643
+48;244800066;CC de la Vallée de la Jonte;CC;FA;6;1599
+48;244800322;CC de la Terre de Peyre;CC;FPU;6;2496
+48;244800330;CC du Canton de Châteauneuf de Randon;CC;FA;8;1730
+48;244800348;CC du Causse du Massegros;CC;FA;5;976
+48;244800355;CC de la Terre de Randon;CC;FA;11;2929
+48;244800363;CC des Hautes Terres;CC;FA;10;1401
+48;244800389;CC du Valdonnez;CC;FPU;5;2618
+48;244800397;CC du Goulet - Mont Lozère;CC;FA;12;1802
+48;244800405;CC Coeur de Lozère;CC;FPU;4;14051
+48;244800413;CC de Villefort;CC;FA;7;1816
+48;244800421;CC de la Cévenne des Hauts-Gardons;CC;FA;8;1768
+48;244800439;CC des Gorges du Tarn et des Grands Causses;CC;FA;5;1301
+48;244800447;CC Margeride-Est;CC;FA;7;1838
+48;244800454;CC de la Vallée Longue et du Calbertois en Cévennes;CC;FA;8;2258
+48;244800470;CC du Gévaudan;CC;FPU;12;10397
+48;244800496;CC des Cévennes Au Mont-Lozère;CC;FA;3;1374
+48;244800504;CC du Pays de Chanac;CC;FA;5;2939
+49;200060010;CA Mauges Communauté;CA;FPU;6;122056
+49;244900015;CU Angers Loire Métropole;CU;FPU;30;280169
+49;244900361;CA Saumur Loire Développement;CA;FPU;32;64988
+49;244900585;CC de la Région du Lion-d'angers;CC;FPU;9;15921
+49;244900593;CC du Canton de Segré;CC;FPU;15;18344
+49;244900668;CC du Bocage;CC;FPU;6;9615
+49;244900700;CA du Choletais;CA;FPU;14;85607
+49;244900734;CC des Coteaux du Layon;CC;FA;7;13659
+49;244900759;CC de Loir et Sarthe;CC;FPU;4;7421
+49;244900767;CC du Gennois;CC;FPU;4;8316
+49;244900775;CC de la Région de Pouancé-Combrée;CC;FPU;14;10715
+49;244900791;CC Loire-Longué;CC;FPU;11;18629
+49;244900809;CC Communauté Candéenne de Coopérations Communales;CC;FPU;6;7950
+49;244900833;CC Loire Layon;CC;FPU;9;24197
+49;244900841;CC du Haut Anjou;CC;FPU;10;10652
+49;244900858;CC Ouest Anjou;CC;FA;6;9225
+49;244900882;CC de Beaufort-En-Anjou;CC;FPU;4;17664
+49;244900924;CC du Loir;CC;FPU;10;11729
+49;244900940;CC de la Région de Noyant;CC;FA;15;6308
+49;244900973;CC de la Région de Doué-La-Fontaine;CC;FPU;11;13337
+49;244900981;CC du Vihiersois Haut-Layon;CC;FPU;6;10817
+49;244900999;CC les Portes de l'Anjou;CC;FPU;5;8487
+49;244901013;CC Loire Aubance;CC;FPU;13;17861
+50;200036655;CC du Mortainais;CC;FPU;17;15605
+50;200036721;CC du Val de Sée;CC;FPU;27;9491
+50;200042604;CC de Granville, Terre et Mer;CC;FPU;32;46033
+50;200042695;CC Communauté du Bocage Coutançais;CC;FPU;42;30820
+50;200042711;CC du Coeur du Cotentin;CC;FPU;19;26406
+50;200042729;CC de la Baie du Cotentin;CC;FPU;34;24245
+50;200042984;CC d'Avranches-Mont St Michel;CC;FPU;44;46307
+50;200043354;CC de Villedieu Intercom;CC;FPU;27;16155
+50;200043370;CA Saint-Lo Agglo;CA;FPU;60;70654
+50;245000260;CC de la Hague;CC;FPU;19;12275
+50;245000278;CC des Pieux;CC;FPU;15;14027
+50;245000302;CC du Canton de la Haye du Puits;CC;FPU;7;6947
+50;245000344;CC de Douve et Divette;CC;FA;9;8102
+50;245000377;CC de la Saire;CC;FA;3;3381
+50;245000427;CC du Canton de Lessay;CC;FA;12;10251
+50;245000443;CC du Canton de Montmartin Sur Mer;CC;FA;10;8831
+50;245000450;CC de Saint Hilaire du Harcouët;CC;FPU;9;13353
+50;245000468;CC du Canton de Saint James;CC;FPU;12;7230
+50;245000476;CC du Canton de Saint Malo de la Lande;CC;FA;12;10909
+50;245000542;CC du Canton de Saint Pierre Eglise;CC;FA;14;8746
+50;245000575;CC du Val de Saire;CC;FA;16;9223
+50;245000617;CC de Canisy;CC;FA;9;7995
+50;245000682;CC de Seves et Taute;CC;FA;12;5920
+50;245000690;CC de la Région de Montebourg;CC;FA;22;7108
+50;245000716;CC de la Vallée de l'Ouve;CC;FA;16;6007
+50;245000807;CC de la Côte des Isles;CC;FPU;16;8558
+51;200033686;CA Reims Métropole;CA;FPU;16;223787
+51;200034718;CC de Vitry, Champagne et Der;CC;FPU;35;26385
+51;200040269;CC Vesle et Coteaux de la Montagne de Reims;CC;FA;17;10696
+51;200042620;CC de Suippe et Vesle;CC;FPU;19;11350
+51;200042703;CC de l'Argonne Champenoise;CC;FA;60;12741
+51;200042794;CC du Nord Champenois;CC;FA;12;8886
+51;200042976;CC Ardre et Châtillonnais;CC;FA;26;5971
+51;200042992;CC Perthois-Bocage et Der;CC;FA;25;5837
+51;200043008;CA de Châlons en Champagne;CA;FPU;38;73153
+51;200043388;CC Fismes Ardre et Vesle;CC;FA;20;13148
+51;200043420;CC Côtes de Champagne et Saulx;CC;FA;35;8129
+51;200043438;CC de la Moivre À la Coole;CC;FA;25;6727
+51;245100037;CC Epernay Pays de Champagne;CC;FA;21;39590
+51;245100052;CC Champagne Vesle;CC;FA;33;13471
+51;245100508;CC de la Brie des Etangs;CC;FA;21;4192
+51;245100516;CC du Pays d'Anglure;CC;FA;20;7070
+51;245100565;CC des Coteaux Sézannais;CC;FA;23;9786
+51;245100581;CC Saulx et Bruxenelle;CC;FA;7;5671
+51;245100615;CC de la Grande Vallée de la Marne;CC;FPU;14;15358
+51;245100631;CC de la Région de Mourmelon;CC;FA;8;9027
+51;245100797;CC des Portes de Champagne;CC;FA;19;5557
+51;245100813;CC de la Région de Vertus;CC;FA;29;10942
+51;245100854;CC des Deux Vallées;CC;FA;11;5874
+51;245100870;CC des Coteaux de la Marne;CC;FA;14;9373
+51;245100888;CC de la Brie Champenoise;CC;FA;19;7653
+51;245100979;CC du Sud Marnais;CC;FA;14;6382
+51;245101035;CC de la Vallée de la Suippe;CC;FPU;7;8575
+51;245101043;CC Beine-Bourgogne;CC;FPU;9;10219
+51;245101050;CC des Rives de la Suippe;CC;FA;12;5961
+52;200027308;CC d'Auberive Vingeanne et Montsaugeonnais;CC;FA;51;8709
+52;200035954;CC du Grand Langres;CC;FPU;34;17603
+52;200036358;CC de Bourmont, Breuvannes, Saint-Blin;CC;FA;45;6862
+52;200036366;CC Vannier Amance;CC;FA;34;6435
+52;200044170;CA de Saint-Dizier, Der et Blaise;CA;FPU;39;46297
+52;200044253;CC du Bassin de Joinville en Champagne;CC;FPU;59;13655
+52;245200373;CC de la Vallée de la Marne;CC;FPU;11;8617
+52;245200381;CC du Pays de Chalindrey;CC;FA;13;5220
+52;245200415;CC du Pays du Der;CC;FPU;8;5987
+52;245200456;CA Agglomération de Chaumont;CA;FPU;25;33178
+52;245200480;CC de la Vallée du Rognon;CC;FA;16;4803
+52;245200514;CC du Bassigny;CC;FA;20;4936
+52;245200548;CC de la Région de Bourbonne les Bains;CC;FPU;16;4862
+52;245200555;CC du Bassin de Bologne Vignory et Froncles;CC;FA;22;6263
+52;245200563;CC du Bassin Nogentais;CC;FA;17;8588
+52;245200597;CC des Trois Forêts;CC;FA;29;8143
+53;200033298;CC des Coëvrons;CC;FPU;38;28143
+53;200042182;CC du Mont des Avaloirs;CC;FPU;26;17149
+53;200048551;CC du Pays de Craon;CC;FPU;37;29275
+53;200055887;CC Mayenne Communaute;CC;FPU;33;38872
+53;245300223;CC du Pays de Meslay-Grez;CC;FPU;23;14233
+53;245300306;CC du Pays de Loiron;CC;FA;14;17029
+53;245300330;CA de Laval;CA;FPU;20;100227
+53;245300355;CC de l'Ernée;CC;FPU;15;21365
+53;245300389;CC du Bocage Mayennais;CC;FPU;27;19970
+53;245300447;CC du Pays de Château-Gontier;CC;FPU;24;31043
+54;200023323;CC des Vallées du Cristal;CC;FA;18;10403
+54;200026177;CC du Chardon Lorrain;CC;FPU;39;10484
+54;200035772;CC du Pays du Saintois;CC;FA;55;14726
+54;200035806;CC de Hazelle en Haye;CC;FPU;9;8035
+54;200041515;CC du Bassin de Pont-À-Mousson;CC;FPU;31;40935
+54;200042331;CC du Piémont Vosgien;CC;FA;17;6381
+54;200042349;CC du Toulois;CC;FPU;34;37939
+54;200043693;CC Terre Lorraine du Longuyonnais;CC;FA;27;15949
+54;245400171;CC Moselle et Madon;CC;FPU;19;29606
+54;245400189;CC des Pays du Sel et du Vermois;CC;FA;13;28074
+54;245400262;CC de l'Agglomération de Longwy;CC;FA;21;60697
+54;245400379;CC du Bassin de Landres;CC;FPU;11;14885
+54;245400437;CC du Pays de Briey;CC;FA;9;11499
+54;245400510;CC du Pays de Colombey et du Sud Toulois;CC;FPU;39;11579
+54;245400601;CC du Bassin de Pompey;CC;FPU;13;41055
+54;245400676;CU du Grand Nancy;CU;FPU;20;259813
+54;245400700;CC du Lunévillois;CC;FPU;15;29640
+54;245400718;CC de la Vezouze;CC;FA;34;5822
+54;245400759;CC du Pays du Sanon;CC;FA;29;7047
+54;245400775;CC de Seille et Mauchère;CC;FA;20;8137
+54;245400791;CC du Pays de l'Orne;CC;FPU;9;23129
+54;245400817;CC du Jarnisy;CC;FPU;24;19281
+54;245400825;CC du Pays Audunois;CC;FPU;14;8996
+54;245400866;CC du Grand Couronné;CC;FPU;19;9795
+54;245400916;CC de la Mortagne;CC;FA;17;4709
+54;245400924;CC du Val de Meurthe;CC;FA;7;10294
+54;245400932;CC du Bayonnais;CC;FA;25;6835
+55;200033025;CA de Bar-Le-Duc - Sud Meuse;CA;FPU;33;37636
+55;200034874;CC Côtes de Meuse Woëvre;CC;FA;25;6206
+55;200049187;CA du Grand Verdun;CA;FPU;26;30016
+55;245500327;CC du Sammiellois;CC;FA;19;9008
+55;245500459;CC du Centre Argonne;CC;FA;15;4532
+55;245500806;CC Meuse-Voie Sacrée;CC;FA;18;3966
+55;245501101;CC du Pays de Spincourt;CC;FA;21;5837
+55;245501168;CC de la Région de Damvillers;CC;FPU;20;2785
+55;245501176;CC du Canton de Fresnes en Woëvre;CC;FA;32;5164
+55;245501184;CC du Pays de Revigny Sur Ornain;CC;FPU;16;7596
+55;245501192;CC du Pays de Commercy;CC;FA;10;12329
+55;245501226;CC de la Saulx et du Perthois;CC;FA;19;10248
+55;245501234;CC de la Haute Saulx;CC;FA;14;2796
+55;245501242;CC du Pays d'Etain;CC;FA;26;8017
+55;245501259;CC du Pays de Montmédy;CC;FA;25;7488
+55;245501267;CC du Pays de Stenay;CC;FPU;19;6345
+55;245501309;CC Entre Aire et Meuse;CC;FA;23;2308
+55;245501317;CC de Triaucourt - Vaubécourt;CC;FA;24;4482
+55;245501341;CC du Val des Couleurs;CC;FA;20;5200
+55;245501366;CC du Val Dunois;CC;FPU;22;4221
+55;245501374;CC de Montfaucon - Varennes en Argonne;CC;FA;23;3062
+55;245501457;CC du Val d'Ornois;CC;FA;19;4669
+55;245501465;CC de Void;CC;FA;24;6617
+55;245501481;CC du Val de Meuse et de la Vallée de la Dieue;CC;FPU;7;5105
+56;200000537;CC de la Presqu'île de Rhuys;CC;FPU;5;13984
+56;200027027;CC Arc Sud Bretagne;CC;FPU;12;26992
+56;200042174;CA Lorient Agglomération;CA;FPU;25;206982
+56;200043123;CC Auray Quiberon Terre Atlantique;CC;FPU;24;86741
+56;245600143;CC Saint Jean Communauté;CC;FPU;8;14731
+56;245600150;CC du Pays de la Gacilly;CC;FPU;9;11141
+56;245600366;CA Vannes Agglo;CA;FPU;23;141053
+56;245600416;CC du Val d'Oust et de Lanvaux;CC;FPU;14;17467
+56;245600424;CC de Mauron en Brocéliande;CC;FPU;7;5987
+56;245600432;CC Guer Communaute;CC;FPU;7;12414
+56;245600440;CC de Blavet Bellevue Océan;CC;FA;5;17971
+56;245600465;CC de Belle Ile en Mer;CC;FA;4;5448
+56;245600515;CC Baud Communauté;CC;FPU;6;15208
+56;245614292;CC Locminé Communauté;CC;FPU;5;13365
+56;245614342;CC Ploërmel Communauté;CC;FPU;7;17570
+56;245614367;CC Josselin Communauté;CC;FPU;12;14726
+56;245614383;CC Questembert Communauté;CC;FPU;13;23300
+56;245614391;CC Loc'h Communauté;CC;FPU;6;13959
+56;245614417;CC Roi Morvan Communauté;CC;FPU;21;26659
+56;245614425;CC du Porhoët;CC;FPU;6;5665
+56;245614433;CC Pontivy Communauté;CC;FPU;26;49307
+57;200000164;CC de Pange;CC;FPU;18;13211
+57;200011625;CC du Pays Boulageois;CC;FPU;26;15066
+57;200023026;CC du Pays de Bitche;CC;FPU;37;25612
+57;200039865;CA Metz Métropole;CA;FPU;44;226280
+57;200039907;CC du Sud Messin;CC;FPU;34;16072
+57;200039949;CC Rives de Moselle;CC;FPU;20;51970
+57;200039956;CC de Sarrebourg - Moselle Sud;CC;FA;28;26393
+57;245700133;CC du District Urbain de Faulquemont (Duf);CC;FPU;33;25344
+57;245700216;CA Sarreguemines Confluences;CA;FPU;26;52926
+57;245700372;CA de Forbach Porte de France;CA;FPU;21;80840
+57;245700398;CC de Freyming-Merlebach;CC;FPU;11;33493
+57;245700695;CC de Cattenom et Environs;CC;FPU;20;25547
+57;245700919;CC de Rohrbach Lès Bitche;CC;FPU;9;10070
+57;245700950;CC du Pays de Phalsbourg;CC;FA;26;18189
+57;245701164;CC du Warndt;CC;FPU;5;18664
+57;245701172;CC du Centre Mosellan;CC;FA;31;14501
+57;245701198;CC de la Vallée de la Bièvre;CC;FA;11;8780
+57;245701206;CC du Saulnois;CC;FA;128;30814
+57;245701222;CA du Val de Fensch;CA;FPU;10;70595
+57;245701230;CC des Deux Sarres;CC;FA;19;7330
+57;245701248;CC de l'Etang du Stock;CC;FA;4;1087
+57;245701271;CC du Pays Orne Moselle;CC;FA;13;54234
+57;245701289;CC du Haut Chemin;CC;FPU;12;5984
+57;245701297;CC de l'Albe et des Lacs;CC;FA;12;14421
+57;245701305;CC du Pays des Etangs;CC;FA;14;3935
+57;245701347;CC des Trois Frontières;CC;FPU;22;11645
+57;245701354;CC de l'Arc Mosellan;CC;FPU;26;33878
+57;245701362;CA Portes de France-Thionville;CA;FPU;13;81176
+57;245701370;CC du Val de Moselle;CC;FPU;9;10379
+57;245701388;CC du Pays Naborien;CC;FPU;10;41346
+57;245701404;CC du Pays Haut Val d'Alzette;CC;FPU;8;27928
+57;245701412;CC du Bouzonvillois;CC;FPU;21;13793
+57;245701420;CC de la Houve;CC;FA;11;8507
+58;200000388;CC du Sud Morvan;CC;FA;7;3062
+58;200023257;CC Sologne Bourbonnais-Nivernais;CC;FA;4;2274
+58;200059517;CC du Sud Nivernais;CC;FPU;14;16714
+58;245801014;CC des Vaux d'Yonne;CC;FA;13;7743
+58;245801063;CC Loire et Allier;CC;FPU;6;7540
+58;245801113;CC du Haut Morvan;CC;FA;17;6904
+58;245804372;CC la Fleur du Nivernais;CC;FPU;20;2894
+58;245804380;CC les Portes du Morvan;CC;FA;10;3748
+58;245804406;CA de Nevers;CA;FPU;12;70089
+58;245804414;CC du Bazois;CC;FA;15;3766
+58;245804422;CC Fil de Loire;CC;FPU;4;4774
+58;245804430;CC des Amognes;CC;FPU;16;5613
+58;245804448;CC du Val du Sauzay;CC;FA;12;4682
+58;245804463;CC Loire et Nohain;CC;FPU;9;17434
+58;245804471;CC en Donziais;CC;FA;10;3834
+58;245804489;CC Entre Loire et Morvan;CC;FA;11;4575
+58;245804497;CC du Nivernais Bourbonnais;CC;FPU;8;5561
+58;245804505;CC Entre Nièvres et Forêts;CC;FA;13;3922
+58;245804513;CC Coeur du Nivernais;CC;FA;11;3306
+58;245804521;CC Loire et Vignoble;CC;FA;11;6177
+58;245804539;CC du Val du Beuvron;CC;FPU;19;2141
+58;245804547;CC le Bon Pays;CC;FPU;4;1289
+58;245804554;CC des Portes Sud du Morvan;CC;FA;13;5201
+58;245804562;CC du Pays Charitois;CC;FA;14;11287
+58;245804570;CC du Pays Corbigeois;CC;FPU;17;5043
+58;245804588;CC des Bertranges À la Nièvre;CC;FA;5;6498
+58;245804612;CC des Grands Lacs du Morvan;CC;FA;9;3367
+59;200030633;CC du Caudrésis et du Catésis;CC;FPU;46;66537
+59;200040947;CC de Flandre Intérieure;CC;FPU;50;103153
+59;200040954;CC des Hauts de Flandre;CC;FPU;40;54452
+59;200041960;CC Pévèle-Carembault;CC;FPU;38;94516
+59;200042190;CA de la Porte du Hainaut;CA;FPU;46;159706
+59;200043263;CC Coeur de l'Avesnois;CC;FPU;44;31673
+59;200043321;CC du Pays de Mormal;CC;FPU;53;49249
+59;200043396;CA Maubeuge Val de Sambre;CA;FPU;42;127785
+59;200043404;CC du Sud Avesnois;CC;FPU;12;26913
+59;200044022;CA de Cambrai;CA;FPU;49;77852
+59;200044618;CA du Douaisis [c.A.D.];CA;FPU;35;153317
+59;245900410;Métropole Européenne de Lille;METRO;FPU;85;1145501
+59;245900428;CU de Dunkerque;CU;FPU;17;203241
+59;245900741;CC de la Vacquerie;CC;FPU;6;5809
+59;245900758;CC Flandre Lys;CC;FPU;8;39806
+59;245900816;CC des Weppes;CC;FPU;5;6045
+59;245901038;CC du Pays Solesmois;CC;FPU;15;15152
+59;245901061;CC de la Haute Deûle;CC;FPU;5;24334
+59;245901152;CC Coeur d'Ostrevent [c.C.C.O.];CC;FPU;21;73872
+59;245901160;CA Valenciennes Métropole;CA;FPU;35;192893
+60;200023695;CC Coeur Sud Oise;CC;FA;13;5832
+60;200023703;CC des Trois Forêts;CC;FA;5;20435
+60;246000111;CA Creilloise;CA;FPU;4;73222
+60;246000129;CC du Liancourtois;CC;FA;10;23773
+60;246000376;CC du Clermontois;CC;FPU;19;38179
+60;246000566;CC du Plateau Picard;CC;FPU;52;30699
+60;246000582;CC des Sablons;CC;FPU;22;35542
+60;246000608;CC des Vallées de la Brèche et de la Noye;CC;FA;41;19698
+60;246000699;CC de Crèvecoeur le Grand Pays Picard A16 Haute Vallée de la Celle;CC;FA;20;8446
+60;246000707;CC du Vexin-Thelle;CC;FA;42;21123
+60;246000749;CC des Lisières de l'Oise;CC;FPU;20;17002
+60;246000756;CC du Pays Noyonnais;CC;FPU;42;34163
+60;246000764;CC de l'Aire Cantilienne;CC;FA;11;46513
+60;246000772;CC des Deux Vallées;CC;FA;16;23511
+60;246000830;CA du Beauvaisis;CA;FPU;31;82001
+60;246000848;CC de la Picardie Verte;CC;FA;89;33639
+60;246000855;CC du Pays des Sources;CC;FA;48;22345
+60;246000863;CC du Pays de Thelle;CC;FPU;36;47950
+60;246000871;CC du Pays de Valois;CC;FA;62;55560
+60;246000897;CC de la Plaine d'Estrées;CC;FA;19;17764
+60;246000913;CC du Pays de Bray;CC;FA;23;18893
+60;246000921;CC des Pays d'Oise et d'halatte;CC;FPU;17;34767
+60;246000939;CC Rurales du Beauvaisis;CC;FA;13;14890
+60;246000947;CC de la Basse Automne;CC;FA;6;10865
+60;246001010;CA de la Région de Compiègne;CA;FPU;16;74075
+60;246001143;CC Pierre-Sud-Oise;CC;FA;7;11448
+60;246001150;CC la Ruraloise;CC;FA;6;13583
+61;200034676;CC la Ferté-St Michel;CC;FPU;2;8849
+61;200035103;CC de la Vallée de la Haute Sarthe;CC;FA;31;8097
+61;200035111;CC des Sources de l'Orne;CC;FPU;24;12907
+61;200035814;CA Flers Agglo;CA;FPU;25;36812
+61;200035988;CC du Canton de Tinchebray;CC;FPU;8;8721
+61;200035996;CC des Vallées du Merlerault;CC;FA;16;4693
+61;200036002;CC des Courbes de l'Orne;CC;FA;16;6768
+61;200036069;CC du Bassin de Mortagne Au Perche;CC;FA;33;15033
+61;200036168;CC des Pays de l'Aigle et de la Marche;CC;FPU;25;22080
+61;200042513;CC Argentan Intercom;CC;FPU;33;24413
+61;246100317;CC du Perche Sud;CC;FA;5;4486
+61;246100333;CC du Domfrontais;CC;FA;7;8311
+61;246100341;CC du Bocage de Passais la Conception;CC;FPU;7;4902
+61;246100390;CC du Val d'Orne;CC;FA;10;4943
+61;246100408;CC du Bocage d'Athis de l'Orne;CC;FA;9;8247
+61;246100440;CC du Pays de Longny Au Perche;CC;FA;6;4166
+61;246100465;CC du Pays Fertois;CC;FA;11;5079
+61;246100499;CC du Val d'huisne;CC;FA;5;7415
+61;246100572;CC de la Région de Gacé;CC;FA;14;4186
+61;246100580;CC du Haut Perche;CC;FPU;6;4560
+61;246100598;CC du Canton de la Ferté Fresnel;CC;FA;5;4414
+61;246100630;CC du Pays d'Andaine;CC;FA;4;6236
+61;246100648;CC du Perche Rémalardais;CC;FA;7;7540
+61;246100655;CC du Bocage Carrougien;CC;FA;11;2313
+61;246100663;CU d'Alençon;CU;FPU;34;56584
+61;246100671;CC du Pays du Haras du Pin;CC;FA;16;4306
+61;246100739;CC du Pays de Briouze;CC;FA;12;4240
+61;246100770;CC du Pays Bellêmois;CC;FA;16;5994
+61;246100788;CC du Pays de Camembert;CC;FA;18;7491
+62;200012003;CC des 2 Sources;CC;FPU;50;13777
+62;200018083;CC de Desvres-Samer;CC;FPU;31;22928
+62;200033579;CU d'Arras;CU;FPU;39;105639
+62;200035426;CC la Porte des Vallées;CC;FPU;31;12988
+62;200035434;CC les Vertes Collines du Saint-Polois;CC;FPU;58;20072
+62;200035442;CC du Sud-Artois;CC;FPU;58;25784
+62;200044030;CC des 7 Vallées;CC;FPU;69;30371
+62;200044048;CC Osartis Marquion;CC;FPU;50;43646
+62;200044055;CA de Béthune Bruay Noeux et Environs;CA;FPU;65;228802
+62;246200018;CC du Pays d'Aire;CC;FA;4;13665
+62;246200117;CC Opale Sud;CC;FPU;10;25647
+62;246200299;CA d'hénin-Carvin;CA;FPU;14;125414
+62;246200364;CA de Lens - Liévin;CA;FPU;36;244468
+62;246200380;CC de la Terre des Deux Caps;CC;FA;21;22379
+62;246200406;CC du Montreuillois;CC;FPU;21;11435
+62;246200455;CA de Saint Omer;CA;FPU;25;73672
+62;246200729;CA du Boulonnais;CA;FPU;22;119237
+62;246200802;CC Artois Lys;CC;FA;21;35496
+62;246200844;CC de la Région d'Audruicq;CC;FA;15;27224
+62;246200851;CC du Canton de Fauquembergues;CC;FA;18;10171
+62;246200869;CC du Pernois;CC;FA;18;7258
+62;246200877;CC de la Morinie;CC;FPU;8;9654
+62;246200919;CC du Canton de Fruges;CC;FPU;25;7920
+62;246200976;CC du Sud Ouest du Calaisis;CC;FPU;9;7884
+62;246200984;CC des Trois Pays;CC;FPU;23;25247
+62;246200992;CC du Canton d'hucqueliers et Environs;CC;FPU;24;8588
+62;246201016;CC du Pays de Lumbres;CC;FPU;36;24408
+62;246201057;CC de l'Atrébatie;CC;FPU;27;13198
+62;246201065;CC de la Région de Frévent;CC;FPU;12;6681
+62;246201073;CC de l'Auxilois;CC;FPU;16;5251
+62;246201115;CC Mer et Terres d'Opale;CC;FPU;15;31999
+62;246201149;CA du Calaisis;CA;FPU;5;97076
+62;246201156;CC Artois Flandres;CC;FA;14;17561
+63;200023331;CC Pontgibaud Sioule et Volcans;CC;FPU;7;4328
+63;200023489;CC Entre Allier et Bois Noirs;CC;FA;7;6632
+63;200035020;"CC de Billom - Saint-Dier / Vallée du Jauron ;";CC;FPU;21;18691
+63;200035178;CC du Pays de Saint-Eloy;CC;FPU;9;7704
+63;246300651;CC du Pays d'Arlanc;CC;FPU;9;3926
+63;246300669;CC de la Montagne Thiernoise;CC;FPU;9;7512
+63;246300677;CC Sancy Artense Communauté;CC;FPU;13;4994
+63;246300685;CC du Pays de Menat;CC;FPU;12;4002
+63;246300693;CC Limagne d'Ennezat;CC;FPU;14;15116
+63;246300701;CA Clermont Communauté;CA;FPU;21;291433
+63;246300735;CC du Pays de Cunlhat;CC;FPU;7;3527
+63;246300776;CC des Puys et Couzes;CC;FPU;16;5775
+63;246300784;CC des Coteaux de l'Allier;CC;FPU;5;3960
+63;246300800;CC des Côtes de Combrailles;CC;FPU;12;7688
+63;246300818;CC du Pays d'Olliergues;CC;FPU;6;2844
+63;246300834;CC Manzat Communauté;CC;FPU;9;8779
+63;246300842;CC Couze Val d'Allier;CC;FPU;7;5814
+63;246300883;CC du Lembron Val d'Allier;CC;FPU;16;7951
+63;246300909;CC de Rochefort-Montagne;CC;FPU;14;7754
+63;246300917;CC Coeur de Combrailles;CC;FPU;10;4351
+63;246300925;CC de Haute Combraille;CC;FPU;17;5300
+63;246300933;CC Gergovie Val d'Allier Communauté;CC;FPU;11;20752
+63;246300941;CC de Livradois Porte d'Auvergne;CC;FPU;4;2141
+63;246300958;CC de Pionsat;CC;FPU;10;2643
+63;246300966;CC du Massif du Sancy;CC;FPU;16;9321
+63;246300974;CC du Haut Livradois;CC;FPU;15;3525
+63;246300982;CC des Cheires;CC;FPU;11;12015
+63;246300990;CC Ardes Communauté;CC;FPU;15;1978
+63;246301006;CC de Nord Limagne;CC;FPU;12;9574
+63;246301014;CC du Pays de Courpière;CC;FPU;10;8535
+63;246301022;CC de la Vallée de l'Ance;CC;FPU;10;3048
+63;246301030;CC Limagne - Bords d'Allier;CC;FPU;5;5480
+63;246301048;CC du Pays de Sauxillanges;CC;FPU;17;6867
+63;246301055;CC Riom Communauté;CC;FPU;10;33827
+63;246301063;CC Thiers Communauté;CC;FPU;4;15606
+63;246301071;CC de Sioulet Chavanon;CC;FPU;12;3757
+63;246301097;CC Entre Dore et Allier;CC;FPU;14;18530
+63;246301105;CC du Pays d'Ambert;CC;FPU;7;9791
+63;246301113;CC de Mur Ès Allier;CC;FPU;5;7057
+63;246301121;CC des Coteaux de Randan;CC;FPU;8;5873
+63;246301139;CC du Bassin Minier Montagne;CC;FPU;10;6981
+63;246301154;CC Allier Comté Communauté;CC;FPU;7;7939
+63;246301162;CC Volvic Sources et Volcans;CC;FPU;7;17790
+63;246301170;CC Issoire Communauté;CC;FPU;5;17102
+64;200007128;CC Errobi;CC;FPU;11;29446
+64;200036614;CA Sud Pays Basque;CA;FPU;12;67773
+64;200039204;CC de Lacq-Orthez;CC;FPU;61;55029
+64;200040061;CC des Luys en Béarn;CC;FPU;22;16635
+64;246400014;CC du Canton de Garlin;CC;FPU;19;3799
+64;246400030;CA Agglomération Côte Basque Adour;CA;FPU;5;129908
+64;246400337;CC de la Vallée d'Ossau;CC;FPU;18;10263
+64;246401459;CC de la Vallée de Barétous;CC;FA;6;3196
+64;246401517;CC du Pays de Morlaàs;CC;FA;28;16415
+64;246401525;CC Gave et Coteaux;CC;FPU;7;6731
+64;246401533;CC du Josbaig;CC;FA;6;1728
+64;246401541;CC de Bidache;CC;FA;7;5974
+64;246401574;CC du Canton d'Arzacq;CC;FPU;23;6745
+64;246401590;CC du Canton de Navarrenx;CC;FA;19;5533
+64;246401616;CC d'Amikuze;CC;FPU;27;10043
+64;246401624;CC de la Vallée d'Aspe;CC;FPU;13;2872
+64;246401632;CC du Canton de Lembeye en Vic-Bilh;CC;FPU;31;5397
+64;246401657;CC du Pays d'hasparren (Hazparneko Lurraldea);CC;FA;11;15151
+64;246401665;CC de Salies-De-Béarn;CC;FPU;11;8138
+64;246401699;CC de Sauveterre-De-Béarn;CC;FA;23;4875
+64;246401715;CC du Miey de Béarn;CC;FPU;14;13731
+64;246401723;CA Pau-Pyrénées;CA;FPU;14;149323
+64;246401756;CC Pays de Nay;CC;FPU;26;26677
+64;246401764;CC de Soule-Xiberoa;CC;FPU;36;13867
+64;246401798;CC Ousse-Gabas;CC;FA;15;12676
+64;246401814;CC du Piémont Oloronais;CC;FPU;24;25878
+64;246401822;CC de Garazi-Baigorri;CC;FA;30;13068
+64;246401855;CC Nive-Adour;CC;FPU;6;19146
+64;246401863;CC d'Iholdi-Ostibarre;CC;FA;13;3810
+65;200005130;CC du Pays de Trie;CC;FA;22;3607
+65;200007425;CC du Canton de Tournay;CC;FA;27;6542
+65;200007433;CC du Canton de Saint-Laurent-De-Neste;CC;FA;18;4501
+65;200011799;CC de la Vallée de la Barousse;CC;FA;25;2909
+65;200018497;CC Aure 2008;CC;FA;3;1181
+65;200036382;CC des Coteaux de Pouyastruc;CC;FA;27;5085
+65;200036457;CC Bigorre-Adour-Echez;CC;FA;6;4725
+65;200039196;CC des Baronnies;CC;FA;23;2019
+65;200041200;CC du Plateau de Lannemezan et des Baïses;CC;FA;20;10898
+65;200041218;CC du Montaigu;CC;FA;16;1601
+65;200041226;CC du Pays de Lourdes;CC;FPU;18;21183
+65;200041267;CC du Val d'Adour et du Madiranais;CC;FA;19;7305
+65;246500052;CC de la Vallée du Louron;CC;FA;14;1247
+65;246500201;CC du Val d'Azun;CC;FA;8;2046
+65;246500359;CC de Batsurguère;CC;FA;5;1112
+65;246500375;CC Vic-Montaner;CC;FPU;29;12801
+65;246500482;CC de la Haute-Bigorre;CC;FPU;24;17708
+65;246500490;CC du Canton d'Ossun;CC;FPU;17;13243
+65;246500508;CC Neste Baronnies;CC;FA;15;5502
+65;246500565;CA du Grand Tarbes;CA;FPU;15;80345
+65;246500573;CC des Véziaux d'Aure;CC;FA;9;1429
+65;246500599;CC Adour-Rustan-Arros;CC;FA;24;5204
+65;246500631;CC de la Vallée d'Argelès-Gazost;CC;FPU;16;7447
+65;246500656;CC de la Vallée de Saint-Savin;CC;FA;7;3757
+65;246500789;CC d'Aure;CC;FPU;10;2072
+65;246500805;CC de la Haute Vallée d'Aure;CC;FPU;11;1397
+65;246500821;CC du Magnoac;CC;FA;28;3730
+65;246500839;CC Gespe-Adour-Alaric;CC;FA;9;4876
+65;256500612;CC du Pays Toy;CC;FA;15;2610
+66;200027183;CU Perpignan Méditerranée   (Pmcu);CU;FPU;36;266611
+66;200043602;CC des Albères et de la Côte Vermeille;CC;FPU;15;54975
+66;200049211;CC Conflent-Canigó;CC;FPU;47;20905
+66;246600282;CC Sud-Roussillon;CC;FPU;6;22373
+66;246600373;CC du Vallespir;CC;FPU;10;20892
+66;246600399;CC Pyrénées Cerdagne;CC;FPU;19;9072
+66;246600407;CC Salanque Méditerranée;CC;FPU;4;16700
+66;246600415;CC Roussillon-Conflent;CC;FPU;16;18271
+66;246600423;CC Agly Fenouillèdes;CC;FPU;22;6273
+66;246600449;CC des Aspres;CC;FPU;19;20161
+66;246600464;CC Capcir Haut Conflent;CC;FPU;19;6312
+66;246600548;CC du Haut Vallespir;CC;FPU;14;10066
+67;200012227;CC la Porte du Vignoble;CC;FA;10;10689
+67;200013050;CC Sauer-Pechelbronn;CC;FPU;24;18115
+67;200030526;CC du Ried de Marckolsheim;CC;FA;18;20113
+67;200030583;CC de la Région de Haguenau;CC;FPU;14;49677
+67;200034270;CC Barr-Bernstein;CC;FPU;20;24331
+67;200034288;CC du Pays de Marmoutier-Sommerau;CC;FA;7;6372
+67;200034635;CC du Kochersberg;CC;FPU;23;24992
+67;200040178;CC de l'Outre-Forêt;CC;FA;13;16229
+67;200041283;CC de la Plaine du Rhin;CC;FA;19;18638
+67;200041325;CC du Pays Rhénan;CC;FPU;18;36384
+67;246700306;CC de la Vallée de la Bruche;CC;FPU;26;21981
+67;246700488;EuroMétropole de Strasbourg;METRO;FPU;28;483194
+67;246700694;CC des Coteaux de la Mossig;CC;FA;14;13831
+67;246700702;CC du Pays de Hanau;CC;FPU;19;17753
+67;246700736;CC du Val de Moder;CC;FA;6;8343
+67;246700744;CC du Canton de Rosheim;CC;FPU;9;18204
+67;246700777;CC de la Vallée de Villé;CC;FPU;18;11144
+67;246700793;CC du Pays de la Petite Pierre;CC;FPU;19;9953
+67;246700843;CC de la Basse-Zorn;CC;FA;7;17151
+67;246700892;CC de Benfeld et Environs;CC;FPU;11;18416
+67;246700926;CC du Pays de Wissembourg;CC;FA;12;16982
+67;246700942;CC de l'Alsace Bossue;CC;FA;32;13903
+67;246700959;CC du Pays de la Zorn;CC;FA;23;16025
+67;246700967;CC de Sélestat;CC;FA;12;37190
+67;246700983;CC du Pays d'Erstein;CC;FPU;10;18926
+67;246701031;CC de la Région de Brumath;CC;FA;10;15617
+67;246701064;CC de la Région de Molsheim-Mutzig;CC;FA;18;40019
+67;246701072;CC de la Région de Saverne;CC;FPU;28;30400
+67;246701080;CC du Pays de Sainte-Odile;CC;FPU;6;18600
+67;246701098;CC du Pays de Niederbronn-Les-Bains;CC;FPU;13;23690
+67;246701114;CC du Pays de Sarre Union;CC;FA;13;11744
+67;246701189;CC de Bischwiller et Environs;CC;FA;6;23248
+67;246701197;CC les Châteaux;CC;FPU;5;6573
+67;246701239;CC du Rhin;CC;FPU;7;10551
+68;200023281;CA Mulhouse Alsace Agglomération (M2a);CA;FPU;33;271440
+68;200036465;CC Thann-Cernay;CC;FPU;16;38831
+68;246800015;CC Essor du Rhin;CC;FPU;7;9517
+68;246800098;CC du Pays de Brisach;CC;FPU;22;23550
+68;246800189;CC du Secteur d'Illfurth;CC;FA;9;10518
+68;246800197;CC d'Altkirch;CC;FA;6;13575
+68;246800205;CC de la Vallée de Saint-Amarin;CC;FPU;15;13029
+68;246800247;CA des Trois Frontières;CA;FPU;10;54004
+68;246800361;CC de la Vallée de Hundsbach;CC;FPU;13;5071
+68;246800395;CC du Val d'Argent;CC;FPU;4;10003
+68;246800411;CC de la Largue;CC;FA;12;6541
+68;246800437;CC Ill et Gersbach;CC;FA;9;8214
+68;246800445;CC du Centre du Haut-Rhin;CC;FPU;9;15226
+68;246800460;CC la Porte d'Alsace Cc de la Région de Dannemarie;CC;FA;32;15816
+68;246800494;CC du Pays de Rouffach, Vignobles et Châteaux;CC;FA;11;13782
+68;246800551;CC de la Vallée de Kaysersberg;CC;FPU;8;17350
+68;246800569;CC de la Région de Guebwiller;CC;FPU;19;39649
+68;246800577;CC du Pays de Ribeauvillé;CC;FA;16;18530
+68;246800585;CC de la Vallée de Munster;CC;FPU;16;16802
+68;246800643;CC du Jura Alsacien (Ccja);CC;FA;27;11387
+68;246800650;CC de la Porte du Sundgau;CC;FA;13;9437
+68;246800676;CC de la Vallée de la Doller et du Soultzbach;CC;FA;15;16645
+68;246800684;CC du Pays de Sierentz;CC;FA;17;13845
+68;246800700;CC Porte de France-Rhin Sud;CC;FPU;6;7522
+68;246800726;CA Colmar Agglomération;CA;FPU;20;113883
+69;200040541;CC Saône Beaujolais;CC;FPU;29;35358
+69;200040566;CA Communauté L'ouest Rhodanien;CA;FPU;34;51810
+69;200040574;CC Beaujolais Pierres Dorées;CC;FPU;34;48728
+69;200040590;CA Villefranche Beaujolais Saône;CA;FPU;21;80162
+69;200046977;Métropole de LYON;MET69;FPU;59;1358625
+69;246900575;CC de l'Est Lyonnais (Ccel);CC;FPU;8;39983
+69;246900625;CC du Pays de l'Arbresle (Ccpa);CC;FPU;17;37923
+69;246900633;CC de la Région de Condrieu;CC;FA;11;17789
+69;246900682;CC du Haut Beaujolais;CC;FA;12;3968
+69;246900690;CC Chamousset en Lyonnais;CC;FPU;14;14197
+69;246900724;CC des Vallons du Lyonnais (Ccvl);CC;FPU;8;28440
+69;246900740;CC du Pays Mornantais (Copamo);CC;FPU;16;28917
+69;246900757;CC de la Vallée du Garon (Ccvg);CC;FPU;5;29922
+69;246900765;CC du Pays de l'Ozon;CC;FPU;7;25189
+69;246900773;CC des Hauts du Lyonnais (Cchl);CC;FPU;10;15736
+70;200036150;CC des Hauts du Val de Saône;CC;FPU;48;9140
+70;200036549;CC Val de Gray;CC;FPU;37;18481
+70;200041721;CC de la Haute Comté;CC;FPU;38;18966
+70;200041853;CC du Pays de Montbozon et du Chanois;CC;FPU;27;6763
+70;200041861;CC du Triangle Vert;CC;FPU;42;11464
+70;200041879;CC Terres de Saône;CC;FPU;38;13855
+70;200041887;CC du Val Marnaysien;CC;FA;31;10610
+70;247000011;CA de Vesoul;CA;FPU;20;34455
+70;247000367;CC des Combes;CC;FA;27;7710
+70;247000623;CC des Quatre Rivières;CC;FPU;42;10222
+70;247000664;CC du Pays de Lure;CC;FPU;24;20209
+70;247000698;CC des Monts de Gy;CC;FA;25;6317
+70;247000706;CC du Pays Riolais;CC;FPU;33;12304
+70;247000714;CC du Pays de Villersexel;CC;FPU;34;8194
+70;247000722;CC du Pays d'héricourt;CC;FPU;20;20222
+70;247000755;CC du Pays de Luxeuil;CC;FPU;13;14859
+70;247000813;CC du Val de Pesmes;CC;FPU;18;4677
+70;247000821;CC Rahin et Cherimont;CC;FPU;10;12483
+70;247000839;CC des Mille Etangs;CC;FA;16;4187
+70;247000854;CC de la Haute Vallée de l'Ognon;CC;FA;13;6520
+71;200030518;CC Entre Somme et Loire;CC;FA;17;10790
+71;200040038;CC Saône Doubs Bresse;CC;FPU;27;12301
+71;200040053;CC du Charolais;CC;FA;25;12933
+71;200040285;CC du Grand Autunois Morvan;CC;FPU;43;32960
+71;200040293;CC du Clunisois;CC;FPU;36;12657
+71;200040319;CC des Monts et des Vignes;CC;FPU;20;9169
+71;200040327;CC Entre la Grosne et le Mont Saint Vincent;CC;FPU;26;7205
+71;200042380;CC Coeur de Bresse;CC;FA;20;21702
+71;200042406;CC Saône, Seille, Sâne;CC;FA;19;13641
+71;200042414;CC Bresse Revermont 71;CC;FA;17;9954
+71;247100290;CU le Creusot Montceau-Lès-Mines;CU;FPU;27;96460
+71;247100480;CC Cuiseaux Intercom';CC;FA;9;6934
+71;247100498;CC Sud Brionnais;CC;FPU;11;8393
+71;247100506;CC de Matour et Sa Région;CC;FPU;11;4815
+71;247100589;CA le Grand Chalon;CA;FPU;37;110221
+71;247100605;CC Mâconnais - Val de Saône;CC;FA;12;6329
+71;247100639;CC du Canton de Marcigny;CC;FA;12;6525
+71;247100647;CC du Canton de Pierre de Bresse;CC;FA;16;6720
+71;247100746;CC du Maconnais-Beaujolais;CC;FA;13;14385
+71;247100860;CC du Mâconnais Charolais;CC;FA;7;3336
+71;247103765;CC Entre Saône et Grosne;CC;FPU;17;10293
+71;247103864;CC du Canton de Semur en Brionnais;CC;FA;14;5294
+71;247103922;CC de Paray le Monial;CC;FA;10;14646
+71;247103948;CC du Pays Clayettois;CC;FA;18;7425
+71;247103989;CC de Beuvray - Val d'Arroux;CC;FA;8;3768
+71;247104052;CC du Pays de Gueugnon;CC;FPU;13;13616
+71;247104078;CC de Digoin Val de Loire;CC;FPU;8;13824
+71;247104094;CC Sud Côte Chalonnaise;CC;FPU;30;9897
+71;247104136;CC du Tournugeois;CC;FA;12;10378
+71;247104169;CC des Portes de la Bresse;CC;FA;7;9426
+71;247104193;CA du Mâconnais-Val de Saône;CA;FPU;26;64055
+72;200040475;CC Loué - Brûlon - Noyen;CC;FPU;29;18958
+72;247200090;CC de Sablé-Sur-Sarthe;CC;FPU;17;30384
+72;247200132;CU le Mans Métropole;CU;FA;14;204873
+72;247200157;CC de Lucé;CC;FA;8;5895
+72;247200348;CC du Pays Fléchois;CC;FPU;13;26526
+72;247200397;CC du Bassin Ludois;CC;FA;8;8035
+72;247200405;CC des Portes du Maine;CC;FPU;9;11106
+72;247200413;CC du Pays des Brières et du Gesnois;CC;FA;15;23842
+72;247200421;CC du Sud Est du Pays Manceau;CC;FPU;5;17481
+72;247200447;CC Orée de Bercé - Belinois;CC;FPU;8;19828
+72;247200462;CC du Pays de Sillé;CC;FA;10;7869
+72;247200470;CC du Canton de Pontvallain;CC;FA;9;12983
+72;247200496;CC du Pays Calaisien;CC;FPU;14;10233
+72;247200512;CC du Val du Loir;CC;FPU;9;6925
+72;247200520;CC Maine 301;CC;FPU;10;8718
+72;247200538;CC du Pays Bilurien;CC;FA;8;7362
+72;247200546;CC des Alpes Mancelles;CC;FPU;13;8948
+72;247200579;CC de la Champagne Conlinoise;CC;FA;15;11370
+72;247200587;CC du Saosnois;CC;FPU;25;13707
+72;247200595;CC du Pays Belmontais;CC;FA;13;7897
+72;247200629;CC du Val de Sarthe;CC;FPU;15;27450
+72;247200637;CC de Loir et Bercé;CC;FA;12;12463
+72;247200652;CC Aune et Loir;CC;FA;6;8621
+72;247200678;CC des Portes du Maine Normand;CC;FPU;14;6918
+72;247200686;CC du Pays de l'huisne Sarthoise;CC;FA;25;25858
+72;247200694;CC du Pays Marollais;CC;FA;17;6581
+72;247200702;CC du Val de Braye;CC;FA;15;10247
+72;247200728;CC du Bocage Cénoman;CC;FPU;5;6444
+72;247200736;CC des Rives de Sarthe;CC;FA;4;10298
+73;200023299;CC Coeur de Tarentaise;CC;FA;7;10205
+73;200024487;CC du Val d'Arly - Com'arly;CC;FA;6;2825
+73;200040798;CC Val Vanoise Tarentaise;CC;FA;10;9718
+73;200041010;CC Coeur de Savoie;CC;FPU;43;36488
+73;247300015;CC des Vallées d'Aigueblanche;CC;FA;7;7226
+73;247300049;CA du Lac du Bourget;CA;FPU;17;60101
+73;247300098;CA Chambéry Métropole;CA;FPU;24;130121
+73;247300148;CC de Haute Maurienne Vanoise;CC;FA;7;2781
+73;247300254;CC Maison de l'Intercommunalité de Haute Tarentaise;CC;FA;8;16911
+73;247300262;CC de Yenne;CC;FA;13;7089
+73;247300338;CC de Chautagne;CC;FPU;8;5451
+73;247300346;CC Coeur de Maurienne;CC;FPU;8;13028
+73;247300353;CC Terra Modana;CC;FA;7;6343
+73;247300361;CC du Canton de la Chambre;CC;FPU;14;7510
+73;247300452;CC Maurienne Galibier;CC;FA;6;5864
+73;247300528;CC Val Guiers;CC;FPU;13;12220
+73;247300569;CC du Coeur des Bauges;CC;FA;14;5135
+73;247300593;CC du Canton d'Albens;CC;FPU;3;8852
+73;247300668;CC du Lac d'Aiguebelette (Ccla);CC;FPU;10;5758
+73;247300676;CC Porte de Maurienne;CC;FA;12;6922
+73;247300718;CC de l'Arvan;CC;FA;8;2780
+73;247300759;CC du Beaufortain;CC;FA;4;4625
+73;247300767;CC de la Région d'Albertville (Co.Ral);CC;FPU;18;45275
+73;247300791;CC de la Haute Combe de Savoie;CC;FPU;11;9354
+73;247300817;CC les Versants d'Aime;CC;FA;4;9989
+74;200000172;CC Faucigny-Glières;CC;FPU;7;26875
+74;200011773;CA Annemasse- les Voirons-Agglomération;CA;FPU;12;88214
+74;200023372;CC de la Vallée de Chamonix-Mont-Blanc;CC;FPU;4;13731
+74;200033116;CC Cluses-Arve et Montagnes;CC;FPU;10;45839
+74;200034098;CC des Montagnes du Griffe;CC;FA;8;12042
+74;200034882;CC Pays du Mont-Blanc;CC;FA;10;45985
+74;200036325;CC de la Vallée d'Abondance;CC;FA;6;5231
+74;247400047;CC de la Vallée Verte;CC;FA;8;7568
+74;247400070;CC de la Semine;CC;FA;7;3748
+74;247400112;CC du Pays de Cruseilles;CC;FA;13;14528
+74;247400427;CA d'Annecy;CA;FPU;12;148208
+74;247400567;CC Fier et Usses;CC;FPU;7;14795
+74;247400575;CC du Pays d'Alby;CC;FPU;11;13750
+74;247400583;CC Arve et Salève;CC;FPU;8;19042
+74;247400617;CC des Vallées de Thônes;CC;FA;13;19204
+74;247400658;CC du Pays de Fillière;CC;FPU;9;18188
+74;247400666;CC des Quatre Rivières;CC;FA;11;18649
+74;247400682;CC du Haut-Chablais;CC;FA;15;12694
+74;247400690;CC du Genevois;CC;FPU;17;40839
+74;247400724;CC du Pays Rochois;CC;FPU;9;26895
+74;247400732;CC de la Rive Gauche du Lac d'Annecy;CC;FPU;7;12321
+74;247400740;CC du Canton de Rumilly;CC;FPU;18;30155
+74;247400773;CC du Pays de Faverges;CC;FA;7;15502
+74;247400781;CC de la Tournette;CC;FA;4;6955
+74;247400823;CC du Pays de Seyssel;CC;FA;11;9151
+74;247400831;CC du Bas-Chablais;CC;FPU;17;38268
+74;247400849;CC des Collines du Léman;CC;FPU;7;11805
+74;247400856;CC du Val des Usses;CC;FA;8;6581
+74;247400864;CC du Pays d'Evian;CC;FA;16;34105
+75;200054781;Métropole du Grand Paris;METRO;FPU;131;7041651
+76;200010700;CA Caux Vallée de Seine;CA;FPU;41;69660
+76;200023414;Métropole Rouen Normandie;METRO;FPU;71;498448
+76;247600216;CC de Blangy-Sur-Bresle;CC;FA;28;15016
+76;247600331;CA Fécamp Caux Littoral Agglo;CA;FPU;13;29378
+76;247600380;CC de la Côte d'Albâtre;CC;FA;38;21297
+76;247600448;CC Saint-Saëns - Porte de Bray;CC;FA;15;9092
+76;247600455;CC du Moulin d'Ecalles;CC;FA;26;14162
+76;247600463;CC du Plateau de Martainville;CC;FA;13;9683
+76;247600497;CC du Canton de Criquetot-l'esneval;CC;FA;21;16770
+76;247600505;CC Campagne-De-Caux;CC;FA;22;15237
+76;247600513;CC du Pays Neufchâtelois;CC;FA;23;12980
+76;247600539;CC Caux Estuaire;CC;FPU;16;18504
+76;247600562;CC Coeur de Caux;CC;FA;22;10224
+76;247600570;CC du Canton de Valmont;CC;FPU;22;11609
+76;247600588;CC Bresle Maritime;CC;FA;21;32916
+76;247600596;CA Havraise (Co.D.A.H.);CA;FPU;17;239759
+76;247600604;CC de Londinières;CC;FA;17;5670
+76;247600620;CC de la Région d'Yvetot;CC;FPU;14;22980
+76;247600638;CC Plateau de Caux - Fleur de Lin;CC;FA;21;9627
+76;247600646;CC Caux - Austreberthe;CC;FA;7;23682
+76;247600653;CC du Plateau Vert;CC;FA;7;5759
+76;247600661;CC du Canton de Forges-Les-Eaux;CC;FA;20;11363
+76;247600679;CC des Trois Rivières;CC;FA;25;15086
+76;247600687;CC du Canton d'Aumale;CC;FA;15;7211
+76;247600695;CC du Bray Normand;CC;FA;18;13608
+76;247600703;CC Varenne-Et-Scie;CC;FPU;22;7614
+76;247600711;CC du Bosc d'Eawy;CC;FA;15;7760
+76;247600729;CC des Monts-Et-Vallées;CC;FPU;16;12693
+76;247600737;CC Entre Mer et Lin;CC;FA;17;5083
+76;247600745;CC Saâne-Et-Vienne;CC;FPU;31;14526
+76;247600760;CC des Portes Nord-Ouest de Rouen;CC;FA;23;27798
+76;247600778;CC d'Yerville - Plateau de Caux;CC;FA;19;11421
+76;247600786;CA de la Région Dieppoise;CA;FPU;16;49999
+76;247600794;CC des Monts-Et-De-l'andelle;CC;FA;15;6018
+76;247600802;CC Yères-Et-Plateaux;CC;FA;13;7989
+77;200023125;CC les Portes Briardes Entre Villes et Forêts;CC;FPU;5;45972
+77;200023240;CC Pays de Nemours;CC;FPU;12;26935
+77;200023919;CC Gâtinais Val de Loing;CC;FPU;20;19602
+77;200027225;CC la Brie des Morin;CC;FPU;21;16604
+77;200027274;CC du Coeur de la Brie;CC;FPU;10;10124
+77;200030104;CC les Terres du Gâtinais;CC;FA;16;11648
+77;200033090;CC Plaines et Monts de France;CC;FPU;20;23888
+77;200035590;CC Pays de Coulommiers;CC;FA;20;37878
+77;200037133;CC du Provinois;CC;FPU;40;35655
+77;200040251;CC Bassée-Montois;CC;FA;42;24049
+77;200057958;CA Paris - Vallée de la Marne;CA;FPU;12;227713
+77;247700024;CC du Pays Fertois;CC;FPU;19;28639
+77;247700032;CC Moret Seine et Loing;CC;FPU;19;39150
+77;247700040;CC Vallées et Châteaux;CC;FA;13;14786
+77;247700057;CA Melun Val de Seine;CA;FPU;16;127731
+77;247700065;CC du Pays de l'Ourcq;CC;FPU;22;18378
+77;247700107;CC Deux Fleuves;CC;FPU;14;36037
+77;247700123;CC du Pays de Fontainebleau;CC;FPU;5;35200
+77;247700339;CA Val d'Europe Agglomération;CA;FPU;5;31033
+77;247700404;CC Monts de la Goële;CC;FA;4;5393
+77;247700438;CC Pays Créçois;CC;FPU;19;35960
+77;247700479;CC du Bocage Gâtinais;CC;FPU;8;5348
+77;247700487;CC Brie Boisée;CC;FPU;5;8626
+77;247700495;CC Val Bréon;CC;FA;10;15977
+77;247700529;CC la Brie des Moulins;CC;FPU;4;8783
+77;247700586;CC Pays de Bière;CC;FPU;10;10952
+77;247700594;CA Marne et Gondoire;CA;FPU;18;93985
+77;247700602;CC Entre Seine et Forêt;CC;FPU;3;7736
+77;247700610;CC Pays de Seine;CC;FPU;3;9492
+77;247700628;CA Pays de Meaux;CA;FPU;18;91485
+77;247700644;CC l'Orée de la Brie;CC;FPU;4;26454
+77;247700651;CC les Sources de l'Yerres;CC;FA;9;9831
+77;247700685;CC des Gués de l'Yerres;CC;FA;9;13254
+77;247700693;CC la Brie Centrale;CC;FA;8;7022
+77;247700701;CC Brie Nangissienne;CC;FA;15;16881
+77;247700719;CC de l'Yerres À l'Ancoeur;CC;FA;9;15495
+78;200000487;CC du Plateau de Lommoye (Ccpl);CC;FPU;10;6624
+78;200033173;CC de la Haute Vallee de Chevreuse;CC;FA;10;25730
+78;200034130;CC Gally Mauldre;CC;FPU;11;22590
+78;200058519;CA Saint Germain Boucles de Seine;CA;FPU;20;339400
+78;200058782;CA Saint Quentin en Yvelines;CA;FPU;12;231062
+78;200059889;CU Grand Paris Seine et Oise;CU;FPU;73;409552
+78;247800527;CC des Portes de l'Ile de France (Ccpif);CC;FPU;9;15847
+78;247800550;CC du Pays Houdanais (C.C.P.H.);CC;FPU;36;29502
+78;247800584;CA Versailles Grand Parc (C.A.V.G.P.);CA;FPU;19;269287
+78;247800592;CC Contrée d'Ablis-Porte d'Yvelines (Capy);CC;FPU;8;7237
+78;247800600;CA Rambouillet Territoires;CA;FPU;25;57723
+78;247800618;CC Coeur d'Yvelines;CC;FPU;31;49245
+78;247800634;CC des Etangs (Cce);CC;FPU;3;14951
+79;200022812;CC Gâtine - Autize;CC;FPU;13;9669
+79;200040244;CA du Bocage Bressuirais;CA;FPU;38;75063
+79;200041317;CA du Niortais;CA;FPU;45;122323
+79;200041333;CC de Parthenay-Gâtine;CC;FPU;39;39079
+79;200041416;CC Airvaudais-Val du Thouet;CC;FA;10;7180
+79;200041994;CC Haut Val de Sèvre;CC;FPU;19;30483
+79;200042323;CC du Mellois;CC;FA;25;18969
+79;247900475;CC de Celles Sur Belle;CC;FPU;9;12157
+79;247900509;CC du Val d'Egray;CC;FPU;8;5228
+79;247900558;CC du Coeur du Poitou;CC;FPU;27;11823
+79;247900608;CC du Pays Sud Gâtine;CC;FPU;12;7097
+79;247900681;CC du Val de Boutonne;CC;FPU;19;6912
+79;247900798;CC du Thouarsais;CC;FPU;33;37096
+80;200011997;CC Authie-Maye;CC;FPU;34;17521
+80;200030716;CC du Grand Roye;CC;FA;28;12336
+80;200037059;CC de la Haute Somme;CC;FA;60;28896
+80;248000341;CC du Pays Hamois;CC;FA;18;12726
+80;248000358;CC du Pays Neslois;CC;FA;24;8505
+80;248000416;CC du Doullennais;CC;FA;18;15002
+80;248000432;CC Avre Luce Moreuil (Ccalm);CC;FA;23;13254
+80;248000457;CC du Val de Nièvre et Environs;CC;FPU;20;17612
+80;248000473;CC du Vimeu Vert;CC;FA;12;5744
+80;248000481;CC de l'Ouest d'Amiens;CC;FPU;18;11840
+80;248000499;CC du Val de Somme;CC;FPU;32;25592
+80;248000507;CC du Santerre;CC;FA;20;9728
+80;248000523;CC du Val de Noye;CC;FA;26;9869
+80;248000531;CA Amiens Métropole;CA;FPU;33;179103
+80;248000549;CC de Haute Picardie;CC;FA;26;8715
+80;248000556;CC de l'Abbevillois;CC;FPU;13;31505
+80;248000580;CC de la Région d'Oisemont;CC;FA;34;6790
+80;248000614;CC de la Région d'hallencourt;CC;FA;18;9110
+80;248000622;CC du Canton de Nouvion;CC;FA;17;8462
+80;248000630;CC du Vimeu Industriel;CC;FA;14;18315
+80;248000648;CC du Contynois;CC;FA;23;9477
+80;248000663;CC de la Baie de Somme Sud;CC;FPU;13;12112
+80;248000689;CC du Bernavillois;CC;FA;26;6685
+80;248000697;CC Bocage Hallue;CC;FPU;26;13834
+80;248000705;CC du Haut Clocher;CC;FA;20;7990
+80;248000739;CC du Canton de Montdidier;CC;FA;34;12887
+80;248000747;CC du Pays du Coquelicot;CC;FPU;67;29039
+80;248000762;CC du Sud Ouest Amiénois;CC;FA;63;21967
+81;200034023;CC Tarn-Agout;CC;FPU;22;31095
+81;200034031;CC des Monts d'Alban et du Villefranchois;CC;FPU;14;6409
+81;200034049;CC Centre Tarn;CC;FPU;16;11023
+81;200034056;CC du Lautrécois et du Pays d'Agout;CC;FA;26;14450
+81;200034064;CC du Cordais et du Causse (4 C);CC;FPU;18;4751
+81;200040905;CC Carmausin-Ségala;CC;FPU;33;30455
+81;200041291;CC Vère-Grésigne - Pays Salvagnacois;CC;FPU;27;8106
+81;248100158;CC du Sor et de l'Agout;CC;FPU;26;23220
+81;248100380;CC Tarn et Dadou;CC;FPU;29;52433
+81;248100430;CA de Castres Mazamet;CA;FPU;16;81564
+81;248100471;CC du Rabastinois;CC;FPU;7;11369
+81;248100497;CC Val 81;CC;FA;19;5670
+81;248100638;CC des Vals et Plateaux des Monts de Lacaune;CC;FPU;6;3093
+81;248100661;CC des Monts de Lacaune;CC;FPU;11;5434
+81;248100711;CC Sidobre Val d'Agoût;CC;FPU;11;10127
+81;248100737;CA de l'Albigeois (C2a);CA;FPU;17;84372
+81;248100745;CC Haute Vallée du Thoré;CC;FA;7;5047
+82;200006427;CC Sère - Garonne - Gimone;CC;FPU;14;6755
+82;200006435;CC des Terrasses et Plaines des Deux Cantons;CC;FPU;6;8641
+82;200040418;CC du Pays de Serres en Quercy;CC;FA;22;8912
+82;248200016;CC des Deux Rives;CC;FA;28;19058
+82;248200040;CC du Quercy Vert;CC;FA;6;5475
+82;248200057;CC du Quercy Caussadais;CC;FA;19;20519
+82;248200065;CC de la Lomagne Tarn-Et-Garonnaise;CC;FPU;31;10229
+82;248200099;CA Grand Montauban;CA;FPU;8;73165
+82;248200107;CC du Quercy Rouergue et des Gorges de l'Aveyron;CC;FA;17;7902
+82;248200115;CC du Sud-Quercy de Lafrançaise;CC;FA;7;7144
+82;248200164;CC Terres de Confluences;CC;FPU;6;30183
+82;248200172;CC du Terroir Grisolles/Villebrumier;CC;FA;13;20501
+82;248200180;CC Garonne et Canal;CC;FA;6;11886
+82;248200198;CC Terrasses et Vallée de l'Aveyron;CC;FA;7;16319
+82;248200206;CC du Pays de Garonne et de Gascogne;CC;FA;9;10941
+83;200004802;CC du Pays de Fayence;CC;FA;9;27629
+83;200027100;CC Méditerranée Porte des Maures;CC;FPU;6;40288
+83;200035319;CA Var Esterel Mediterranee (Cavem);CA;FPU;5;111088
+83;200036077;CC du Golfe de Saint-Tropez;CC;FA;12;57193
+83;200040202;CC Provence Verdon;CC;FPU;15;22127
+83;200040210;CC Lacs et Gorges du Verdon;CC;FPU;11;8235
+83;248300394;CA Sud Sainte Baume;CA;FPU;9;60272
+83;248300410;CC de la Vallée du Gapeau;CC;FPU;5;30854
+83;248300493;CA Dracénoise;CA;FPU;19;107815
+83;248300501;CC du Val d'Issole;CC;FPU;8;22736
+83;248300527;CC Comté de Provence;CC;FPU;12;39736
+83;248300535;CC Sainte Baume - Mont Aurélien;CC;FPU;8;33303
+83;248300543;CA Toulon Provence Méditerranée;CA;FPU;12;432138
+83;248300550;CC Coeur du Var;CC;FPU;11;41905
+83;248300584;CC Artuby Verdon;CC;FA;9;1556
+84;200000628;CC Rhône Lez Provence;CC;FPU;5;24619
+84;200035723;CC ''ventoux-Sud'';CC;FPU;11;9274
+84;200040442;CC Luberon Monts de Vaucluse;CC;FPU;11;47616
+84;200040624;CC Pays d'Apt-Luberon;CC;FPU;25;31239
+84;200040681;CC Enclave des Papes-Pays de Grignan;CC;FPU;19;23491
+84;248400053;CA Ventoux-Comtat-Venaissin (Cove);CA;FPU;25;70258
+84;248400160;CC Aygues-Ouvèze en Provence (Ccaop);CC;FPU;8;19153
+84;248400236;CC des Pays de Rhône et Ouvèze;CC;FPU;7;69220
+84;248400251;CA du Grand Avignon (Coga);CA;FPU;15;188040
+84;248400285;CC Territoriale Sud-Luberon;CC;FPU;14;18901
+84;248400293;CC des Sorgues du Comtat;CC;FPU;3;25369
+84;248400319;CC du Pays des Sorgues et des Monts de Vaucluse;CC;FPU;5;33131
+84;248400327;CC des Portes du Luberon;CC;FA;7;13189
+84;248400335;CC Pays Vaison Ventoux (Copavo);CC;FPU;19;17237
+85;200023778;CC du Pays de St Gilles-Croix-De-Vie;CC;FPU;14;47858
+85;248500035;CC Terres de Montaigu;CC;FPU;10;34737
+85;248500092;CC du Pays de Fontenay-Le-Comte;CC;FPU;19;31760
+85;248500191;CC de l'Ile de Noirmoutier;CC;FA;4;9630
+85;248500233;CC du Talmondais;CC;FPU;9;20490
+85;248500258;CC Océan Marais de Monts;CC;FA;5;19023
+85;248500340;CC Pays de Chantonnay;CC;FA;8;18718
+85;248500415;CC du Pays de la Châtaigneraie;CC;FPU;18;16071
+85;248500456;CC du Pays de Palluau;CC;FPU;9;12804
+85;248500464;CC du Pays de Pouzauges;CC;FPU;10;23749
+85;248500472;CC du Canton de Saint Fulgent;CC;FPU;8;17683
+85;248500480;CC des Isles du Marais Poitevin;CC;FPU;10;11408
+85;248500506;CC de Vie et Boulogne;CC;FPU;7;32156
+85;248500514;CC du Canton de Rocheservière;CC;FPU;4;12962
+85;248500530;CC du Pays des Achards;CC;FPU;11;20252
+85;248500548;CC du Pays de Sainte Hermine;CC;FPU;12;11498
+85;248500563;CC Vendée, Sèvre, Autise;CC;FPU;16;16542
+85;248500571;CC du Pays des Essarts;CC;FPU;4;13552
+85;248500589;CA la Roche Sur Yon - Agglomération;CA;FPU;13;97634
+85;248500597;CC de l'Auzance et de la Vertonne;CC;FA;3;6360
+85;248500605;CC des Olonnes;CC;FPU;3;43672
+85;248500621;CC du Pays des Herbiers;CC;FPU;8;29714
+85;248500639;CC du Pays du Moutierrois;CC;FA;11;12544
+85;248500647;CC du Pays de l'hermenault;CC;FPU;8;4963
+85;248500662;CC du Pays de Mortagne;CC;FPU;12;28543
+85;248500670;CC du Pays Mareuillais;CC;FPU;11;9537
+85;248500704;CC du Pays Né de la Mer;CC;FPU;11;23242
+85;248500712;CC du Pays de Challans;CC;FPU;6;32529
+85;248500720;CC du Pays du Gois;CC;FA;4;10474
+86;200034924;CC les Portes du Poitou;CC;FPU;17;15644
+86;200043610;CC du Mirebalais;CC;FA;12;8352
+86;200043628;CC des Vallées du Clain;CC;FPU;16;25907
+86;200043636;CC des Pays Civraisien et Charlois;CC;FPU;21;12802
+86;248600157;CA Grand Poitiers;CA;FPU;13;142994
+86;248600371;CC de la Région de Couhé;CC;FA;10;8258
+86;248600389;CC du Pays Mélusin;CC;FPU;9;11626
+86;248600397;CC du Montmorillonnais;CC;FPU;37;26093
+86;248600405;CC du Lussacois;CC;FPU;10;9037
+86;248600413;CA du Pays Châtelleraudais;CA;FPU;12;54478
+86;248600421;CC du Pays Chauvinois;CC;FPU;10;13967
+86;248600447;CC du Pays Loudunais;CC;FA;45;25053
+86;248600454;CC du Val Vert du Clain;CC;FA;6;17713
+86;248600553;CC du Pays Gencéen;CC;FA;9;7435
+86;248600561;CC du Vouglaisien;CC;FPU;13;15589
+86;248600579;CC du Lencloitrais;CC;FA;9;9468
+86;248600587;CC du Neuvillois;CC;FPU;10;17595
+86;248600595;CC de Vienne et Moulière;CC;FA;10;12818
+86;248600603;CC des Vals de Gartempe et Creuse;CC;FPU;11;7867
+87;200040194;CC des Feuillardiers;CC;FPU;10;6868
+87;200040814;CC Briance Sud Haute Vienne;CC;FPU;11;9381
+87;200059400;CC Porte Océane du Limousin;CC;FPU;13;26611
+87;248700130;CC Porte d'Occitanie;CC;FA;9;9353
+87;248700148;CC des Monts de Châlus;CC;FPU;7;6175
+87;248700155;CC l'Aurence et Glane Développement;CC;FPU;9;9067
+87;248700163;CC du Haut Limousin;CC;FPU;17;12845
+87;248700189;CC du Pays de Saint Yrieix;CC;FPU;9;12775
+87;248710600;CC du Pays de Nexon;CC;FPU;8;7139
+87;248719239;CC de la Basse Marche;CC;FPU;11;4186
+87;248719262;CC Gartempe - Saint Pardoux;CC;FPU;8;5384
+87;248719288;CC du Val de Vienne;CC;FPU;9;15912
+87;248719296;CC de la Vallée de la Gorre;CC;FPU;6;5012
+87;248719312;CA Limoges Métropole;CA;FPU;19;210534
+87;248719320;CC des Monts d'Ambazac et du Val du Taurion;CC;FA;7;11815
+87;248719338;CC Briance Combade;CC;FPU;10;5777
+87;248719353;CC des Portes de Vassivière;CC;FPU;12;5675
+87;248719361;CC de Noblat;CC;FPU;12;12256
+87;248719379;CC Brame Benaize;CC;FPU;15;7994
+88;200000420;CC de la Vôge Vers les Rives de la Moselle;CC;FPU;11;15684
+88;200005957;CC de la Région de Rambervillers;CC;FA;30;14214
+88;200006393;CC du Val de Vôge;CC;FPU;12;4827
+88;200033868;CC des Ballons des Hautes-Vosges;CC;FA;8;16030
+88;200034361;CA d'Epinal;CA;FPU;36;81561
+88;200034684;CC du Bassin de Neufchâteau;CC;FPU;42;17676
+88;200042000;CC Bruyères-Vallons des Vosges;CC;FA;40;17371
+88;200042109;CC Fave, Meurthe, Galilée;CC;FA;22;11861
+88;200042117;CC du Pays de Mirecourt;CC;FPU;30;12050
+88;200042125;CC Terre de Granite;CC;FA;9;12257
+88;200042133;CC du Pays des Abbayes;CC;FA;20;13037
+88;200042141;CC de Saint-Dié-Des-Vosges;CC;FPU;9;36864
+88;248800013;CC de la Moyenne Moselle;CC;FA;31;14344
+88;248800336;CC de Bulgnéville Entre Xaintois et Bassigny;CC;FA;34;7573
+88;248800351;CC du Pays de Saône et Madon;CC;FA;22;5170
+88;248800369;CC des Hauts Champs;CC;FA;5;4702
+88;248800419;CC du Pays de Châtenois;CC;FPU;27;6777
+88;248800435;CC des Vosges Méridionales;CC;FPU;3;6129
+88;248800450;CC de la Vallée de la Plaine;CC;FA;9;8405
+88;248800609;CC du Secteur de Dompaire;CC;FPU;33;7402
+88;248800617;CC de la Haute Moselotte;CC;FA;5;12305
+88;248800625;CC du Val de Neuné;CC;FA;9;4637
+88;248800658;CC de Gérardmer - Monts et Vallées;CC;FA;9;16303
+88;248800666;CC de la Porte des Hautes Vosges;CC;FA;6;22573
+88;248800682;CC des Marches de Lorraine;CC;FA;20;4017
+88;248800690;CC du Pays de la Saône Vosgienne;CC;FA;19;3798
+88;248800740;CC Terre d'Eau Vittel Contrexéville;CC;FA;11;11322
+89;200034353;CC Coeur de Puisaye;CC;FPU;24;17343
+89;200035566;CC Portes de Puisaye Forterre;CC;FA;18;9203
+89;200039576;CC du Pays Chablisien;CC;FA;25;10560
+89;200039634;CC du Florentinois;CC;FA;15;12164
+89;200039642;CC le Tonnerrois en Bourgogne;CC;FPU;52;17705
+89;200039709;CC du Serein;CC;FA;39;8022
+89;200039725;CC Forterre Val d'Yonne;CC;FA;19;5354
+89;200039758;CC Avallon, Vézelay, Morvan;CC;FA;45;19840
+89;248900334;CA du Sénonais;CA;FPU;27;58965
+89;248900383;CC de l'Agglomération Migennoise;CC;FA;8;15106
+89;248900524;CC de l'Aillantais;CC;FA;16;10667
+89;248900532;CA de l'Auxerrois;CA;FPU;21;66662
+89;248900565;CC de Seignelay-Brienon;CC;FA;14;13314
+89;248900664;CC de la Vanne et du Pays d'Othe;CC;FA;22;8954
+89;248900748;CC du Gâtinais en Bourgogne;CC;FA;26;17562
+89;248900771;CC du Pays Coulangeois;CC;FPU;12;6473
+89;248900813;CC Entre Cure et Yonne;CC;FPU;14;5755
+89;248900896;CC Yonne Nord;CC;FA;23;24509
+89;248900938;CC du Jovinien;CC;FPU;19;22266
+90;200040087;CC du Tilleul et de la Bourbeuse;CC;FPU;20;8445
+90;249000019;CA de l'Agglomération Belfortaine;CA;FPU;33;99466
+90;249000118;CC la Haute Savoureuse;CC;FPU;8;8893
+90;249000217;CC du Pays Sous Vosgien;CC;FPU;14;6937
+90;249000241;CC du Sud Territoire;CC;FPU;27;24036
+91;200017846;CA Etampois Sud Essonne;CA;FPU;38;54283
+91;200056232;CA Communauté Paris-Saclay;CA;FPU;27;308347
+91;200057859;CA Coeur d'Essonne Agglomération;CA;FPU;21;195709
+91;200058477;CA Val d'Yerres Val de Seine;CA;FPU;9;176996
+91;200059228;CA Grand Paris Sud Seine Essonne Sénart;CA;FPU;24;341958
+91;249100074;CC du Pays de Limours (Ccpl);CC;FPU;14;27139
+91;249100157;CC des 2 Vallées;CC;FPU;15;19277
+91;249100546;CC du Val d'Essonne (Ccve);CC;FPU;21;59567
+91;249100553;CC Entre Juine et Renarde (Ccejr);CC;FPU;16;27672
+91;249100595;CC le Dourdannais en Hurepoix (Ccdh);CC;FPU;11;26037
+95;200035970;CC Vexin Centre;CC;FA;35;24753
+95;200055655;CA Roissy Pays de France;CA;FPU;42;347822
+95;200056380;CA Plaine Vallée;CA;FPU;18;182107
+95;200058485;CA Val Parisis;CA;FPU;15;267607
+95;249500109;CA de Cergy-Pontoise;CA;FPU;13;203528
+95;249500323;CC du Pays de France;CC;FA;10;9959
+95;249500430;CC Sausseron Impressionnistes;CC;FPU;15;19640
+95;249500455;CC de la Vallée de l'Oise et des Trois Forêts;CC;FA;9;38256
+95;249500471;CC Carnelle - Pays de France;CC;FA;10;22440
+95;249500489;CC du Haut Val d'Oise;CC;FA;8;36260
+95;249500513;CC du Vexin-Val de Seine;CC;FA;26;17152
+971;200018653;CA Cap Excellence;CA;FPU;3;105184
+971;200041507;"CA ""la Riviéra du Levant""";CA;FPU;4;68828
+971;200044691;CA du Nord Grande Terre;CA;FPU;5;59354
+971;249710047;CC de Marie-Galante;CC;FPU;3;11528
+971;249710062;CA du Nord Basse-Terre;CA;FPU;6;80321
+971;249710070;CA Grand Sud Caraïbe;CA;FPU;11;83840
+972;200041788;CA du Pays Nord Martinique;CA;FPU;18;106413
+972;249720053;CA de l'Espace Sud de la Martinique;CA;FPU;12;121807
+972;249720061;CA du Centre de la Martinique;CA;FPU;4;163617
+973;200027548;CC des Savanes;CC;FPU;4;31147
+973;249730037;CC de l'Ouest Guyanais;CC;FPU;8;84063
+973;249730045;CA du Centre Littoral;CA;FPU;6;124434
+973;249730052;CC de l'Est Guyanais;CC;FPU;4;6863
+974;249740077;CA Civis (Communauté Intercommunale des Villes Solidaires);CA;FPU;6;177999
+974;249740085;CA du Sud;CA;FPU;4;126837
+974;249740093;CA Intercommunale de la Réunion Est (Cirest);CA;FPU;6;125804
+974;249740101;CA Territoire de la Côte Ouest (Tco);CA;FPU;5;214815
+974;249740119;CA Intercommunale du Nord de la Réunion (Cinor);CA;FPU;3;199286
+976;200050532;CC de Petite-Terre;CC;FA;2;24886
+976;200059871;CC du Centre-Ouest;CC;FPU;5;44816
+976;200060457;CA de Dembeni / Mamoudzou;CA;FPU;2;69268
+976;200060465;CC du Nord de Mayotte;CC;FPU;4;50013
+976;200060473;CC du Sud;CC;FPU;4;28108
+2A;200038958;CC de la Pieve de L'ornano;CC;FA;13;7895
+2A;200040764;CC du Sud Corse;CC;FPU;7;20169
+2A;200040871;CC des Deux Sevi;CC;FA;9;3094
+2A;200042596;CC Communaute des Communes du Liamone;CC;FA;24;4634
+2A;242000495;CC de l'Alta Rocca;CC;FPU;16;5975
+2A;242000503;CC de la Haute Vallée de la Gravona;CC;FPU;5;2202
+2A;242010015;CC du Taravu;CC;FA;19;3959
+2A;242010056;CA du Pays Ajaccien;CA;FPU;10;83401
+2A;242010072;CC de la Vallée du Prunelli;CC;FPU;6;7487
+2A;242010098;CC de la Côte des Nacres;CC;FPU;3;3280
+2A;242010130;CC du Sartenais Valinco;CC;FPU;13;10238
+2B;200000743;CC du Nebbiu;CC;FA;11;4189
+2B;200015162;CC de l'Oriente;CC;FA;22;6056
+2B;200033827;CC de Fium'orbu Castellu;CC;FA;12;12081
+2B;200034205;CC de la Costa Verde;CC;FA;23;9589
+2B;200035251;CC Di E Tre Pieve : Boziu, Mercoriu E Rogna;CC;FA;12;728
+2B;200036051;CC de la Conca d'Oro;CC;FA;4;2818
+2B;200036499;CC de Marana-Golo;CC;FA;10;22488
+2B;200042422;CC du Niolu;CC;FA;5;900
+2B;200042430;CC de la Vallée du Golo;CC;FA;17;3389
+2B;200042919;CC Orezza-Ampugnani;CC;FA;29;1746
+2B;200042943;CC du Cap Corse;CC;FA;18;6859
+2B;200049419;CC du Casaccóni È Gólu Suttanu;CC;FA;7;1199
+2B;242000354;CA de Bastia;CA;FPU;5;57491
+2B;242020071;CC du Centre Corse;CC;FA;10;9899
+2B;242020097;CC de la Casinca;CC;FA;7;9342
+2B;242020105;CC de Calvi Balagne;CC;FPU;14;12029
+2B;242020113;CC du Bassin de Vie de l'Ile Rousse;CC;FPU;5;8012
+2B;242020121;CC Di E Cinque Piève Di Balagna;CC;FA;17;3254
+2B;242020139;CC Aghja Nova;CC;FA;7;1107
+93;200057867;PLAINE COMMUNE T6;EPT;;;421566
+93;200057875;EST ENSEMBLE T8;EPT;;;407717
+94;200057941;PARIS-EST-MARNE ET BOIS;EPT;;;505149
+92;200057974;GPSO;EPT;;;313833
+92;200057982;PARIS OUEST LA DEFENSE;EPT;;;562693
+92;200057990;BOUCLE NORD DE SEINE;EPT;;;436736
+94;200058006;GRAND PARIS SUD EST AVENIR;EPT;;;309423
+94;200058014;EPT L012  T12;EPT;;;686417
+93;200058097;PARIS TERRES D'ENVOL T7;EPT;;;352589
+93;200058790;GRAND PARIS EST T9;EPT;;;389186
+92;200057966;VALLEE SUD GRANP PARIS;EPT;;;394997

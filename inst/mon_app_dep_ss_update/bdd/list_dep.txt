@@ -1,0 +1,102 @@
+code_dep	code_reg	nom_dep	nom_reg_accent	nom_dep_accent	nom_reg	metropole	metropolehidf	DFM	DPU	strate16	
+01	84	Ain	Auvergne-Rhône-Alpes	Ain	Auvergne-Rhone-Alpes	2	0	1	0	(500000-750000]	
+02	32	Aisne	Hauts-de-France	Aisne	Hauts-de-France	2	0	1	0	(500000-750000]	
+03	84	Allier	Auvergne-Rhône-Alpes	Allier	Auvergne-Rhone-Alpes	2	0	1	0	(250000-500000]	
+04	93	Alpes-de-Haute-Provence	Provence-Alpes-Côte d'Azur	Alpes-de-Haute-Provence	Provence-Alpes-Cote d'Azur	2	0	1	0	(0-250000]	
+06	93	Alpes-Maritimes	Provence-Alpes-Côte d'Azur	Alpes-Maritimes	Provence-Alpes-Cote d'Azur	2	0	0	1	1000000 et plus	
+07	84	Ardeche	Auvergne-Rhône-Alpes	Ardèche	Auvergne-Rhone-Alpes	2	0	1	0	(250000-500000]	
+08	44	Ardennes	Grand-Est	Ardennes	Grand-Est	2	0	1	0	(250000-500000]	
+09	76	Ariege	Occitanie	Ariège	Occitanie	2	0	1	0	(0-250000]	
+10	44	Aube	Grand-Est	Aube	Grand-Est	2	0	1	0	(250000-500000]	
+11	76	Aude	Occitanie	Aude	Occitanie	2	0	1	0	(250000-500000]	
+12	76	Aveyron	Occitanie	Aveyron	Occitanie	2	0	1	0	(250000-500000]	
+67	44	Bas-Rhin	Grand-Est	Bas-Rhin	Grand-Est	2	0	0	1	1000000 et plus	
+13	93	Bouches-du-Rhone	Provence-Alpes-Côte d'Azur	Bouches-du-Rhône	Provence-Alpes-Cote d'Azur	2	0	0	1	1000000 et plus	
+14	28	Calvados	Normandie	Calvados	Normandie	2	0	1	0	(500000-750000]	
+15	84	Cantal	Auvergne-Rhône-Alpes	Cantal	Auvergne-Rhone-Alpes	2	0	1	0	(0-250000]	
+16	75	Charente	Nouvelle-Aquitaine	Charente	Nouvelle-Aquitaine	2	0	1	0	(250000-500000]	
+17	75	Charente-Maritime	Nouvelle-Aquitaine	Charente-Maritime	Nouvelle-Aquitaine	2	0	1	0	(500000-750000]	
+18	24	Cher	Centre-Val de Loire	Cher	Centre-Val de Loire	2	0	1	0	(250000-500000]	
+19	75	Correze	Nouvelle-Aquitaine	Corrèze	Nouvelle-Aquitaine	2	0	1	0	(0-250000]	
+2A	94	Corse-du-Sud	Corse	Corse-du-Sud	Corse	2	0	1	0	(0-250000]	
+21	27	Cote-d'Or	Bourgogne-Franche-Comté	Côte-d'Or	Bourgogne-Franche-Comte	2	0	1	0	(500000-750000]	
+22	53	Cotes-d'Armor	Bretagne	Côtes-d'Armor	Bretagne	2	0	1	0	(500000-750000]	
+23	75	Creuse	Nouvelle-Aquitaine	Creuse	Nouvelle-Aquitaine	2	0	1	0	(0-250000]	
+79	75	Deux-Sevres	Nouvelle-Aquitaine	Deux-Sèvres	Nouvelle-Aquitaine	2	0	1	0	(250000-500000]	
+24	75	Dordogne	Nouvelle-Aquitaine	Dordogne	Nouvelle-Aquitaine	2	0	1	0	(250000-500000]	
+25	27	Doubs	Bourgogne-Franche-Comté	Doubs	Bourgogne-Franche-Comte	2	0	0	1	(500000-750000]	
+26	84	Drome	Auvergne-Rhône-Alpes	Drôme	Auvergne-Rhone-Alpes	2	0	1	0	(500000-750000]	
+91	11	Essonne	Île-de-France	Essonne	Ile-de-France	2	1	0	1	1000000 et plus	
+27	28	Eure	Normandie	Eure	Normandie	2	0	1	0	(500000-750000]	
+28	24	Eure-et-Loir	Centre-Val de Loire	Eure-et-Loir	Centre-Val de Loire	2	0	1	0	(250000-500000]	
+29	53	Finistere	Bretagne	Finistère	Bretagne	2	0	0	1	(750000-1000000]	
+30	76	Gard	Occitanie	Gard	Occitanie	2	0	0	1	(750000-1000000]	
+32	76	Gers	Occitanie	Gers	Occitanie	2	0	1	0	(0-250000]	
+33	75	Gironde	Nouvelle-Aquitaine	Gironde	Nouvelle-Aquitaine	2	0	0	1	1000000 et plus	
+971	1	Guadeloupe	Guadeloupe	Guadeloupe	Guadeloupe	0	1	1	1	(250000-500000]	
+973	3	Guyane	Guyane	Guyane	Guyane	0	1	1	1	(250000-500000]	
+2B	94	Haute-Corse	Corse	Haute-Corse	Corse	2	0	1	0	(0-250000]	
+31	76	Haute-Garonne	Occitanie	Haute-Garonne	Occitanie	2	0	0	1	1000000 et plus	
+43	84	Haute-Loire	Auvergne-Rhône-Alpes	Haute-Loire	Auvergne-Rhone-Alpes	2	0	1	0	(0-250000]	
+52	44	Haute-Marne	Grand-Est	Haute-Marne	Grand-Est	2	0	1	0	(0-250000]	
+05	93	Hautes-Alpes	Provence-Alpes-Côte d'Azur	Hautes-Alpes	Provence-Alpes-Cote d'Azur	2	0	1	0	(0-250000]	
+70	27	Haute-Saone	Bourgogne-Franche-Comté	Haute-Saône	Bourgogne-Franche-Comte	2	0	1	0	(0-250000]	
+74	84	Haute-Savoie	Auvergne-Rhône-Alpes	Haute-Savoie	Auvergne-Rhone-Alpes	2	0	0	1	(750000-1000000]	
+65	76	Hautes-Pyrenees	Occitanie	Hautes-Pyrénées	Occitanie	2	0	1	0	(0-250000]	
+87	75	Haute-Vienne	Nouvelle-Aquitaine	Haute-Vienne	Nouvelle-Aquitaine	2	0	1	0	(250000-500000]	
+68	44	Haut-Rhin	Grand-Est	Haut-Rhin	Grand-Est	2	0	0	1	(750000-1000000]	
+92	11	Hauts-de-Seine	Île-de-France	Hauts-de-Seine	Ile-de-France	2	1	0	0	1000000 et plus	
+34	76	Herault	Occitanie	Hérault	Occitanie	2	0	0	1	1000000 et plus	
+35	53	Ille-et-Vilaine	Bretagne	Ille-et-Vilaine	Bretagne	2	0	0	1	1000000 et plus	
+36	24	Indre	Centre-Val de Loire	Indre	Centre-Val de Loire	2	0	1	0	(0-250000]	
+37	24	Indre-et-Loire	Centre-Val de Loire	Indre-et-Loire	Centre-Val de Loire	2	0	1	0	(500000-750000]	
+38	84	Isere	Auvergne-Rhône-Alpes	Isère	Auvergne-Rhone-Alpes	2	0	0	1	1000000 et plus	
+39	27	Jura	Bourgogne-Franche-Comté	Jura	Bourgogne-Franche-Comte	2	0	1	0	(250000-500000]	
+974	4	La Reunion	La Réunion	La Réunion	La Reunion	0	1	1	1	(750000-1000000]	
+40	75	Landes	Nouvelle-Aquitaine	Landes	Nouvelle-Aquitaine	2	0	1	0	(250000-500000]	
+42	84	Loire	Auvergne-Rhône-Alpes	Loire	Auvergne-Rhone-Alpes	2	0	0	1	(750000-1000000]	
+44	52	Loire-Atlantique	Pays de la Loire	Loire-Atlantique	Pays de la Loire	2	0	0	1	1000000 et plus	
+45	24	Loiret	Centre-Val de Loire	Loiret	Centre-Val de Loire	2	0	1	0	(500000-750000]	
+41	24	Loir-et-Cher	Centre-Val de Loire	Loir-et-Cher	Centre-Val de Loire	2	0	1	0	(250000-500000]	
+46	76	Lot	Occitanie	Lot	Occitanie	2	0	1	0	(0-250000]	
+47	75	Lot-et-Garonne	Nouvelle-Aquitaine	Lot-et-Garonne	Nouvelle-Aquitaine	2	0	1	0	(250000-500000]	
+48	76	Lozere	Occitanie	Lozère	Occitanie	2	0	1	0	(0-250000]	
+49	52	Maine-et-Loire	Pays de la Loire	Maine-et-Loire	Pays de la Loire	2	0	0	1	(750000-1000000]	
+50	28	Manche	Normandie	Manche	Normandie	2	0	1	0	(500000-750000]	
+51	44	Marne	Grand-Est	Marne	Grand-Est	2	0	1	0	(500000-750000]	
+972	2	Martinique	Martinique	Martinique	Martinique	0	1	1	1	(250000-500000]	
+53	52	Mayenne	Pays de la Loire	Mayenne	Pays de la Loire	2	0	1	0	(250000-500000]	
+54	44	Meurthe-et-Moselle	Grand-Est	Meurthe-et-Moselle	Grand-Est	2	0	0	1	(500000-750000]	
+55	44	Meuse	Grand-Est	Meuse	Grand-Est	2	0	1	0	(0-250000]	
+56	53	Morbihan	Bretagne	Morbihan	Bretagne	2	0	1	0	(750000-1000000]	
+57	44	Moselle	Grand-Est	Moselle	Grand-Est	2	0	0	1	1000000 et plus	
+58	27	Nievre	Bourgogne-Franche-Comté	Nièvre	Bourgogne-Franche-Comte	2	0	1	0	(0-250000]	
+59	32	Nord	Hauts-de-France	Nord	Hauts-de-France	2	0	0	1	1000000 et plus	
+60	32	Oise	Hauts-de-France	Oise	Hauts-de-France	2	0	0	1	(750000-1000000]	
+61	28	Orne	Normandie	Orne	Normandie	2	0	1	0	(250000-500000]	
+75	11	Paris	Île-de-France	Paris	Ile-de-France	2	1	0	0	1000000 et plus	
+62	32	Pas-de-Calais	Hauts-de-France	Pas-de-Calais	Hauts-de-France	2	0	0	1	1000000 et plus	
+63	84	Puy-de-Dome	Auvergne-Rhône-Alpes	Puy-de-Dôme	Auvergne-Rhone-Alpes	2	0	1	0	(500000-750000]	
+64	75	Pyrenees-Atlantiques	Nouvelle-Aquitaine	Pyrénées-Atlantiques	Nouvelle-Aquitaine	2	0	1	0	(500000-750000]	
+66	76	Pyrenees-Orientales	Occitanie	Pyrénées-Orientales	Occitanie	2	0	0	1	(250000-500000]	
+69	84	Rhone	Auvergne-Rhône-Alpes	Rhône	Auvergne-Rhone-Alpes	2	0	0	1	(250000-500000]	
+71	27	Saone-et-Loire	Bourgogne-Franche-Comté	Saône-et-Loire	Bourgogne-Franche-Comte	2	0	1	0	(500000-750000]	
+72	52	Sarthe	Pays de la Loire	Sarthe	Pays de la Loire	2	0	1	0	(500000-750000]	
+73	84	Savoie	Auvergne-Rhône-Alpes	Savoie	Auvergne-Rhone-Alpes	2	0	1	0	(250000-500000]	
+77	11	Seine-et-Marne	Île-de-France	Seine-et-Marne	Ile-de-France	2	1	0	1	1000000 et plus	
+76	28	Seine-Maritime	Normandie	Seine-Maritime	Normandie	2	0	0	1	1000000 et plus	
+93	11	Seine-Saint-Denis	Île-de-France	Seine-Saint-Denis	Ile-de-France	2	1	0	1	1000000 et plus	
+80	32	Somme	Hauts-de-France	Somme	Hauts-de-France	2	0	1	0	(500000-750000]	
+81	76	Tarn	Occitanie	Tarn	Occitanie	2	0	1	0	(250000-500000]	
+82	76	Tarn-et-Garonne	Occitanie	Tarn-et-Garonne	Occitanie	2	0	1	0	(250000-500000]	
+90	27	Territoire de Belfort	Bourgogne-Franche-Comté	Territoire de Belfort	Bourgogne-Franche-Comte	2	0	0	1	(0-250000]	
+94	11	Val-de-Marne	Île-de-France	Val-de-Marne	Ile-de-France	2	1	0	1	1000000 et plus	
+95	11	Val-d'Oise	Île-de-France	Val-d'Oise	Ile-de-France	2	1	0	1	1000000 et plus	
+83	93	Var	Provence-Alpes-Côte d'Azur	Var	Provence-Alpes-Cote d'Azur	2	0	0	1	1000000 et plus	
+84	93	Vaucluse	Provence-Alpes-Côte d'Azur	Vaucluse	Provence-Alpes-Cote d'Azur	2	0	0	1	(500000-750000]	
+85	52	Vendee	Pays de la Loire	Vendée	Pays de la Loire	2	0	1	0	(500000-750000]	
+86	75	Vienne	Nouvelle-Aquitaine	Vienne	Nouvelle-Aquitaine	2	0	1	0	(250000-500000]	
+88	44	Vosges	Grand-Est	Vosges	Grand-Est	2	0	1	0	(250000-500000]	
+89	27	Yonne	Bourgogne-Franche-Comté	Yonne	Bourgogne-Franche-Comte	2	0	1	0	(250000-500000]	
+78	11	Yvelines	Île-de-France	Yvelines	Ile-de-France	2	1	0	1	1000000 et plus	
+69	84	METRO LYON	Auvergne-Rhône-Alpes	Métropole de Lyon	Auvergne-Rhone-Alpes	2	0	0	0	1000000 et plus	

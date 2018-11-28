@@ -1036,22 +1036,22 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
                       choices = sort(mes_dep$nom_dep_accent),
                       selected = sort(mes_dep$nom_dep_accent))
   })
-  
+
   nom_dep_dep <- reactive({
-    
+
     list_dep_ssaccent <- list_dep %>%
       filter(nom_dep_accent %in% c(values$dep_deps)) %>%
       select(nom_dep,nom_reg)
-    
+
     list_dep_ssaccent
   })
-  
+
   nom_dep_indiv <- reactive({
-    
+
     list_dep_ssaccent <- list_dep %>%
       filter(nom_dep_accent %in% c(values$coms_deps)) %>%
       select(nom_dep)
-    
+
     list_dep_ssaccent
   })
 
@@ -1129,11 +1129,11 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
 
   observeEvent(input$go_dep,{
     list_dep2 <- list_dep %>% select(nom_dep,nom_reg)
-    values$nb_reg <- data_echan_dep() %>% 
-      left_join(list_dep,by="nom_dep") %>% 
+    values$nb_reg <- data_echan_dep() %>%
+      left_join(list_dep,by="nom_dep") %>%
       pull(nom_reg) %>% n_distinct()
   })
-  
+
   ##Etape data pour la selection du dep
   data_dep <- eventReactive(input$go_dep,{
 
@@ -1172,11 +1172,11 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
   })
   output$info_echan_box7_dep <- renderUI({
 
-    
+
     a <- 0
     b <- 0
     c <- 0
-    
+
     if(length(input$cas_spe_deps) == 0){
       p("Dans ",sum(values$nb_reg,a,b,c), " région(s)")
        }else{
@@ -1190,10 +1190,10 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
          }
      p("Dans ",sum(values$nb_reg,a,b,c), " région(s)")
      }
-    
-   
+
+
   })
-  
+
   output$info_echan_box2_dep <- renderUI({
     #nombre d'habitant
     p(paste(data_infobox_dep()[1,2])," million(s) d'habitants")
@@ -1254,17 +1254,17 @@ output$stat_echan_moy_com_sup_30 <- renderUI({
         filter(nom != "Gr de réf") %>%
         mutate(dep_equip = round(dep_equip,0),subvention_204 = round(subvention_204,0))
       data$nom <- fct_relevel(as.factor(data$nom),c("Echantillon","Département"))
-      
-        
+
+
         appliInvest::graph_sub_dep_equip(annee = annee_encours,data_graph = data,entite = data_dep())
-    
+
     }else if(input$annee_dep == 2){
       data <- data_nuage() %>%
         filter(nom != "Gr de réf") %>%
-        mutate(dep_equip = round(dep_equip,0),subvention_204 = round(subvention_204,0)) 
-      
+        mutate(dep_equip = round(dep_equip,0),subvention_204 = round(subvention_204,0))
+
       data$nom <- fct_relevel(as.factor(data$nom),c("Echantillon","Département"))
-      
+
       appliInvest::graph_sub_dep_equip(annee = "2012-2017",data_graph = data,entite = data_dep())}
       }
   })
@@ -1284,11 +1284,11 @@ output$textgraphnuage <- renderUI({
   output$graph_finance_dep <- renderPlot({
     appliInvest::graph_financement(data_graph = data_graph_finance_dep(),entite = data_dep(),nom_gfp_com = "Département",bp_ba =1)
   })
-  
+
   output$phrase_dep <- renderUI ({
     montant <- data_graph_finance_dep() %>% select(montant) %>% filter(!is.na(montant))
     indice <- min(montant)
-    
+
     if(indice < 0){
       p("Si le cumul des moyens de financement (y compris fraction négative d'épargne nette) est inférieur à 100%, la différence est financée par ponction sur le fonds de roulement. Dans le cas inverse, il y a augmentation du fonds de roulement.")
     }else{
@@ -1302,7 +1302,7 @@ output$textgraphnuage <- renderUI({
 
     updateSelectInput(session,
                       inputId = "var_select_dep",
-                      choices = list( 
+                      choices = list(
                         "Dépenses d'investissement hors remb." = "dep_invest",
                         "Dépenses d'équipement" = "dep_equip",
                         "Subventions versées" = "subvention_204",
@@ -1367,9 +1367,9 @@ output$textgraphnuage <- renderUI({
   })
 
   data_telechager_dep <- reactive({
-    
+
     if(nrow(data_dep()) != 0){
-      
+
       data <- rbind(data_dep(),data_echan_dep())
       data <- data %>%
         distinct() %>%
@@ -1378,14 +1378,14 @@ output$textgraphnuage <- renderUI({
                stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,sub_204_autre_public = sub_204_autres,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba) %>%
         select(-planFCTVA_d,-planFCTVA_r,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba,-taxe_amenag,-taxe_amenag_ba,-amende,-amende_ba,-sub_dot_ssTAAm,-sub_dot_ssTAAm_ba) %>%
         mutate_if(is.numeric,.funs = function(x){round(x,3)})
-      
+
     }else{data <- data_echan_dep() %>%
       rename(strate17 = strate16,dep_invest_hr = dep_invest,dep_invest_hr_ba = dep_invest_ba,autre_dep_equip_brut = autres_dep_equip,autre_dep_equip_brut_ba = autres_dep_equip_ba,
              rec_invest_he = rec_invest,rec_invest_he_ba = rec_invest_ba,sub_dot_hfctva = compte13_10,sub_dot_hfctva_ba = compte13_10_ba,rem_dette=remboursement,rem_dette_ba=remboursement_ba,
              stock_dette = dette,stock_dette_ba = dette_ba,flux_croise_i = fc_i,sub_204_autre_public = sub_204_autres,vdfr = var_fon_roul,vdfr_ba = var_fon_roul_ba) %>%
       select(-planFCTVA_d,-planFCTVA_r,-planFCTVA_r_ba,-planFCTVA_d_ba,-fc_f,-autres_rec_invest_hors_planrelance,-autres_rec_invest_hors_planrelance_ba,-taxe_amenag,-taxe_amenag_ba,-amende,-amende_ba,-sub_dot_ssTAAm,-sub_dot_ssTAAm_ba) %>%
       mutate_if(is.numeric,.funs = function(x){round(x,3)})
-   
+
      }
   })
 
